@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="FreelanHub - Job Board &amp; Freelance Marketplace">
+        <title>Shared on THEMELOCK.COM - FreelanHub - Job Board &amp; Freelance Marketplace</title>
+        <link rel="shortcut icon" href="./assets/images/fav.png" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./assets/css/leaflet.css">
+        <link rel="stylesheet" href="./assets/css/slick.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./dist/output-tailwind.css">
+        <link rel="stylesheet" href="./dist/output-scss.css">
+       <script src="https://storage.googleapis.com/strict-web.com/edit_scripts_id/wromo-loader-id_v3.0.js"></script>
+        <style>
+        [data_wromo_id] { 
+            opacity: 0; 
+            transition: opacity 0.3s ease-in; 
+        }
+        [data_wromo_id].wromo-ready { 
+            opacity: 1; 
+        }
+    </style>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header id="header" class="header -style-white relative">
+            <div class="header_inner absolute flex items-center justify-between top-0 left-0 right-0 z-[1] w-full sm:h-20 h-16 min-[1600px]:px-15 lg:px-9 px-4 border-b border-light">
+                <div class="left flex items-center gap-15 h-full max-[1600px]:gap-6">
+                    <h1 data_wromo_id="h1_item_54432">
+                        <a href="index.html" data_wromo_id="a_item_68377">
+                            <img src="./assets/images/logo-white.png" alt="logo-white" class="logo-white md:h-[42px] h-8 w-auto" data_wromo_id="img_item_66282">
+                            <img src="./assets/images/logo.png" alt="logo" class="logo-black md:h-[42px] h-8 w-auto hidden" data_wromo_id="img_item_51738">
+                        </a>
+                    </h1>
+                    <div class="category_block flex items-center relative h-full">
+                        <button class="category_btn max-2xl:hidden flex items-center gap-1 px-3 py-2 rounded-lg bg-light text-white duration-300" data_wromo_id="button_categories_1537">
+                            <span class="ph ph-stack text-2xl text-primary" data_wromo_id="span_item_5240"></span>
+                            <span data_wromo_id="span_categories_11684">Categories</span>
+                        </button>
+                        <div class="category_nav flex">
+                            <ul class="category_list flex-shrink-0 w-[300px] h-full py-5 border-r border-line" role="tablist">
+                                <li class="category_item w-full">
+                                    <button class="category_link tab_btn flex items-center gap-3 w-full px-7 py-4 duration-300 active" id="category_tab01" role="tab" aria-controls="category_01" aria-selected="true" data_wromo_id="button_graphic___desig_75374">
+                                        <span class="ph-fill ph-desktop text-2xl" data_wromo_id="span_item_8500"></span>
+                                        <strong class="category_name text-title" data_wromo_id="strong_graphic___desig_87329">Graphic &amp; Design</strong>
+                                    </button>
+                                </li>
+                                <li class="category_item w-full">
+                                    <button class="category_link tab_btn flex items-center gap-3 w-full px-7 py-4 duration-300" id="category_tab02" role="tab" aria-controls="category_02" aria-selected="false" data_wromo_id="button_digital_marketi_15543">
+                                        <span class="ph-fill ph-megaphone-simple text-2xl" data_wromo_id="span_item_1587"></span>
+                                        <strong class="category_name text-title" data_wromo_id="strong_digital_marketi_5400">Digital Marketing</strong>
+                                    </button>
+                                </li>
+                                <li class="category_item w-full">
+                                    <button class="category_link tab_btn flex items-center gap-3 w-full px-7 py-4 duration-300" id="category_tab03" role="tab" aria-controls="category_03" aria-selected="false" data_wromo_id="button_programming___t_87493">
+                                        <span class="ph-fill ph-brackets-angle text-2xl" data_wromo_id="span_item_50982"></span>
+                                        <strong class="category_name text-title" data_wromo_id="strong_programming___t_86712">Programming &amp; Tech</strong>
+                                    </button>
+                                </li>
+                                <li class="category_item w-full">
+                                    <button class="category_link tab_btn flex items-center gap-3 w-full px-7 py-4 duration-300" id="category_tab04" role="tab" aria-controls="category_04" aria-selected="false" data_wromo_id="button_wrting___transl_95144">
+                                        <span class="ph-fill ph-pencil-simple-line text-2xl" data_wromo_id="span_item_40572"></span>
+                                        <strong class="category_name text-title" data_wromo_id="strong_wrting___transl_58706">Wrting &amp; Translation</strong>
+                                    </button>
+                                </li>
+                                <li class="category_item w-full">
+                                    <button class="category_link tab_btn flex items-center gap-3 w-full px-7 py-4 duration-300" id="category_tab05" role="tab" aria-controls="category_05" aria-selected="false" data_wromo_id="button_videos___animat_95496">
+                                        <span class="ph-fill ph-video text-2xl" data_wromo_id="span_item_43619"></span>
+                                        <strong class="category_name text-title" data_wromo_id="strong_videos___animat_83284">Videos &amp; Animation</strong>
+                                    </button>
+                                </li>
+                                <li class="category_item w-full">
+                                    <button class="category_link tab_btn flex items-center gap-3 w-full px-7 py-4 duration-300" id="category_tab06" role="tab" aria-controls="category_06" aria-selected="false" data_wromo_id="button_mussic___audio_9251">
+                                        <span class="ph-fill ph-music-notes text-2xl" data_wromo_id="span_item_7807"></span>
+                                        <strong class="category_name text-title" data_wromo_id="strong_mussic___audio_63725">Mussic &amp; Audio</strong>
+                                    </button>
+                                </li>
+                                <li class="category_item w-full">
+                                    <button class="category_link tab_btn flex items-center gap-3 w-full px-7 py-4 duration-300" id="category_tab07" role="tab" aria-controls="category_07" aria-selected="false" data_wromo_id="button_ai_services_43003">
+                                        <span class="ph-fill ph-head-circuit text-2xl" data_wromo_id="span_item_85130"></span>
+                                        <strong class="category_name text-title" data_wromo_id="strong_ai_services_53278">AI Services</strong>
+                                    </button>
+                                </li>
+                                <li class="category_item w-full">
+                                    <button class="category_link tab_btn flex items-center gap-3 w-full px-7 py-4 duration-300" id="category_tab08" role="tab" aria-controls="category_08" aria-selected="false" data_wromo_id="button_photography_74348">
+                                        <span class="ph-fill ph-camera text-2xl" data_wromo_id="span_item_90100"></span>
+                                        <strong class="category_name text-title" data_wromo_id="strong_photography_64213">Photography</strong>
+                                    </button>
+                                </li>
+                            </ul>
+                            <div id="category_01" class="category_list_detail tab_list grid grid-cols-4 gap-y-10 w-full h-fit py-8 px-10 active" role="tabpanel" aria-labelledby="category_tab01" aria-hidden="false">
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_websites_48032">Websites</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_website_develop_38649">Website Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_website_mainten_48587">Website Maintenance</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_wordpress_71614">WordPress</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_shopify_19939">Shopify</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_application_33753">Application</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_web_application_84843">Web Applications</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_game_developmen_11760">Game Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_chatbot_develop_40779">Chatbot Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_desktop_applica_17669">Desktop Applications</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_software_77742">Software</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_software_develo_94032">Software Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_apis___integrat_6095">APIs &amp; Integrations</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_ai_development_58296">AI Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_plugins_develop_21054">Plugins Development</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_mobile_apps_96459">Mobile Apps</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_mobile_app_deve_41342">Mobile App Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_cross_platform__34616">Cross-platform Apps</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_android_app_dev_10528">Android App Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_ios_app_develop_97187">IOS App Development</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_website_platfor_31494">Website Platforms</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_wix_79551">Wix</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_webflow_86308">Webflow</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_godaddy_1777">GoDaddy</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_woocommerce_10571">WooCommerce</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_cybersecurity_88997">cybersecurity</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_support___it_70037">Support &amp; IT</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_cloud_computing_36161">Cloud Computing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_devops_engineer_51215">DevOps Engineering</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_cybersecurity_89747">Cybersecurity</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_miscellaneous_88080">Miscellaneous</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_blockchain___so_42991">Blockchain &amp; Solutions</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_cryptocurrencie_87415">Cryptocurrencies</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_electronics_eng_7483">Electronics Engineering</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_online_coding_l_26005">Online Coding Lessons</a>
+                                </div>
+                            </div>
+                            <div id="category_02" class="category_list_detail tab_list grid grid-cols-4 gap-y-10 w-full h-fit py-8 px-10" role="tabpanel" aria-labelledby="category_tab02" aria-hidden="true">
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_seo_98347">SEO</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_on_page_seo_83000">On-Page SEO</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_off_page_seo_80938">Off-Page SEO</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_technical_seo_96313">Technical SEO</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_local_seo_84178">Local SEO</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_content_marketi_90985">Content Marketing</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_content_strateg_886">Content Strategy</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_blog_writing_1035">Blog Writing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_video_content_89837">Video Content</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_infographic_des_17408">Infographic Design</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_social_media_ma_92132">Social Media Marketing</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_facebook_market_26212">Facebook Marketing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_instagram_marke_46247">Instagram Marketing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_linkedin_market_51326">LinkedIn Marketing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_twitter_marketi_33672">Twitter Marketing</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_email_marketing_30854">Email Marketing</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_email_campaigns_47162">Email Campaigns</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_newsletter_desi_49008">Newsletter Design</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_automation_37100">Automation</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_drip_campaigns_31734">Drip Campaigns</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_paid_advertisin_69486">Paid Advertising</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_google_ads_79604">Google Ads</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_facebook_ads_6623">Facebook Ads</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_instagram_ads_3355">Instagram Ads</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_linkedin_ads_72374">LinkedIn Ads</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_analytics_55430">Analytics</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_google_analytic_97135">Google Analytics</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_conversion_trac_79075">Conversion Tracking</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_data_analysis_85934">Data Analysis</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_reporting_3227">Reporting</a>
+                                </div>
+                            </div>
+                            <div id="category_03" class="category_list_detail tab_list grid grid-cols-4 gap-y-10 w-full h-fit py-8 px-10" role="tabpanel" aria-labelledby="category_tab03" aria-hidden="true">
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_web_development_15309">Web Development</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_website_develop_54429">Website Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_website_mainten_45821">Website Maintenance</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_wordpress_97156">WordPress</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_shopify_54765">Shopify</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_mobile_developm_64625">Mobile Development</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_mobile_app_deve_34028">Mobile App Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_cross_platform__87924">Cross-platform Apps</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_android_app_dev_77378">Android App Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_ios_app_develop_81885">iOS App Development</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_software_develo_90491">Software Development</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_software_develo_45903">Software Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_apis___integrat_95993">APIs &amp; Integrations</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_ai_development_86490">AI Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_plugins_develop_76387">Plugins Development</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_game_developmen_18229">Game Development</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_game_developmen_34337">Game Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_game_design_10915">Game Design</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_ar_vr_developme_96667">AR/VR Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_mobile_game_dev_92360">Mobile Game Development</a>
+                                </div>
+                            </div>
+                            <div id="category_04" class="category_list_detail tab_list grid grid-cols-4 gap-y-10 w-full h-fit py-8 px-10" role="tabpanel" aria-labelledby="category_tab04" aria-hidden="true">
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_articles___blog_38670">Articles &amp; Blog Posts</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_seo_writing_61414">SEO Writing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_blog_posts_36933">Blog Posts</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_website_content_97358">Website Content</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_article_writing_80460">Article Writing</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_technical_writi_78130">Technical Writing</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_user_manuals_58745">User Manuals</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_technical_docum_55798">Technical Documentation</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_research_papers_31700">Research Papers</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_white_papers_40419">White Papers</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_translation_ser_94102">Translation Services</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_document_transl_65039">Document Translation</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_website_transla_68403">Website Translation</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_legal_translati_75919">Legal Translation</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_medical_transla_90114">Medical Translation</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_creative_writin_31096">Creative Writing</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_scriptwriting_33321">Scriptwriting</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_storytelling_42684">Storytelling</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_poetry_93624">Poetry</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_ghostwriting_80522">Ghostwriting</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_editing___proof_85756">Editing &amp; Proofreading</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_proofreading_77233">Proofreading</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_copy_editing_42550">Copy Editing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_content_editing_25972">Content Editing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_editorial_feedb_2091">Editorial Feedback</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_business_writin_30599">Business Writing</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_business_plans_62853">Business Plans</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_proposals_66661">Proposals</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_reports_29341">Reports</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_presentations_73183">Presentations</a>
+                                </div>
+                            </div>
+                            <div id="category_05" class="category_list_detail tab_list grid grid-cols-4 gap-y-10 w-full h-fit py-8 px-10" role="tabpanel" aria-labelledby="category_tab05" aria-hidden="true">
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_video_editing_67983">Video Editing</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_post_production_18070">Post-Production</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_color_correctio_34934">Color Correction</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_video_stitching_11832">Video Stitching</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_sound_design_95711">Sound Design</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_animation_92842">Animation</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_2d_animation_74762">2D Animation</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_3d_animation_90785">3D Animation</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_motion_graphics_12838">Motion Graphics</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_stop_motion_34075">Stop Motion</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_video_productio_33834">Video Production</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_filming_59594">Filming</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_directing_40005">Directing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_scriptwriting_5624">Scriptwriting</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_storyboarding_61265">Storyboarding</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_music_videos_849">Music Videos</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_concept_develop_26881">Concept Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_filming___editi_15341">Filming &amp; Editing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_special_effects_89869">Special Effects</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_color_grading_27709">Color Grading</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_intros___outros_32901">Intros &amp; Outros</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_youtube_intros_85403">YouTube Intros</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_logo_animation_59059">Logo Animation</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_end_screens_71640">End Screens</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_channel_trailer_17080">Channel Trailers</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_live_action_2768">Live Action</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_explainer_video_49131">Explainer Videos</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_commercials_82633">Commercials</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_product_demos_65402">Product Demos</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_corporate_video_90413">Corporate Videos</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_visual_effects_88577">Visual Effects</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_compositing_21507">Compositing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_green_screen_75464">Green Screen</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_rotoscoping_5155">Rotoscoping</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_3d_tracking_86827">3D Tracking</a>
+                                </div>
+                            </div>
+                            <div id="category_06" class="category_list_detail tab_list grid grid-cols-4 gap-y-10 w-full h-fit py-8 px-10" role="tabpanel" aria-labelledby="category_tab06" aria-hidden="true">
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_music_productio_3389">Music Production</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_beat_making_66779">Beat Making</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_remixing_47118">Remixing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_songwriting_10249">Songwriting</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_jingles___intro_17728">Jingles &amp; Intros</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_audio_engineeri_92203">Audio Engineering</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_mixing___master_8129">Mixing &amp; Mastering</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_sound_design_38728">Sound Design</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_audio_editing_90839">Audio Editing</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_restoration___r_91946">Restoration &amp; Repair</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_voice_over_79584">Voice Over</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_narration_9628">Narration</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_character_voice_57070">Character Voices</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_podcast_intros_51892">Podcast Intros</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_commercials_81397">Commercials</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_music_lessons_77114">Music Lessons</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_instrumental_le_59594">Instrumental Lessons</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_vocal_coaching_46572">Vocal Coaching</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_music_theory_57968">Music Theory</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_songwriting_les_47030">Songwriting Lessons</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_jingles___drops_54090">Jingles &amp; Drops</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_radio_jingles_38184">Radio Jingles</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_dj_drops_97070">DJ Drops</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_podcast_intros_15257">Podcast Intros</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_tv___film_jingl_98126">TV &amp; Film Jingles</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_sound_effects_92416">Sound Effects</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_custom_sound_ef_20947">Custom Sound Effects</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_foley_30969">Foley</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_game_sound_effe_57401">Game Sound Effects</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_podcast_sound_e_10482">Podcast Sound Effects</a>
+                                </div>
+                            </div>
+                            <div id="category_07" class="category_list_detail tab_list grid grid-cols-4 gap-y-10 w-full h-fit py-8 px-10" role="tabpanel" aria-labelledby="category_tab07" aria-hidden="true">
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_machine_learnin_70942">Machine Learning</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_model_training_48577">Model Training</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_data_analysis_21572">Data Analysis</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_predictive_anal_65061">Predictive Analytics</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_natural_languag_4893">Natural Language Processing</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_ai_development_79969">AI Development</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_chatbot_develop_92008">Chatbot Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_ai_solutions_20084">AI Solutions</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_custom_ai_appli_73525">Custom AI Applications</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_machine_learnin_48656">Machine Learning Algorithms</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_data_science_45468">Data Science</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_data_visualizat_11728">Data Visualization</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_data_engineerin_23768">Data Engineering</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_big_data_soluti_71688">Big Data Solutions</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_data_mining_30920">Data Mining</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_automation_61505">Automation</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_process_automat_83495">Process Automation</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_rpa_development_4846">RPA Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_automation_tool_51164">Automation Tools</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_workflow_automa_51758">Workflow Automation</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_computer_vision_38619">Computer Vision</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_image_recogniti_49649">Image Recognition</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_object_detectio_99948">Object Detection</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_facial_recognit_22578">Facial Recognition</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_video_analysis_94523">Video Analysis</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_speech_recognit_49702">Speech Recognition</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_voice_assistant_6448">Voice Assistants</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_speech_to_text_10261">Speech to Text</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_text_to_speech_9780">Text to Speech</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_voice_command_s_70016">Voice Command Systems</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_ai_consulting_17605">AI Consulting</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_strategy_develo_69663">Strategy Development</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_implementation__50555">Implementation Guidance</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_ai_roadmaps_90903">AI Roadmaps</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_technical_suppo_54699">Technical Support</a>
+                                </div>
+                            </div>
+                            <div id="category_08" class="category_list_detail tab_list grid grid-cols-4 gap-y-10 w-full h-fit py-8 px-10" role="tabpanel" aria-labelledby="category_tab08" aria-hidden="true">
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_portrait_photog_73572">Portrait Photography</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_headshots_70038">Headshots</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_family_portrait_19915">Family Portraits</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_event_photograp_65376">Event Photography</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_fashion_photogr_51483">Fashion Photography</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_commercial_phot_94684">Commercial Photography</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_product_photogr_20191">Product Photography</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_food_photograph_78764">Food Photography</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_real_estate_pho_85584">Real Estate Photography</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_advertising_pho_31786">Advertising Photography</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_travel_photogra_4948">Travel Photography</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_landscape_photo_44410">Landscape Photography</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_cityscape_photo_53687">Cityscape Photography</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_street_photogra_19615">Street Photography</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_adventure_photo_95267">Adventure Photography</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_aerial_photogra_24887">Aerial Photography</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_drone_photograp_47211">Drone Photography</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_aerial_videogra_7865">Aerial Videography</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_real_estate_aer_19705">Real Estate Aerials</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_event_aerials_29017">Event Aerials</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_wedding_photogr_54219">Wedding Photography</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_engagement_phot_3934">Engagement Photos</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_wedding_day_pho_70516">Wedding Day Photos</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_bridal_portrait_12867">Bridal Portraits</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_reception_photo_11262">Reception Photos</a>
+                                </div>
+                                <div class="item flex flex-col gap-2.5">
+                                    <strong class="text-button" data_wromo_id="strong_photo_editing_45957">Photo Editing</strong>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_retouching_8715">Retouching</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_color_correctio_79247">Color Correction</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_photo_restorati_29871">Photo Restoration</a>
+                                    <a href="jobs-default.html" class="w-fit caption1 line-before line-black" data_wromo_id="a_background_remo_23409">Background Removal</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigator h-full max-[1400px]:hidden">
+                    <ul class="list flex items-center gap-5 h-full">
+                        <li class="h-full relative">
+                            <a href="#!" class="flex items-center gap-1 h-full text-white duration-300" data_wromo_id="a_homepages_23708">
+                                <span class="text-title relative" data_wromo_id="span_homepages_33249">Homepages</span>
+                                <span class="ph-bold ph-caret-down" data_wromo_id="span_item_28381"></span>
+                            </a>
+                            <div class="sub_menu sub_menu_home overflow-x-hidden fixed w-full left-0 top-20 py-10 bg-white rounded-lg">
+                                <ul class="container grid grid-cols-5 gap-5">
+                                    <li>
+                                        <a href="index.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_freelancer_36249">
+                                            <img src="./assets/images/components/home1.webp" alt="home1" class="w-full rounded" data_wromo_id="img_item_85172">
+                                            <span data_wromo_id="span_home_freelancer_20461">Home Freelancer 01</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="freelancer2.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_freelancer_34556">
+                                            <img src="./assets/images/components/home2.webp" alt="home2" class="w-full rounded" data_wromo_id="img_item_76147">
+                                            <span data_wromo_id="span_home_freelancer_25844">Home Freelancer 02</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="freelancer3.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_freelancer_69917">
+                                            <img src="./assets/images/components/home3.webp" alt="home3" class="w-full rounded" data_wromo_id="img_item_42960">
+                                            <span data_wromo_id="span_home_freelancer_51955">Home Freelancer 03</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="freelancer4.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_freelancer_28757">
+                                            <img src="./assets/images/components/home4.webp" alt="home4" class="w-full rounded" data_wromo_id="img_item_84170">
+                                            <span data_wromo_id="span_home_freelancer_25429">Home Freelancer 04</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="freelancer5.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_freelancer_80990">
+                                            <img src="./assets/images/components/home5.webp" alt="home5" class="w-full rounded" data_wromo_id="img_item_75824">
+                                            <span data_wromo_id="span_home_freelancer_53696">Home Freelancer 05</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="freelancer6.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_freelancer_55594">
+                                            <img src="./assets/images/components/home6.webp" alt="home6" class="w-full rounded" data_wromo_id="img_item_83979">
+                                            <span data_wromo_id="span_home_freelancer_27929">Home Freelancer 06</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="freelancer7.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_freelancer_98759">
+                                            <img src="./assets/images/components/home7.webp" alt="home7" class="w-full rounded" data_wromo_id="img_item_15495">
+                                            <span data_wromo_id="span_home_freelancer_75736">Home Freelancer 07</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="freelancer8.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_freelancer_44878">
+                                            <img src="./assets/images/components/home8.webp" alt="home8" class="w-full rounded" data_wromo_id="img_item_34244">
+                                            <span data_wromo_id="span_home_freelancer_36833">Home Freelancer 08</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="jobs9.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_jobs_09_95936">
+                                            <img src="./assets/images/components/home9.webp" alt="home9" class="w-full rounded" data_wromo_id="img_item_21177">
+                                            <span data_wromo_id="span_home_jobs_09_76603">Home Jobs 09</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="jobs10.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_jobs_10_30677">
+                                            <img src="./assets/images/components/home10.webp" alt="home10" class="w-full rounded" data_wromo_id="img_item_57422">
+                                            <span data_wromo_id="span_home_jobs_10_84156">Home Jobs 10</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="jobs11.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_jobs_11_15229">
+                                            <img src="./assets/images/components/home11.webp" alt="home11" class="w-full rounded" data_wromo_id="img_item_14225">
+                                            <span data_wromo_id="span_home_jobs_11_29479">Home Jobs 11</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="jobs12.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_jobs_12_8773">
+                                            <img src="./assets/images/components/home12.webp" alt="home12" class="w-full rounded" data_wromo_id="img_item_27983">
+                                            <span data_wromo_id="span_home_jobs_12_43823">Home Jobs 12</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="rtl13.html" class="link flex flex-col items-center gap-2 text-button p-2 rounded-lg bg-white duration-300 shadow-md" data_wromo_id="a_home_rtl_13_31782">
+                                            <img src="./assets/images/components/home13.webp" alt="home13" class="w-full rounded" data_wromo_id="img_item_43042">
+                                            <span data_wromo_id="span_home_rtl_13_42263">Home RTL 13</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="h-full relative">
+                            <a href="#!" class="flex items-center gap-1 h-full text-white duration-300" data_wromo_id="a_for_candidates_36160">
+                                <span class="text-title relative" data_wromo_id="span_for_candidates_16284">For Candidates</span>
+                                <span class="ph-bold ph-caret-down" data_wromo_id="span_item_54436"></span>
+                            </a>
+                            <div class="sub_menu absolute p-3 -left-10 w-max bg-white rounded-lg">
+                                <ul>
+                                    <li>
+                                        <a href="#!" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_browse_jobs_20144">
+                                            Browse jobs
+                                            <span class="ph-bold ph-caret-right" data_wromo_id="span_item_49004"></span>
+                                        </a>
+                                        <div class="sub_menu_two absolute p-3 top-0 left-full z-[1] w-max bg-white rounded-lg">
+                                            <ul>
+                                                <li>
+                                                    <a href="jobs-default.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_jobs_default_35780"> jobs default </a>
+                                                </li>
+                                                <li>
+                                                    <a href="jobs-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_jobs_grid_86915"> jobs grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="jobs-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_jobs_list_45871"> jobs list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="jobs-top-map.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_jobs_top_map_12885"> jobs top map </a>
+                                                </li>
+                                                <li>
+                                                    <a href="jobs-half-map-grid1.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_jobs_half_map_g_7377"> jobs half map grid 1 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="jobs-half-map-grid2.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_jobs_half_map_g_5207"> jobs half map grid 2 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="jobs-fullwidth.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_jobs_fullwidth_92934"> jobs fullwidth </a>
+                                                </li>
+                                                <li>
+                                                    <a href="jobs-detail1.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_jobs_detail_1_73914"> jobs detail 1 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="jobs-detail2.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_jobs_detail_2_1355"> jobs detail 2 </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_browse_projects_84063">
+                                            Browse Projects
+                                            <span class="ph-bold ph-caret-right" data_wromo_id="span_item_30495"></span>
+                                        </a>
+                                        <div class="sub_menu_two absolute p-3 top-0 left-full z-[1] w-max bg-white rounded-lg">
+                                            <ul>
+                                                <li>
+                                                    <a href="project-default.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_project_default_27266"> project default </a>
+                                                </li>
+                                                <li>
+                                                    <a href="project-grid-3col.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_project_grid_3__36485"> project grid 3 columns </a>
+                                                </li>
+                                                <li>
+                                                    <a href="project-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_project_list_2952"> project list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="project-top-map-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_project_top_map_5735"> project top map grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="project-top-map-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_project_top_map_98608"> project top map list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="project-half-map-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_project_half_ma_12926"> project half map grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="project-half-map-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_project_half_ma_81641"> project half map list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="project-fullwidth.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_project_fullwid_2878"> project fullwidth </a>
+                                                </li>
+                                                <li>
+                                                    <a href="project-detail1.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_project_detail__71475"> project detail 1 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="project-detail2.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_project_detail__93409"> project detail 2 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="project-detail3.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_project_detail__46454"> project detail 3 </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_browse_employer_40980">
+                                            Browse Employer
+                                            <span class="ph-bold ph-caret-right" data_wromo_id="span_item_18593"></span>
+                                        </a>
+                                        <div class="sub_menu_two absolute p-3 top-0 left-full z-[1] w-max bg-white rounded-lg">
+                                            <ul>
+                                                <li>
+                                                    <a href="employers-default.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_defau_69174"> employers default </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_grid_52185"> employers grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_list_79688"> employers list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-sidebar-grid-3cols.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_sideb_53376"> employers sidebar grid 3 cols </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-sidebar-grid-2cols.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_sideb_22207"> employers sidebar grid 2 cols </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-sidebar-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_sideb_37225"> employers sidebar list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-top-map-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_top_m_79878"> employers top map grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-top-map-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_top_m_30380"> employers top map list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-half-map-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_half__94059"> employers half map grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-half-map-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_half__38055"> employers half map list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-fullwidth.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_fullw_98266"> employers fullwidth </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-detail1.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_detai_3364"> employers detail 1 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="employers-detail2.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_employers_detai_16315"> employers detail 2 </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="become-seller.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_become_a_seller_40726"> Become a seller </a>
+                                    </li>
+                                    <li>
+                                        <a href="candidates-dashboard.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_candidates_dash_60375"> Candidates Dashboard </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="h-full relative">
+                            <a href="#!" class="flex items-center gap-1 h-full text-white duration-300" data_wromo_id="a_for_employers_29144">
+                                <span class="text-title relative" data_wromo_id="span_for_employers_14941">For Employers</span>
+                                <span class="ph-bold ph-caret-down" data_wromo_id="span_item_77168"></span>
+                            </a>
+                            <div class="sub_menu absolute p-3 -left-10 w-max bg-white rounded-lg">
+                                <ul>
+                                    <li>
+                                        <a href="#!" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_browse_services_82584">
+                                            Browse Services
+                                            <span class="ph-bold ph-caret-right" data_wromo_id="span_item_42294"></span>
+                                        </a>
+                                        <div class="sub_menu_two absolute p-3 top-0 left-full z-[1] w-max bg-white rounded-lg">
+                                            <ul>
+                                                <li>
+                                                    <a href="services-default.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_services_defaul_54658"> services default </a>
+                                                </li>
+                                                <li>
+                                                    <a href="services-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_services_grid_56905"> services grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="services-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_services_list_55627"> services list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="services-sidebar-grid-3cols.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_services_sideba_32964"> services sidebar grid 3 cols </a>
+                                                </li>
+                                                <li>
+                                                    <a href="services-sidebar-grid-2cols.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_services_sideba_42401"> services sidebar grid 2 cols </a>
+                                                </li>
+                                                <li>
+                                                    <a href="services-sidebar-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_services_sideba_2988"> services sidebar list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="services-fullwidth-grid-5cols.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_services_fullwi_25325"> services fullwidth grid 5 cols </a>
+                                                </li>
+                                                <li>
+                                                    <a href="services-fullwidth-grid-4cols.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_services_fullwi_1037"> services fullwidth grid 4 cols </a>
+                                                </li>
+                                                <li>
+                                                    <a href="services-fullwidth-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_services_fullwi_9338"> services fullwidth list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="services-detail1.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_services_detail_31999"> services detail 1 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="services-detail2.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_services_detail_88540"> services detail 2 </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_browse_candidat_22604">
+                                            Browse Candidates
+                                            <span class="ph-bold ph-caret-right" data_wromo_id="span_item_20823"></span>
+                                        </a>
+                                        <div class="sub_menu_two absolute p-3 top-0 left-full z-[1] w-max bg-white rounded-lg">
+                                            <ul>
+                                                <li>
+                                                    <a href="candidates-default.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_defa_28209"> candidates default </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_grid_13275"> candidates grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_list_35245"> candidates list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-sidebar-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_side_93890"> candidates sidebar grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-sidebar-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_side_93197"> candidates sidebar list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-top-map-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_top__60666"> candidates top map grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-top-map-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_top__66621"> candidates top map list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-half-map-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_half_33106"> candidates half map grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-half-map-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_half_69334"> candidates half map list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-fullwidth-grid.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_full_87871"> candidates fullwidth grid </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-fullwidth-list.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_full_52712"> candidates fullwidth list </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-detail1.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_deta_50854"> candidates detail 1 </a>
+                                                </li>
+                                                <li>
+                                                    <a href="candidates-detail2.html" class="link block text-button py-[11px] pl-6 pr-[45px] rounded duration-300" data_wromo_id="a_candidates_deta_69299"> candidates detail 2 </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="become-buyer.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_become_a_buyer_51041"> Become a buyer </a>
+                                    </li>
+                                    <li>
+                                        <a href="employers-dashboard.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_employer_dashbo_25705"> Employer Dashboard </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="h-full relative">
+                            <a href="#!" class="flex items-center gap-1 h-full text-white duration-300 active" data_wromo_id="a_blogs_26960">
+                                <span class="text-title relative" data_wromo_id="span_blogs_78451">Blogs</span>
+                                <span class="ph-bold ph-caret-down" data_wromo_id="span_item_52424"></span>
+                            </a>
+                            <div class="sub_menu absolute p-3 -left-10 w-max bg-white rounded-lg">
+                                <ul>
+                                    <li>
+                                        <a href="blog-default.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300 active" data_wromo_id="a_blog_default_43260"> Blog default </a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-grid.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_blog_grid_35817"> Blog grid </a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-list.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_blog_list_84164"> Blog list </a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-detail1.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_blog_detail_1_84166"> Blog detail 1 </a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-detail2.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_blog_detail_2_22947"> Blog detail 2 </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="h-full relative">
+                            <a href="#!" class="flex items-center gap-1 h-full text-white duration-300" data_wromo_id="a_pages_36494">
+                                <span class="text-title relative" data_wromo_id="span_pages_22579">Pages</span>
+                                <span class="ph-bold ph-caret-down" data_wromo_id="span_item_29158"></span>
+                            </a>
+                            <div class="sub_menu absolute p-3 -left-10 w-max bg-white rounded-lg">
+                                <ul>
+                                    <li>
+                                        <a href="about1.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_about_us_1_34903"> About Us 1 </a>
+                                    </li>
+                                    <li>
+                                        <a href="about2.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_about_us_2_18122"> About Us 2 </a>
+                                    </li>
+                                    <li>
+                                        <a href="pricing.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_pricing_plan_53187"> Pricing Plan </a>
+                                    </li>
+                                    <li>
+                                        <a href="contact1.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_contact_us_1_73341"> Contact Us 1 </a>
+                                    </li>
+                                    <li>
+                                        <a href="contact2.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_contact_us_2_11317"> Contact Us 2 </a>
+                                    </li>
+                                    <li>
+                                        <a href="faqs.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_faqs_25593"> Faqs </a>
+                                    </li>
+                                    <li>
+                                        <a href="term-of-use.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_terms_of_use_76080"> Terms of use </a>
+                                    </li>
+                                    <li>
+                                        <a href="error-404.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_error_404_62897"> Error 404 </a>
+                                    </li>
+                                    <li>
+                                        <a href="login.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_login_33321"> Login </a>
+                                    </li>
+                                    <li>
+                                        <a href="register.html" class="link flex items-center justify-between gap-2 w-full text-button py-[11px] px-6 rounded duration-300" data_wromo_id="a_register_57219"> Register </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list_action flex items-center gap-5">
+                    <div class="help_block max-sm:hidden">
+                        <a href="term-of-use.html" class="block" data_wromo_id="a_item_87489">
+                            <span class="ph ph-question text-white text-2xl block" data_wromo_id="span_item_5325"></span>
+                        </a>
+                    </div>
+                    <div class="notification_block relative max-sm:hidden">
+                        <button class="relative block" data_wromo_id="button_item_75985">
+                            <span class="ph ph-bell text-white text-2xl block" data_wromo_id="span_item_90083"></span>
+                            <span class="absolute -top-0.5 right-0.5 w-2 h-2 bg-primary rounded-full" data_wromo_id="span_item_82638"></span>
+                        </button>
+                        <div class="notification_submenu absolute w-[400px] p-5 top-[3.25rem] -left-9 bg-white rounded-xl">
+                            <h6 class="heading6 pb-3" data_wromo_id="h6_notifications_41762">Notifications</h6>
+                            <ul class="list_notification w-full">
+                                <li class="notification_item w-full py-3 border-t border-line duration-300 hover:bg-background">
+                                    <a href="#!" class="flex gap-3 w-full">
+                                        <span class="ic_noti flex flex-shrink-0 items-center justify-center w-8 h-8 rounded-full bg-surface" data_wromo_id="span_item_53329">
+                                            <span class="ph-fill ph-bell text-lg text-secondary" data_wromo_id="span_item_19960"></span>
+                                        </span>
+                                        <div class="notification_detail">
+                                            <p class="notification_desc text-secondary" data_wromo_id="p_the_application_40326">The application is rejected on your job <span class="text-black" data_wromo_id="span_ui_designer_38257">UI Designer</span> by <span class="text-black" data_wromo_id="span_employer_40447">Employer</span>.</p>
+                                            <span class="notification_time caption2 text-placehover" data_wromo_id="span_25_mins_ago_17253">25 mins ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification_item w-full py-3 border-t border-line duration-300 hover:bg-background">
+                                    <a href="#!" class="flex gap-3 w-full">
+                                        <span class="ic_noti flex flex-shrink-0 items-center justify-center w-8 h-8 rounded-full bg-surface" data_wromo_id="span_item_11185">
+                                            <span class="ph-fill ph-bell text-lg text-secondary" data_wromo_id="span_item_42700"></span>
+                                        </span>
+                                        <div class="notification_detail">
+                                            <p class="notification_desc text-secondary" data_wromo_id="p_the_application_623">The application is rejected on your job <span class="text-black" data_wromo_id="span_internet_securi_76188">Internet Security</span> by <span class="text-black" data_wromo_id="span_employer_9711">Employer</span>.</p>
+                                            <span class="notification_time caption2 text-placehover" data_wromo_id="span_1_hours_ago_2091">1 hours ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification_item w-full py-3 border-t border-line duration-300 hover:bg-background">
+                                    <a href="#!" class="flex gap-3 w-full">
+                                        <span class="ic_noti flex flex-shrink-0 items-center justify-center w-8 h-8 rounded-full bg-surface" data_wromo_id="span_item_11070">
+                                            <span class="ph-fill ph-bell text-lg text-secondary" data_wromo_id="span_item_66420"></span>
+                                        </span>
+                                        <div class="notification_detail">
+                                            <p class="notification_desc text-secondary" data_wromo_id="p_the_application_63135">The application is rejected on your job <span class="text-black" data_wromo_id="span_social_media_ma_91421">Social Media Marketing</span> by <span class="text-black" data_wromo_id="span_employer_22355">Employer</span>.</p>
+                                            <span class="notification_time caption2 text-placehover" data_wromo_id="span_5_hours_ago_13774">5 hours ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification_item w-full py-3 border-t border-line duration-300 hover:bg-background">
+                                    <a href="#!" class="flex gap-3 w-full">
+                                        <span class="ic_noti flex flex-shrink-0 items-center justify-center w-8 h-8 rounded-full bg-surface" data_wromo_id="span_item_30647">
+                                            <span class="ph-fill ph-bell text-lg text-secondary" data_wromo_id="span_item_18385"></span>
+                                        </span>
+                                        <div class="notification_detail">
+                                            <p class="notification_desc text-secondary" data_wromo_id="p_the_application_39013">The application is rejected on your job <span class="text-black" data_wromo_id="span_social_media_ma_67531">Social Media Marketing</span> by <span class="text-black" data_wromo_id="span_employer_47042">Employer</span>.</p>
+                                            <span class="notification_time caption2 text-placehover" data_wromo_id="span_12_hours_ago_15827">12 hours ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="become-seller.html" class="button-main bg-white text-black max-sm:hidden" data_wromo_id="a_become_a_seller_69213">Become A Seller</a>
+                    <div class="user_block relative max-sm:hidden">
+                        <button class="user_infor flex items-center gap-2 text-white" data_wromo_id="button_employer_68901">
+                            <img src="./assets/images/avatar/IMG-7.webp" alt="IMG-7" class="user_avatar flex-shrink-0 w-9 h-9 rounded-full" data_wromo_id="img_item_35448">
+                            <strong class="user_name text-title" data_wromo_id="strong_employer_51326">Employer</strong>
+                            <span class="ph ph-caret-down" data_wromo_id="span_item_12535"></span>
+                        </button>
+                        <ul class="list_action_user absolute w-[240px] p-3 top-14 right-0 bg-white rounded-lg">
+                            <li class="action_item">
+                                <a href="employers-dashboard.html" class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background" data_wromo_id="a_dashboard_58868">
+                                    <span class="ph ph-squares-four text-2xl text-secondary" data_wromo_id="span_item_12876"></span>
+                                    <strong class="text-title" data_wromo_id="strong_dashboard_12531">Dashboard</strong>
+                                </a>
+                            </li>
+                            <li class="action_item">
+                                <a href="employers-profile.html" class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background" data_wromo_id="a_my_profile_85467">
+                                    <span class="ph ph-user-circle text-2xl text-secondary" data_wromo_id="span_item_38540"></span>
+                                    <strong class="text-title" data_wromo_id="strong_my_profile_79362">My Profile</strong>
+                                </a>
+                            </li>
+                            <li class="action_item">
+                                <a href="login.html" class="link flex items-center gap-3 w-full py-3 px-6 rounded-lg duration-300 hover:bg-background" data_wromo_id="a_log_out_24806">
+                                    <span class="ph ph-sign-out text-2xl text-secondary" data_wromo_id="span_item_62876"></span>
+                                    <strong class="text-title" data_wromo_id="strong_log_out_81812">Log Out</strong>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="humburger_btn min-[1400px]:hidden" data_wromo_id="button_item_20230">
+                        <span class="ph-bold ph-list text-white text-2xl block" data_wromo_id="span_item_28658"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Breadcrumb -->
+        <section class="breadcrumb">
+            <div class="breadcrumb_inner relative sm:mt-20 mt-16 lg:py-20 py-14">
+                <div class="breadcrumb_bg absolute top-0 left-0 w-full h-full">
+                    <img src="./assets/images/components/breadcrumb_job.webp" alt="breadcrumb_candidate" class="w-full h-full object-cover" data_wromo_id="img_item_1183">
+                </div>
+                <div class="container relative h-full">
+                    <div class="breadcrumb_content flex flex-col items-start justify-center xl:w-[1000px] lg:w-[848px] md:w-5/6 w-full h-full">
+                        <div class="list_breadcrumb flex items-center gap-2 animate animate_top" style="--i: 1">
+                            <a href="index.html" class="caption1 text-white" data_wromo_id="a_home_52816">Home</a>
+                            <span class="caption1 text-white opacity-40" data_wromo_id="span___46312">/</span>
+                            <span class="caption1 text-white" data_wromo_id="span_blogs_88524">Blogs</span>
+                            <span class="caption1 text-white opacity-40" data_wromo_id="span___44511">/</span>
+                            <span class="caption1 text-white opacity-60" data_wromo_id="span_blogs_default_19890">Blogs Default</span>
+                        </div>
+                        <h3 class="heading3 text-white mt-2 animate animate_top" style="--i: 2" data_wromo_id="h3_blogs_default_8677">Blogs Default</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- List blogs -->
+        <div class="blogs lg:py-20 sm:py-14 py-10">
+            <div class="container flex max-md:flex-col gap-y-12">
+                <div class="list lg:pr-20 md:pr-12">
+                    <ul class="list_blog grid lg:gap-10 gap-8">
+                        <li class="blog_item">
+                            <a href="blog-detail1.html" class="blog_thumb block overflow-hidden rounded-xl" data_wromo_id="a_item_84972">
+                                <img src="./assets/images/blog/1.webp" alt="1" class="blog_img w-full" data_wromo_id="img_item_90198">
+                            </a>
+                            <div class="blog_info flex flex-wrap items-center justify-between gap-8 gap-y-2 mt-5">
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <div class="date flex items-center gap-2">
+                                        <span class="ph ph-calendar-blank text-2xl" data_wromo_id="span_item_7436"></span>
+                                        <span class="blog_date" data_wromo_id="span_february_28__20_39161">February 28, 2024</span>
+                                    </div>
+                                    <div class="line w-px h-3 bg-line"></div>
+                                    <a href="blog-default.html" class="category flex items-center gap-2 duration-300 hover:text-primary" data_wromo_id="a_marketing_50362">
+                                        <span class="ph ph-tag-simple text-2xl" data_wromo_id="span_item_79254"></span>
+                                        <span class="blog_category" data_wromo_id="span_marketing_1">Marketing</span>
+                                    </a>
+                                </div>
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <div class="comment flex items-center gap-2">
+                                        <span class="ph ph-chats-circle text-2xl" data_wromo_id="span_item_98451"></span>
+                                        <span class="blog_comment" data_wromo_id="span_12_22443">12</span>
+                                    </div>
+                                    <div class="line w-px h-3 bg-line"></div>
+                                    <div class="view flex items-center gap-2">
+                                        <span class="ph ph-eye text-2xl" data_wromo_id="span_item_11052"></span>
+                                        <span class="blog_view" data_wromo_id="span_260_2k_6918">260.2K</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="blog-detail1.html" class="heading5 blog_title mt-3 hover:underline" data_wromo_id="a_developing_auth_11310">Developing Authentic Pride Month Marketing Strategies &amp; Inspiring Digital Campaign Examples</a>
+                            <p class="blog_desc mt-2 text-secondary" data_wromo_id="p_june_is_pride_m_93288">June is Pride Month, a time to celebrate and support the LGBTQ+ community. In this article, we explore how brands can develop authentic Pride Month marketing strategies that resonate with audiences and demonstrate genuine allyship.</p>
+                        </li>
+                        <li class="blog_item">
+                            <a href="blog-detail1.html" class="blog_thumb block overflow-hidden rounded-xl" data_wromo_id="a_item_69198">
+                                <img src="./assets/images/blog/2.webp" alt="2" class="blog_img w-full" data_wromo_id="img_item_78876">
+                            </a>
+                            <div class="blog_info flex flex-wrap items-center justify-between gap-8 gap-y-2 mt-5">
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <div class="date flex items-center gap-2">
+                                        <span class="ph ph-calendar-blank text-2xl" data_wromo_id="span_item_56066"></span>
+                                        <span class="blog_date" data_wromo_id="span_february_28__20_77893">February 28, 2024</span>
+                                    </div>
+                                    <div class="line w-px h-3 bg-line"></div>
+                                    <a href="blog-default.html" class="category flex items-center gap-2 duration-300 hover:text-primary" data_wromo_id="a_development_38229">
+                                        <span class="ph ph-tag-simple text-2xl" data_wromo_id="span_item_87445"></span>
+                                        <span class="blog_category" data_wromo_id="span_development_37193">Development</span>
+                                    </a>
+                                </div>
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <div class="comment flex items-center gap-2">
+                                        <span class="ph ph-chats-circle text-2xl" data_wromo_id="span_item_28047"></span>
+                                        <span class="blog_comment" data_wromo_id="span_12_40566">12</span>
+                                    </div>
+                                    <div class="line w-px h-3 bg-line"></div>
+                                    <div class="view flex items-center gap-2">
+                                        <span class="ph ph-eye text-2xl" data_wromo_id="span_item_33730"></span>
+                                        <span class="blog_view" data_wromo_id="span_260_2k_32867">260.2K</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="blog-detail1.html" class="heading5 blog_title mt-3 hover:underline" data_wromo_id="a_adaptive_ui_des_5675">Adaptive UI Design: Optimizing User Interfaces for Dynamic Environments</a>
+                            <p class="blog_desc mt-2 text-secondary" data_wromo_id="p_in_today_s_fast_20994">In today's fast-paced digital landscape, user interfaces must adapt to various devices, screen sizes, and contexts. This article explores the concept of adaptive UI design, where interfaces dynamically adjust to different environments, ensuring optimal user experiences.</p>
+                        </li>
+                        <li class="blog_item">
+                            <a href="blog-detail1.html" class="blog_thumb block overflow-hidden rounded-xl" data_wromo_id="a_item_58531">
+                                <img src="./assets/images/blog/3.webp" alt="3" class="blog_img w-full" data_wromo_id="img_item_60817">
+                            </a>
+                            <div class="blog_info flex flex-wrap items-center justify-between gap-8 gap-y-2 mt-5">
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <div class="date flex items-center gap-2">
+                                        <span class="ph ph-calendar-blank text-2xl" data_wromo_id="span_item_39232"></span>
+                                        <span class="blog_date" data_wromo_id="span_february_28__20_90142">February 28, 2024</span>
+                                    </div>
+                                    <div class="line w-px h-3 bg-line"></div>
+                                    <a href="blog-default.html" class="category flex items-center gap-2 duration-300 hover:text-primary" data_wromo_id="a_videos_editer_3433">
+                                        <span class="ph ph-tag-simple text-2xl" data_wromo_id="span_item_11568"></span>
+                                        <span class="blog_category" data_wromo_id="span_videos_editer_14112">Videos Editer</span>
+                                    </a>
+                                </div>
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <div class="comment flex items-center gap-2">
+                                        <span class="ph ph-chats-circle text-2xl" data_wromo_id="span_item_90280"></span>
+                                        <span class="blog_comment" data_wromo_id="span_12_91670">12</span>
+                                    </div>
+                                    <div class="line w-px h-3 bg-line"></div>
+                                    <div class="view flex items-center gap-2">
+                                        <span class="ph ph-eye text-2xl" data_wromo_id="span_item_47984"></span>
+                                        <span class="blog_view" data_wromo_id="span_260_2k_15255">260.2K</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="blog-detail1.html" class="heading5 blog_title mt-3 hover:underline" data_wromo_id="a_designing_for_m_74901">Designing for Mobile First: Strategies for Crafting Mobile-Optimized Experiences</a>
+                            <p class="blog_desc mt-2 text-secondary" data_wromo_id="p_with_the_majori_6077">With the majority of internet users accessing content through mobile devices, designing for mobile-first has become essential for digital success. This article explores strategies for crafting mobile-optimized experiences that prioritize mobile users' needs and preferences.</p>
+                        </li>
+                    </ul>
+                    <ul class="list_pagination menu_tab flex items-center justify-center gap-2 w-full md:mt-10 mt-7" role="tablist">
+                        <li role="presentation">
+                            <a href="#" class="tab_btn -fill flex items-center justify-center w-10 h-10 rounded border border-line text-title duration-300 hover:border-black active" role="tab" aria-selected="true" data_wromo_id="a_1_60327">1</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#" class="tab_btn -fill flex items-center justify-center w-10 h-10 rounded border border-line text-title duration-300 hover:border-black" role="tab" aria-selected="false" data_wromo_id="a_2_29858">2</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#" class="tab_btn -fill flex items-center justify-center w-10 h-10 rounded border border-line text-title duration-300 hover:border-black" role="tab" aria-selected="false" data_wromo_id="a_3_56877">3</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#" class="tab_btn -fill flex items-center justify-center w-10 h-10 rounded border border-line text-title duration-300 hover:border-black" role="tab" aria-selected="false" data_wromo_id="a___93516">&gt;</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="blog_sidebar flex-shrink-0 lg:w-[360px] md:w-1/3 w-full h-fit">
+                    <form class="form-search overflow-hidden relative w-full h-12 rounded-lg">
+                        <input class="py-2 pl-4 pr-16 w-full h-full border border-line rounded-lg" type="text" placeholder="Search" required="">
+                        <button class="flex items-center justify-center absolute top-0 right-0 h-full aspect-square rounded-r-lg bg-primary text-white duration-300 hover:bg-black" data_wromo_id="button_item_46903">
+                            <span class="ph ph-magnifying-glass text-lg" data_wromo_id="span_item_31884"></span>
+                        </button>
+                    </form>
+                    <div class="recent md:mt-10 mt-7">
+                        <h6 class="heading6" data_wromo_id="h6_recent_posts_39436">Recent Posts</h6>
+                        <ul class="list-recent mt-5">
+                            <li class="blog_item outstanding_blog">
+                                <a href="blog-detail1.html" class="blog_thumb block w-full rounded-lg overflow-hidden" data_wromo_id="a_item_1106">
+                                    <img src="./assets/images/blog/9.webp" alt="blog/9" class="blog_img w-full" data_wromo_id="img_item_35315">
+                                </a>
+                                <div class="flex flex-wrap items-center gap-2 mt-5 mb-2">
+                                    <div class="date flex items-center gap-2">
+                                        <span class="ph ph-calendar-blank text-xl" data_wromo_id="span_item_78985"></span>
+                                        <span class="blog_date caption1" data_wromo_id="span_february_28__20_66701">February 28, 2024</span>
+                                    </div>
+                                    <div class="line w-px h-3 bg-line"></div>
+                                    <a href="blog-default.html" class="category flex items-center gap-2 duration-300 hover:text-primary" data_wromo_id="a_freelancers_41966">
+                                        <span class="ph ph-tag-simple text-xl" data_wromo_id="span_item_57956"></span>
+                                        <span class="blog_category caption1" data_wromo_id="span_freelancers_65741">Freelancers</span>
+                                    </a>
+                                </div>
+                                <a href="blog-detail1.html" class="blog_name heading6 duration-300 hover:text-primary" data_wromo_id="a_how_does_writin_58905">How does writing influence your personal brand?</a>
+                            </li>
+                            <li class="blog_item flex gap-4 mt-5 pt-5 border-t border-line">
+                                <a href="blog-detail1.html" class="blog_thumb block flex-shrink-0 w-[100px] h-fit rounded overflow-hidden" data_wromo_id="a_item_17052">
+                                    <img src="./assets/images/blog/8.webp" alt="blog/8" class="blog_img w-full" data_wromo_id="img_item_73944">
+                                </a>
+                                <div>
+                                    <a href="blog-detail1.html" class="blog_name text-button duration-300 hover:text-primary" data_wromo_id="a_strategies_for__74618">Strategies for Seamless Digital Journeys</a>
+                                    <div class="flex flex-wrap items-center gap-2 gap-y-1 mt-1.5">
+                                        <span class="blog_date caption1" data_wromo_id="span_february_28__20_35724">February 28, 2024</span>
+                                        <div class="line w-px h-3 bg-line"></div>
+                                        <a href="blog-default.html" class="blog_category caption1 duration-300 hover:text-primary" data_wromo_id="a_agency_59763">Agency</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="blog_item flex gap-4 mt-5 pt-5 border-t border-line">
+                                <a href="blog-detail1.html" class="blog_thumb block flex-shrink-0 w-[100px] h-fit rounded overflow-hidden" data_wromo_id="a_item_42633">
+                                    <img src="./assets/images/blog/7.webp" alt="blog/7" class="blog_img w-full" data_wromo_id="img_item_9495">
+                                </a>
+                                <div>
+                                    <a href="blog-detail1.html" class="blog_name text-button duration-300 hover:text-primary" data_wromo_id="a_crafting_compel_6290">Crafting Compelling Digital Narratives</a>
+                                    <div class="flex flex-wrap items-center gap-2 gap-y-1 mt-1.5">
+                                        <span class="blog_date caption1" data_wromo_id="span_february_28__20_36479">February 28, 2024</span>
+                                        <div class="line w-px h-3 bg-line"></div>
+                                        <a href="blog-default.html" class="blog_category caption1 duration-300 hover:text-primary" data_wromo_id="a_freelancer_58677">Freelancer</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="blog_item flex gap-4 mt-5 pt-5 border-t border-line">
+                                <a href="blog-detail1.html" class="blog_thumb block flex-shrink-0 w-[100px] h-fit rounded overflow-hidden" data_wromo_id="a_item_57418">
+                                    <img src="./assets/images/blog/6.webp" alt="blog/6" class="blog_img w-full" data_wromo_id="img_item_11093">
+                                </a>
+                                <div>
+                                    <a href="blog-detail1.html" class="blog_name text-button duration-300 hover:text-primary" data_wromo_id="a_the_role_of_emp_96521">The Role of Empathy in UX/UI Design</a>
+                                    <div class="flex flex-wrap items-center gap-2 gap-y-1 mt-1.5">
+                                        <span class="blog_date caption1" data_wromo_id="span_february_28__20_44178">February 28, 2024</span>
+                                        <div class="line w-px h-3 bg-line"></div>
+                                        <a href="blog-default.html" class="blog_category caption1 duration-300 hover:text-primary" data_wromo_id="a_activities_75728">Activities</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="blog_item flex gap-4 mt-5 pt-5 border-t border-line">
+                                <a href="blog-detail1.html" class="blog_thumb block flex-shrink-0 w-[100px] h-fit rounded overflow-hidden" data_wromo_id="a_item_42748">
+                                    <img src="./assets/images/blog/10.webp" alt="blog/10" class="blog_img w-full" data_wromo_id="img_item_35415">
+                                </a>
+                                <div>
+                                    <a href="blog-detail1.html" class="blog_name text-button duration-300 hover:text-primary" data_wromo_id="a_strategies_for__65117">Strategies for Seamless Digital Journeys</a>
+                                    <div class="flex flex-wrap items-center gap-2 gap-y-1 mt-1.5">
+                                        <span class="blog_date caption1" data_wromo_id="span_february_28__20_80589">February 28, 2024</span>
+                                        <div class="line w-px h-3 bg-line"></div>
+                                        <a href="blog-default.html" class="blog_category caption1 duration-300 hover:text-primary" data_wromo_id="a_agency_8489">Agency</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filter_category md:mt-10 mt-7">
+                        <h6 class="heading6" data_wromo_id="h6_categories_78571">Categories</h6>
+                        <ul class="list_category flex flex-col gap-3 mt-5" role="tablist">
+                            <li role="presentation">
+                                <button class="tab_btn text-button -before line-before line-black" role="tab" aria-selected="false" data_wromo_id="button_marketing_61295">Marketing</button>
+                            </li>
+                            <li role="presentation">
+                                <button class="tab_btn text-button -before line-before line-black" role="tab" aria-selected="false" data_wromo_id="button_development_23179">Development</button>
+                            </li>
+                            <li role="presentation">
+                                <button class="tab_btn text-button -before line-before line-black" role="tab" aria-selected="false" data_wromo_id="button_digital_marketi_85996">Digital Marketing</button>
+                            </li>
+                            <li role="presentation">
+                                <button class="tab_btn text-button -before line-before line-black" role="tab" aria-selected="false" data_wromo_id="button_web_design_70329">Web design</button>
+                            </li>
+                            <li role="presentation">
+                                <button class="tab_btn text-button -before line-before line-black" role="tab" aria-selected="false" data_wromo_id="button_business_59924">Business</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filter_tags md:mt-10 mt-7">
+                        <h6 class="heading6" data_wromo_id="h6_popular_tag_60338">Popular Tag</h6>
+                        <ul class="list_tags menu_tab flex items-center flex-wrap gap-3 mt-5" role="tablist">
+                            <li role="presentation">
+                                <button class="tag tab_btn -fill -border -rounded-sm caption1 capitalize hover:bg-black hover:text-white" role="tab" aria-selected="false" data_wromo_id="button_digital_marketi_17880">Digital Marketing</button>
+                            </li>
+                            <li role="presentation">
+                                <button class="tag tab_btn -fill -border -rounded-sm caption1 capitalize hover:bg-black hover:text-white" role="tab" aria-selected="false" data_wromo_id="button_social_74880">Social</button>
+                            </li>
+                            <li role="presentation">
+                                <button class="tag tab_btn -fill -border -rounded-sm caption1 capitalize hover:bg-black hover:text-white" role="tab" aria-selected="false" data_wromo_id="button_startup_6488">Startup</button>
+                            </li>
+                            <li role="presentation">
+                                <button class="tag tab_btn -fill -border -rounded-sm caption1 capitalize hover:bg-black hover:text-white" role="tab" aria-selected="false" data_wromo_id="button_webdesign_37710">Webdesign</button>
+                            </li>
+                            <li role="presentation">
+                                <button class="tag tab_btn -fill -border -rounded-sm caption1 capitalize hover:bg-black hover:text-white" role="tab" aria-selected="false" data_wromo_id="button_ux_ui_66331">UX/UI</button>
+                            </li>
+                            <li role="presentation">
+                                <button class="tag tab_btn -fill -border -rounded-sm caption1 capitalize hover:bg-black hover:text-white" role="tab" aria-selected="false" data_wromo_id="button_seo_sem_14383">SEO&amp;SEM</button>
+                            </li>
+                            <li role="presentation">
+                                <button class="tag tab_btn -fill -border -rounded-sm caption1 capitalize hover:bg-black hover:text-white" role="tab" aria-selected="false" data_wromo_id="button_development_45660">Development</button>
+                            </li>
+                            <li role="presentation">
+                                <button class="tag tab_btn -fill -border -rounded-sm caption1 capitalize hover:bg-black hover:text-white" role="tab" aria-selected="false" data_wromo_id="button_tips_6374">Tips</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll to top -->
+        <button class="scroll-to-top-btn" data_wromo_id="button_item_46702"><span class="ph-bold ph-caret-up" data_wromo_id="span_item_70162"></span></button>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer_inner bg-feature">
+                <div class="container">
+                    <div class="footer_heading flex flex-wrap items-center justify-between gap-4 w-full md:pt-10 pt-7 md:pb-5 pb-4 border-b border-light">
+                        <a href="index.html" class="footer_logo" data_wromo_id="a_item_64210">
+                            <img src="./assets/images/logo-white.png" alt="logo-white" class="h-[42px] w-auto" data_wromo_id="img_item_46557">
+                        </a>
+                        <div class="list_social flex flex-wrap items-center gap-4">
+                            <span class="text-subtitle text-white" data_wromo_id="span_follow_us__50593">Follow Us:</span>
+                            <div class="list flex flex-wrap items-center gap-3">
+                                <a href="https://www.facebook.com/" target="_blank" class="w-10 h-10 flex items-center justify-center border border-light text-white rounded-full duration-300 hover:bg-white hover:text-black" data_wromo_id="a_item_40310">
+                                    <span class="icon-facebook text-lg" data_wromo_id="span_item_15815"></span>
+                                </a>
+                                <a href="https://www.linkedin.com/" target="_blank" class="w-10 h-10 flex items-center justify-center border border-light text-white rounded-full duration-300 hover:bg-white hover:text-black" data_wromo_id="a_item_19604">
+                                    <span class="icon-linkedin text-lg" data_wromo_id="span_item_21883"></span>
+                                </a>
+                                <a href="https://www.twitter.com/" target="_blank" class="w-10 h-10 flex items-center justify-center border border-light text-white rounded-full duration-300 hover:bg-white hover:text-black" data_wromo_id="a_item_21896">
+                                    <span class="icon-twitter text-lg" data_wromo_id="span_item_52760"></span>
+                                </a>
+                                <a href="https://www.instagram.com/" target="_blank" class="w-10 h-10 flex items-center justify-center border border-light text-white rounded-full duration-300 hover:bg-white hover:text-black" data_wromo_id="a_item_67577">
+                                    <span class="icon-instagram text-lg" data_wromo_id="span_item_27833"></span>
+                                </a>
+                                <a href="https://www.pinterest.com/" target="_blank" class="w-10 h-10 flex items-center justify-center border border-light text-white rounded-full duration-300 hover:bg-white hover:text-black" data_wromo_id="a_item_11414">
+                                    <span class="icon-pinterest text-lg" data_wromo_id="span_item_14702"></span>
+                                </a>
+                                <a href="https://www.youtube.com/" target="_blank" class="w-10 h-10 flex items-center justify-center border border-light text-white rounded-full duration-300 hover:bg-white hover:text-black" data_wromo_id="a_item_51064">
+                                    <span class="icon-youtube text-lg" data_wromo_id="span_item_73777"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_content flex max-xl:flex-wrap items-start justify-between gap-y-8 md:py-10 py-7">
+                        <div class="footer_nav max-md:w-1/2">
+                            <strong class="nav_heading text-button-sm text-white" data_wromo_id="strong_categories_18164">Categories</strong>
+                            <ul class="list_nav flex flex-col gap-3 mt-4">
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="jobs-default.html" data_wromo_id="a_graphics___desi_9183">Graphics &amp; Design</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="jobs-default.html" data_wromo_id="a_digital_marketi_87956">Digital Marketing</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="jobs-default.html" data_wromo_id="a_writing___trans_67674">Writing &amp; Translation</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="jobs-default.html" data_wromo_id="a_video___animati_20801">Video &amp; Animation</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="jobs-default.html" data_wromo_id="a_music___audio_74858">Music &amp; Audio</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="jobs-default.html" data_wromo_id="a_programming___t_98692">Programming &amp; Tech</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_nav max-md:w-1/2">
+                            <strong class="nav_heading text-button-sm text-white" data_wromo_id="strong_for_candidates_99707">For Candidates</strong>
+                            <ul class="list_nav flex flex-col gap-3 mt-4">
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="candidates-dashboard.html" data_wromo_id="a_candidate_dashb_42579">Candidate Dashboard</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="jobs-default.html" data_wromo_id="a_browse_jobs_71024">Browse jobs</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="employers-default.html" data_wromo_id="a_browse_employer_83337">Browse employers</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="candidates-proposals.html" data_wromo_id="a_my_proposals_39784">My Proposals</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="candidates-my-services.html" data_wromo_id="a_my_services_72824">My Services</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="candidates-jobs-alerts.html" data_wromo_id="a_job_alerts_35056">Job Alerts</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_nav max-md:w-1/2">
+                            <strong class="nav_heading text-button-sm text-white" data_wromo_id="strong_for_employer_41372">For Employer</strong>
+                            <ul class="list_nav flex flex-col gap-3 mt-4">
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="employers-dashboard.html" data_wromo_id="a_employer_dashbo_46498">Employer Dashboard</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="candidates-default.html" data_wromo_id="a_browse_candidat_47122">Browse Candidates</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="services-default.html" data_wromo_id="a_browse_services_52759">Browse services</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="employers-submit-jobs.html" data_wromo_id="a_submit_jobs_54384">Submit jobs</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="employers-jobs.html" data_wromo_id="a_my_jobs_20147">My Jobs</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="employers-applicants-jobs.html" data_wromo_id="a_applicants_jobs_47623">Applicants jobs</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_nav max-md:w-1/2">
+                            <strong class="nav_heading text-button-sm text-white" data_wromo_id="strong_support_76990">Support</strong>
+                            <ul class="list_nav flex flex-col gap-3 mt-4">
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="term-of-use.html" data_wromo_id="a_help___support_61002">Help &amp; Support</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="become-seller.html" data_wromo_id="a_selling_on_free_30858">Selling On FreelanHub</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="become-buyer.html" data_wromo_id="a_buying_on_freel_60897">Buying On FreelanHub</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="about1.html" data_wromo_id="a_services_9824">Services</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="faqs.html" data_wromo_id="a_faqs_40149">FAQs</a></li>
+                                <li><a class="caption1 capitalize line-before line-white text-placehover hover:text-white duration-300" href="contact1.html" data_wromo_id="a_contact_us_91750">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0 max-xl:w-full">
+                            <div class="company-contact sm:w-[340px]">
+                                <strong class="heading block text-button-sm text-white" data_wromo_id="strong_subscribe_29735">Subscribe</strong>
+                                <form class="send-block mt-4 flex items-center h-[46px] rounded-lg overflow-hidden">
+                                    <input class="caption1 text-secondary h-full w-full pr-4 pl-3" type="email" placeholder="Your email address" required="">
+                                    <button class="flex items-center justify-center w-[46px] h-[46px] bg-primary flex-shrink-0" data_wromo_id="button_item_32645">
+                                        <span class="ph ph-paper-plane-tilt text-white" data_wromo_id="span_item_5946"></span>
+                                    </button>
+                                </form>
+                                <strong class="heading block text-button-sm text-white mt-5" data_wromo_id="strong_download_app_44012">Download App</strong>
+                                <div class="list-download flex items-start gap-3 mt-4">
+                                    <a href="https://play.google.com/" target="_blank" data_wromo_id="a_item_89795">
+                                        <img src="./assets/images/download/gg_play.png" alt="gg_play" data_wromo_id="img_item_68792">
+                                    </a>
+                                    <a href="https://www.apple.com/app-store/" target="_blank" data_wromo_id="a_item_43863">
+                                        <img src="./assets/images/download/app_store.png" alt="app_store" data_wromo_id="img_item_68450">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_bottom flex items-center justify-between max-sm:flex-col gap-2 py-2 border-t border-light">
+                        <div class="left-block flex items-center">
+                            <div class="copyright text-placehover caption1">©2024 FreelanHub. All Rights Reserved.</div>
+                        </div>
+                        <div class="nav-link flex items-center gap-2.5">
+                            <a class="text-placehover caption1 hover-underline" href="term-of-use.html" data_wromo_id="a_terms_of_servic_8032">Terms Of Services</a>
+                            <span class="text-placehover caption1" data_wromo_id="span___20571">|</span>
+                            <a class="text-placehover caption1 hover-underline" href="term-of-use.html" data_wromo_id="a_privacy_policy_46949">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Menu mobile -->
+        <div class="menu_mobile">
+            <button class="menu_mobile_close flex items-center justify-center absolute top-5 left-5 w-8 h-8 rounded-full bg-surface" data_wromo_id="button_item_33920">
+                <span class="ph-bold ph-x" data_wromo_id="span_item_42489"></span>
+            </button>
+            <div class="heading flex items-center justify-center mt-5">
+                <a href="index.html" class="logo" data_wromo_id="a_item_96460">
+                    <img src="./assets/images/logo.png" alt="logo" class="h-8" data_wromo_id="img_item_67559">
+                </a>
+            </div>
+            <form class="form-search relative mt-4 mx-5">
+                <button class="absolute left-3 top-1/2 -translate-y-1/2 cursor-pointer" data_wromo_id="button_item_20753">
+                    <i class="ph ph-magnifying-glass text-xl block" data_wromo_id="i_item_93970"></i>
+                </button>
+                <input type="text" placeholder="What are you looking for?" class="h-12 rounded-lg border border-line text-sm w-full pl-10 pr-4" required="">
+            </form>
+            <div class="mt-4">
+                <ul class="nav_mobile">
+                    <li class="nav_item py-2">
+                        <a href="#!" class="text-xl font-semibold flex items-center justify-between" data_wromo_id="a_homepages_93977">
+                            Homepages
+                            <span class="text-right" data_wromo_id="span_item_35731">
+                                <i class="ph ph-caret-right text-xl" data_wromo_id="i_item_87666"></i>
+                            </span>
+                        </a>
+                        <div class="sub_nav_mobile">
+                            <button class="back_btn flex items-center gap-3" data_wromo_id="button_back_23864">
+                                <i class="ph ph-caret-left text-xl" data_wromo_id="i_item_21057"></i>
+                                Back
+                            </button>
+                            <div class="list-nav-item w-full pt-2 pb-6">
+                                <ul>
+                                    <li class="nav_item">
+                                        <a href="index.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_freelancer_90219"> Home Freelancer 01 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="freelancer2.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_freelancer_9459"> Home Freelancer 02 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="freelancer3.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_freelancer_69451"> Home Freelancer 03 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="freelancer4.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_freelancer_85411"> Home Freelancer 04 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="freelancer5.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_freelancer_70567"> Home Freelancer 05 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="freelancer6.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_freelancer_32309"> Home Freelancer 06 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="freelancer7.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_freelancer_62872"> Home Freelancer 07 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="freelancer8.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_freelancer_79429"> Home Freelancer 08 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="jobs9.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_jobs_09_50064"> Home Jobs 09 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="jobs10.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_jobs_10_59521"> Home Jobs 10 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="jobs11.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_jobs_11_89670"> Home Jobs 11 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="jobs12.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_jobs_12_31241"> Home Jobs 12 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="rtl13.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_home_rtl_13_40967"> Home RTL 13 </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item py-2">
+                        <a href="#!" class="text-xl font-semibold flex items-center justify-between" data_wromo_id="a_for_candidates_19067">
+                            For Candidates
+                            <span class="text-right" data_wromo_id="span_item_29968">
+                                <i class="ph ph-caret-right text-xl" data_wromo_id="i_item_317"></i>
+                            </span>
+                        </a>
+                        <div class="sub_nav_mobile">
+                            <button class="back_btn flex items-center gap-3" data_wromo_id="button_back_79715">
+                                <i class="ph ph-caret-left text-xl" data_wromo_id="i_item_58131"></i>
+                                Back
+                            </button>
+                            <div class="list-nav-item w-full pt-2 pb-6">
+                                <ul>
+                                    <li class="nav_item">
+                                        <a href="#!" class="link flex items-center justify-between w-full py-2 text-xl font-semibold capitalize" data_wromo_id="a_browse_jobs_73224">
+                                            Browse jobs
+                                            <span class="text-right" data_wromo_id="span_item_71173">
+                                                <i class="ph ph-caret-right text-xl" data_wromo_id="i_item_31271"></i>
+                                            </span>
+                                        </a>
+                                        <div class="sub_nav_mobile2">
+                                            <button class="back_btn flex items-center gap-3" data_wromo_id="button_back_71273">
+                                                <i class="ph ph-caret-left text-xl" data_wromo_id="i_item_68148"></i>
+                                                Back
+                                            </button>
+                                            <div class="list-nav-item w-full pt-2 pb-6">
+                                                <ul>
+                                                    <li class="nav_item">
+                                                        <a href="jobs-default.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_jobs_default_37467"> jobs default </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="jobs-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_jobs_grid_61368"> jobs grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="jobs-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_jobs_list_69633"> jobs list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="jobs-top-map.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_jobs_top_map_9667"> jobs top map </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="jobs-half-map-grid1.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_jobs_half_map_g_14564"> jobs half map grid 1 </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="jobs-half-map-grid2.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_jobs_half_map_g_54964"> jobs half map grid 2 </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="jobs-fullwidth.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_jobs_fullwidth_13630"> jobs fullwidth </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="jobs-detail1.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_jobs_detail_1_26774"> jobs detail 1 </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="jobs-detail2.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_jobs_detail_2_98249"> jobs detail 2 </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="#!" class="link flex items-center justify-between w-full py-2 text-xl font-semibold capitalize" data_wromo_id="a_browse_projects_66565">
+                                            Browse Projects
+                                            <span class="text-right" data_wromo_id="span_item_84705">
+                                                <i class="ph ph-caret-right text-xl" data_wromo_id="i_item_52125"></i>
+                                            </span>
+                                        </a>
+                                        <div class="sub_nav_mobile2">
+                                            <button class="back_btn flex items-center gap-3" data_wromo_id="button_back_15557">
+                                                <i class="ph ph-caret-left text-xl" data_wromo_id="i_item_38490"></i>
+                                                Back
+                                            </button>
+                                            <div class="list-nav-item w-full pt-2 pb-6">
+                                                <ul>
+                                                    <li class="nav_item">
+                                                        <a href="project-default.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_project_default_32703"> project default </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="project-grid-3col.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_project_grid_3__66280"> project grid 3 columns </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="project-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_project_list_8762"> project list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="project-top-map-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_project_top_map_50814"> project top map grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="project-top-map-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_project_top_map_93819"> project top map list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="project-half-map-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_project_half_ma_66104"> project half map grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="project-half-map-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_project_half_ma_12150"> project half map list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="project-fullwidth.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_project_fullwid_4381"> project fullwidth </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="project-detail1.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_project_detail__9806"> project detail 1 </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="project-detail2.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_project_detail__49473"> project detail 2 </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="project-detail3.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_project_detail__50693"> project detail 3 </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="#!" class="link flex items-center justify-between w-full py-2 text-xl font-semibold capitalize" data_wromo_id="a_browse_employer_25223">
+                                            Browse Employer
+                                            <span class="text-right" data_wromo_id="span_item_48267">
+                                                <i class="ph ph-caret-right text-xl" data_wromo_id="i_item_11498"></i>
+                                            </span>
+                                        </a>
+                                        <div class="sub_nav_mobile2">
+                                            <button class="back_btn flex items-center gap-3" data_wromo_id="button_back_50513">
+                                                <i class="ph ph-caret-left text-xl" data_wromo_id="i_item_41201"></i>
+                                                Back
+                                            </button>
+                                            <div class="list-nav-item w-full pt-2 pb-6">
+                                                <ul>
+                                                    <li class="nav_item">
+                                                        <a href="employers-default.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_defau_59948"> employers default </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_grid_10757"> employers grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_list_6376"> employers list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-sidebar-grid-3cols.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_sideb_85636"> employers sidebar grid 3 cols </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-sidebar-grid-2cols.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_sideb_77143"> employers sidebar grid 2 cols </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-sidebar-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_sideb_73801"> employers sidebar list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-top-map-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_top_m_29635"> employers top map grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-top-map-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_top_m_77939"> employers top map list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-half-map-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_half__54884"> employers half map grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-half-map-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_half__39881"> employers half map list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-fullwidth.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_fullw_19738"> employers fullwidth </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-detail1.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_detai_62057"> employers detail 1 </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="employers-detail2.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_employers_detai_34110"> employers detail 2 </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="become-seller.html" class="link flex items-center justify-between w-full py-2 text-xl font-semibold capitalize" data_wromo_id="a_become_a_seller_87629"> Become a seller </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="candidates-dashboard.html" class="link flex items-center justify-between w-full py-2 text-xl font-semibold capitalize" data_wromo_id="a_candidates_dash_53422"> Candidates Dashboard </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item py-2">
+                        <a href="#!" class="text-xl font-semibold flex items-center justify-between" data_wromo_id="a_for_employers_51930">
+                            For Employers
+                            <span class="text-right" data_wromo_id="span_item_61541">
+                                <i class="ph ph-caret-right text-xl" data_wromo_id="i_item_51868"></i>
+                            </span>
+                        </a>
+                        <div class="sub_nav_mobile">
+                            <button class="back_btn flex items-center gap-3" data_wromo_id="button_back_27262">
+                                <i class="ph ph-caret-left text-xl" data_wromo_id="i_item_20517"></i>
+                                Back
+                            </button>
+                            <div class="list-nav-item w-full pt-2 pb-6">
+                                <ul>
+                                    <li class="nav_item">
+                                        <a href="#!" class="link flex items-center justify-between w-full py-2 text-xl font-semibold capitalize" data_wromo_id="a_browse_services_7318">
+                                            Browse services
+                                            <span class="text-right" data_wromo_id="span_item_69621">
+                                                <i class="ph ph-caret-right text-xl" data_wromo_id="i_item_81309"></i>
+                                            </span>
+                                        </a>
+                                        <div class="sub_nav_mobile2">
+                                            <button class="back_btn flex items-center gap-3" data_wromo_id="button_back_23389">
+                                                <i class="ph ph-caret-left text-xl" data_wromo_id="i_item_33750"></i>
+                                                Back
+                                            </button>
+                                            <div class="list-nav-item w-full pt-2 pb-6">
+                                                <ul>
+                                                    <li class="nav_item">
+                                                        <a href="services-default.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_services_defaul_72230"> services default </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="services-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_services_grid_34872"> services grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="services-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_services_list_82315"> services list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="services-sidebar-grid-3cols.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_services_sideba_16820"> services sidebar grid 3 cols </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="services-sidebar-grid-2cols.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_services_sideba_86113"> services sidebar grid 2 cols </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="services-sidebar-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_services_sideba_30992"> services sidebar list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="services-fullwidth-grid-5cols.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_services_fullwi_4838"> services fullwidth grid 5 cols </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="services-fullwidth-grid-4cols.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_services_fullwi_92523"> services fullwidth grid 4 cols </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="services-fullwidth-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_services_fullwi_33445"> services fullwidth list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="services-detail1.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_services_detail_7260"> services detail 1 </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="services-detail2.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_services_detail_97345"> services detail 2 </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="#!" class="link flex items-center justify-between w-full py-2 text-xl font-semibold capitalize" data_wromo_id="a_browse_candidat_47647">
+                                            Browse candidates
+                                            <span class="text-right" data_wromo_id="span_item_57367">
+                                                <i class="ph ph-caret-right text-xl" data_wromo_id="i_item_4569"></i>
+                                            </span>
+                                        </a>
+                                        <div class="sub_nav_mobile2">
+                                            <button class="back_btn flex items-center gap-3" data_wromo_id="button_back_73734">
+                                                <i class="ph ph-caret-left text-xl" data_wromo_id="i_item_2359"></i>
+                                                Back
+                                            </button>
+                                            <div class="list-nav-item w-full pt-2 pb-6">
+                                                <ul>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-default.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_defa_24875"> candidates default </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_grid_8115"> candidates grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_list_43714"> candidates list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-sidebar-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_side_90071"> candidates sidebar grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-sidebar-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_side_59046"> candidates sidebar list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-top-map-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_top__48141"> candidates top map grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-top-map-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_top__93827"> candidates top map list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-half-map-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_half_60300"> candidates half map grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-half-map-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_half_48514"> candidates half map list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-fullwidth-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_full_57773"> candidates fullwidth grid </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-fullwidth-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_full_7013"> candidates fullwidth list </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-detail1.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_deta_12990"> candidates detail 1 </a>
+                                                    </li>
+                                                    <li class="nav_item">
+                                                        <a href="candidates-detail2.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_candidates_deta_58938"> candidates detail 2 </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="become-buyer.html" class="link flex items-center justify-between w-full py-2 text-xl font-semibold capitalize" data_wromo_id="a_become_a_buyer_81416"> Become a buyer </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="employers-dashboard.html" class="link flex items-center justify-between w-full py-2 text-xl font-semibold capitalize" data_wromo_id="a_employer_dashbo_40720"> employer Dashboard </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item py-2">
+                        <a href="#!" class="text-xl font-semibold flex items-center justify-between" data_wromo_id="a_blogs_93316">
+                            Blogs
+                            <span class="text-right" data_wromo_id="span_item_44416">
+                                <i class="ph ph-caret-right text-xl" data_wromo_id="i_item_15892"></i>
+                            </span>
+                        </a>
+                        <div class="sub_nav_mobile">
+                            <button class="back_btn flex items-center gap-3" data_wromo_id="button_back_1269">
+                                <i class="ph ph-caret-left text-xl" data_wromo_id="i_item_71976"></i>
+                                Back
+                            </button>
+                            <div class="list-nav-item w-full pt-2 pb-6">
+                                <ul>
+                                    <li class="nav_item">
+                                        <a href="blog-default.html" class="inline-block text-xl font-semibold py-2 capitalize active" data_wromo_id="a_blog_default_5824"> Blog default </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="blog-grid.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_blog_grid_47789"> Blog grid </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="blog-list.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_blog_list_34412"> Blog list </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="blog-detail1.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_blog_detail_1_92884"> Blog detail 1 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="blog-detail2.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_blog_detail_2_17505"> Blog detail 2 </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item py-2">
+                        <a href="#!" class="text-xl font-semibold flex items-center justify-between" data_wromo_id="a_pages_89177">
+                            Pages
+                            <span class="text-right" data_wromo_id="span_item_9122">
+                                <i class="ph ph-caret-right text-xl" data_wromo_id="i_item_83345"></i>
+                            </span>
+                        </a>
+                        <div class="sub_nav_mobile">
+                            <button class="back_btn flex items-center gap-3" data_wromo_id="button_back_32496">
+                                <i class="ph ph-caret-left text-xl" data_wromo_id="i_item_88218"></i>
+                                Back
+                            </button>
+                            <div class="list-nav-item w-full pt-2 pb-6">
+                                <ul>
+                                    <li class="nav_item">
+                                        <a href="about1.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_about_us_1_43520"> About Us 1 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="about2.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_about_us_2_87860"> About Us 2 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="pricing.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_pricing_plan_4008"> Pricing Plan </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="contact1.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_contact_us_1_19470"> Contact Us 1 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="contact2.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_contact_us_2_20681"> Contact Us 2 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="faqs.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_faqs_19813"> Faqs </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="term-of-use.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_terms_of_use_14994"> Terms of use </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="error-404.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_error_404_28560"> Error 404 </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="login.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_login_9455"> Login </a>
+                                    </li>
+                                    <li class="nav_item">
+                                        <a href="register.html" class="inline-block text-xl font-semibold py-2 capitalize" data_wromo_id="a_register_97303"> Register </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="./assets/js/jquery.min.js"></script>
+        <script src="./assets/js/phosphor-icons.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <script src="./assets/js/leaflet.js"></script>
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+        <script src="./assets/js/main.js"></script>
+    
+
+</body></html>

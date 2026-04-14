@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wromo Pro Editor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        body, html { margin: 0; height: 100%; overflow: hidden; background-color: #f1f5f9; }
+        #app-layout { display: flex; flex-direction: column; height: 100vh; }
+        
+        #top-bar { height: 60px; background: #0f172a; color: white; display: flex; align-items: center; justify-content: space-between; padding: 0 20px; z-index: 50; flex-shrink: 0; }
+        
+        #workspace { display: flex; flex-grow: 1; overflow: hidden; position: relative; }
+        #site-preview { flex-grow: 1; border: none; background: white; width: 100%; height: 100%; }
+        
+        #properties-panel { 
+            width: 350px; background: white; border-left: 1px solid #e2e8f0; 
+            display: flex; flex-direction: column; transform: translateX(100%);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: absolute; right: 0; top: 0; bottom: 0; z-index: 40; box-shadow: -5px 0 25px rgba(0,0,0,0.1);
+        }
+        #properties-panel.open { transform: translateX(0); }
+
+        /* Modal Pagini */
+        #pages-modal { backdrop-filter: blur(4px); }
+    </style>
+</head>
+<body>
+
+<div id="pages-modal" class="fixed inset-0 z-[100] bg-slate-900/80 hidden flex justify-center items-center">
+    <div class="bg-white w-full max-w-4xl h-[70vh] rounded-xl shadow-2xl flex flex-col overflow-hidden">
+        <div class="p-5 border-b flex justify-between items-center bg-slate-50">
+            <div>
+                <h2 class="text-xl font-bold text-slate-800">Selectează Pagina</h2>
+                <p class="text-xs text-slate-500">Alege o pagină pentru a o edita vizual.</p>
+            </div>
+            <button onclick="EditorApp.closePageSelector()" class="text-slate-400 hover:text-red-500 text-2xl"><i class="ph-bold ph-x"></i></button>
+        </div>
+        <div id="pages-grid" class="p-6 grid grid-cols-1 md:grid-cols-3 gap-6 overflow-y-auto bg-slate-100 flex-grow">
+            </div>
+    </div>
+</div>
+
+<div id="app-layout">
+    <div id="top-bar">
+        <div class="flex items-center gap-3">
+            <i class="ph-fill ph-layout text-2xl text-blue-500"></i>
+            <div>
+                <h1 class="font-bold text-sm leading-tight">Wromo Pro Editor</h1>
+                <span id="status-badge" class="text-[10px] text-yellow-400 font-mono">Loading...</span>
+            </div>
+        </div>
+        
+        <div class="flex items-center gap-4">
+            <button onclick="EditorApp.openPageSelector()" class="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 border border-slate-600 rounded px-3 py-1.5 text-sm text-white transition">
+                <i class="ph-bold ph-files text-blue-400"></i>
+                <span id="current-page-label">index.html</span>
+                <i class="ph-bold ph-caret-down text-slate-400 ml-2 text-xs"></i>
+            </button>
+            
+            <button onclick="EditorApp.saveChanges()" id="save-btn" class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-1.5 rounded text-sm font-bold shadow transition flex items-center gap-2">
+                <i class="ph-bold ph-floppy-disk"></i> Save JSON
+            </button>
+        </div>
+    </div>
+
+    <div id="workspace">
+        <iframe id="site-preview"></iframe>
+
+        <div id="properties-panel">
+            <div class="p-4 border-b bg-slate-50 flex justify-between items-center">
+                <h3 class="font-bold text-slate-800 flex items-center gap-2"><i class="ph-bold ph-faders text-blue-600"></i> Properties</h3>
+                <button onclick="EditorApp.closeSidebar()" class="text-slate-400 hover:text-red-500"><i class="ph-bold ph-x text-lg"></i></button>
+            </div>
+            
+            <div class="p-3 bg-blue-50 border-b border-blue-100 flex justify-between items-center">
+                <p class="text-[10px] font-mono text-blue-800 break-all" id="active-id-display">ID: ...</p>
+                <span id="draft-indicator" class="text-[9px] bg-yellow-200 text-yellow-800 px-1 py-0.5 rounded hidden">Local Draft</span>
+            </div>
+
+            <div id="dynamic-inputs" class="p-5 overflow-y-auto flex-grow space-y-5"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+const CONFIG = {
+    dataFolderUrl: "./data/", 
+    pagesListUrl: "./data/pages.json", // Locația listei de pagini
+    apiUrl: "https://components-json-wromo-162887562432.europe-west1.run.app/manageContent",
+    bucketName: "theme", 
+    folderPath: "/data" 
+};
+
+const EditorApp = {
+    iframe: document.getElementById('site-preview'),
+    currentJsonData: null,
+    currentJsonFileName: null,
+    currentPageFile: "index.html",
+    activeElementId: null,
+
+    // --- NOU: MANAGER DE PAGINI ---
+    openPageSelector: async () => {
+        document.getElementById('pages-modal').classList.remove('hidden');
+        const grid = document.getElementById('pages-grid');
+        grid.innerHTML = '<div class="col-span-full text-center text-slate-500">Se încarcă paginile...</div>';
+
+        try {
+            const res = await fetch(`${CONFIG.pagesListUrl}?t=${Date.now()}`);
+            if(!res.ok) throw new Error("Nu s-a găsit pages.json în folderul /data/");
+            const pages = await res.json();
+            
+            grid.innerHTML = '';
+            pages.forEach(page => {
+                const isCurrent = page.file === EditorApp.currentPageFile;
+                grid.innerHTML += `
+                    <div onclick="EditorApp.changePage('${page.file}')" class="bg-white rounded-xl shadow-sm border ${isCurrent ? 'border-blue-500 ring-2 ring-blue-200' : 'border-slate-200 hover:border-blue-300 hover:shadow-md'} overflow-hidden cursor-pointer transition group">
+                        <div class="h-32 bg-slate-200 relative">
+                            <img src="${page.preview}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                            ${isCurrent ? '<div class="absolute top-2 right-2 bg-blue-600 text-white text-[10px] font-bold px-2 py-1 rounded">ACTIV</div>' : ''}
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-slate-800">${page.name}</h3>
+                            <p class="text-xs font-mono text-slate-400 mt-1">${page.file}</p>
+                        </div>
+                    </div>
+                `;
+            });
+        } catch (e) {
+            grid.innerHTML = `<div class="col-span-full text-center text-red-500">Eroare: Creează fișierul pages.json în folderul /data/<br><br><span class="text-xs text-slate-400">${e.message}</span></div>`;
+        }
+    },
+
+    closePageSelector: () => document.getElementById('pages-modal').classList.add('hidden'),
+
+    changePage: (filename) => {
+        EditorApp.currentPageFile = filename;
+        document.getElementById('current-page-label').innerText = filename;
+        EditorApp.closePageSelector();
+        EditorApp.loadPage();
+    },
+
+    // --- LOGICA DE ÎNCĂRCARE ---
+    loadPage: async () => {
+        const baseName = EditorApp.currentPageFile.replace('.html', '');
+        EditorApp.currentJsonFileName = `${baseName}_structure.json`;
+        const localDraftKey = `wromo_draft_${EditorApp.currentJsonFileName}`;
+        
+        EditorApp.setStatus("Loading...", "text-yellow-400");
+        EditorApp.closeSidebar();
+
+        try {
+            // A. Citim JSON server
+            let serverJson = { metadata: {}, elements: [] };
+            try {
+                const jsonRes = await fetch(`${CONFIG.dataFolderUrl}${EditorApp.currentJsonFileName}?t=${Date.now()}`);
+                if (jsonRes.ok) {
+                    const raw = await jsonRes.json();
+                    serverJson = raw.elements ? raw : { metadata: {}, elements: Array.isArray(raw) ? raw : [raw] };
+                }
+            } catch (e) { console.warn("Nu s-a gasit JSON existent."); }
+
+            // B. Draft Local
+            const localDraft = localStorage.getItem(localDraftKey);
+            if (localDraft) {
+                EditorApp.currentJsonData = JSON.parse(localDraft);
+                document.getElementById('draft-indicator').classList.remove('hidden');
+            } else {
+                EditorApp.currentJsonData = serverJson;
+                document.getElementById('draft-indicator').classList.add('hidden');
+            }
+
+            // C. Încărcare iframe real
+            EditorApp.iframe.src = `./${EditorApp.currentPageFile}?t=${Date.now()}`;
+
+            EditorApp.iframe.onload = () => {
+                try {
+                    const doc = EditorApp.iframe.contentDocument || EditorApp.iframe.contentWindow.document;
+                    if(!doc) throw new Error("Fără acces Iframe");
+
+                    // Injectare CSS (Hover + Meniu Contextual)
+                    const style = doc.createElement('style');
+                    style.innerHTML = `
+                        .wromo-hover-outline { outline: 2px solid #3b82f6 !important; outline-offset: -2px; cursor: pointer !important; position: relative; z-index: 9999; }
+                        #wromo-ctx-menu { position: fixed; background: white; border: 1px solid #cbd5e1; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); border-radius: 6px; z-index: 999999; display: none; min-width: 200px; font-family: sans-serif; overflow: hidden; }
+                        .wromo-ctx-item { padding: 8px 12px; font-size: 12px; color: #334155; cursor: pointer; border-bottom: 1px solid #f1f5f9; display: flex; justify-content: space-between; align-items: center; }
+                        .wromo-ctx-item:hover { background-color: #eff6ff; color: #2563eb; }
+                        .wromo-ctx-tag { font-weight: bold; background: #e2e8f0; padding: 2px 4px; border-radius: 3px; font-size: 10px; margin-right: 8px; }
+                    `;
+                    doc.head.appendChild(style);
+
+                    // Meniu Contextual HTML
+                    const ctxMenu = doc.createElement('div');
+                    ctxMenu.id = 'wromo-ctx-menu';
+                    doc.body.appendChild(ctxMenu);
+
+                    doc.querySelectorAll('a').forEach(a => {
+                        a.addEventListener('click', e => { if(!a.getAttribute('href')?.startsWith('javascript')) e.preventDefault(); });
+                    });
+
+                    // Functie helper pentru a procesa un element dat click/selectat
+                    const processElementSelect = (el) => {
+                        const id = el.getAttribute('data_wromo_id');
+                        const tag = el.tagName;
+                        let payload = { id, tag, content: null, src: null, href: null };
+                        if (tag === 'IMG') payload.src = el.getAttribute('src');
+                        else payload.content = el.innerHTML;
+                        const linkParent = el.closest('a');
+                        if (linkParent) payload.href = linkParent.getAttribute('href');
+                        window.parent.postMessage({ type: 'WROMO_SELECT', payload: payload }, '*');
+                    };
+
+                    // Evenimente normale click stanga
+                    const elements = doc.querySelectorAll('[data_wromo_id]');
+                    elements.forEach(el => {
+                        el.addEventListener('mouseenter', () => el.classList.add('wromo-hover-outline'));
+                        el.addEventListener('mouseleave', () => el.classList.remove('wromo-hover-outline'));
+                        el.addEventListener('click', e => {
+                            e.preventDefault(); e.stopPropagation();
+                            ctxMenu.style.display = 'none'; // ascundem meniul
+                            processElementSelect(el);
+                        });
+                    });
+
+                    // --- NOU: CLICK DREAPTA (DEEP SELECT) ---
+                    doc.addEventListener('contextmenu', (e) => {
+                        e.preventDefault();
+                        
+                        // Gasim toate straturile de sub cursor
+                        const elementsUnderMouse = doc.elementsFromPoint(e.clientX, e.clientY);
+                        
+                        // Filtram doar cele cu data_wromo_id
+                        const editableElements = elementsUnderMouse.filter(el => el.hasAttribute('data_wromo_id'));
+                        
+                        if(editableElements.length === 0) {
+                            ctxMenu.style.display = 'none';
+                            return;
+                        }
+
+                        ctxMenu.innerHTML = '<div style="padding: 6px 12px; background: #f8fafc; font-size: 10px; font-weight: bold; color: #64748b; border-bottom: 1px solid #e2e8f0;">Selectează stratul ascuns:</div>';
+                        
+                        editableElements.forEach(el => {
+                            const item = doc.createElement('div');
+                            item.className = 'wromo-ctx-item';
+                            
+                            const tag = el.tagName;
+                            // Previzualizare text sau descriere
+                            let previewText = el.innerText ? el.innerText.substring(0, 15) + '...' : (tag === 'IMG' ? 'Imagine' : 'Bloc/Secțiune');
+                            
+                            item.innerHTML = `<div><span class="wromo-ctx-tag">${tag}</span> ${previewText}</div>`;
+                            
+                            item.addEventListener('click', (evt) => {
+                                evt.stopPropagation();
+                                ctxMenu.style.display = 'none';
+                                processElementSelect(el); // Procesam stratul ales
+                            });
+                            
+                            ctxMenu.appendChild(item);
+                        });
+
+                        // Pozitionare Meniu
+                        ctxMenu.style.left = `${e.clientX}px`;
+                        ctxMenu.style.top = `${e.clientY}px`;
+                        ctxMenu.style.display = 'block';
+                    });
+
+                    // Inchidem meniul click dreapta daca dam click normal oriunde
+                    doc.addEventListener('click', () => { ctxMenu.style.display = 'none'; });
+
+                    EditorApp.applyJsonToIframe(doc);
+                    EditorApp.setStatus(`Ready (${EditorApp.currentJsonFileName})`, "text-green-400");
+                } catch(err) {
+                    console.error("Eroare Iframe:", err);
+                    EditorApp.setStatus("Iframe Error", "text-red-400");
+                }
+            };
+        } catch (error) { EditorApp.setStatus(`Eroare generală`, "text-red-400"); }
+    },
+
+    applyJsonToIframe: (doc) => {
+        if (!EditorApp.currentJsonData || !EditorApp.currentJsonData.elements) return;
+        EditorApp.currentJsonData.elements.forEach(item => {
+            const el = doc.querySelector(`[data_wromo_id="${item.id}"]`);
+            if (el) {
+                if (item.src !== undefined && el.tagName === 'IMG') el.setAttribute('src', item.src);
+                if (item.content !== undefined && el.tagName !== 'IMG') el.innerHTML = item.content;
+                const linkDest = item.url !== undefined ? item.url : item.href;
+                if (linkDest !== undefined) {
+                    const a = el.tagName === 'A' ? el : el.closest('a');
+                    if (a) a.setAttribute('href', linkDest);
+                }
+            }
+        });
+    },
+
+    handleIframeMessage: (event) => {
+        if (event.data && event.data.type === 'WROMO_SELECT') EditorApp.openSidebar(event.data.payload);
+    },
+
+    // --- SIDEBAR & SALVARE ---
+    openSidebar: (elData) => {
+        EditorApp.activeElementId = elData.id;
+        document.getElementById('active-id-display').innerText = `ID: ${elData.id} (${elData.tag})`;
+        const container = document.getElementById('dynamic-inputs');
+        container.innerHTML = ''; 
+
+        let jsonItem = EditorApp.currentJsonData.elements.find(item => item.id === elData.id);
+        if (!jsonItem) {
+            jsonItem = { id: elData.id };
+            EditorApp.currentJsonData.elements.push(jsonItem);
+        }
+
+        if (elData.content !== null) container.appendChild(EditorApp.createInputBlock('Text / HTML', 'content', 'textarea', jsonItem.content || elData.content));
+        if (elData.src !== null) container.appendChild(EditorApp.createInputBlock('Image Source', 'src', 'input', jsonItem.src || elData.src));
+        if (elData.href !== null || jsonItem.href !== undefined || jsonItem.url !== undefined) {
+            const linkKey = jsonItem.url !== undefined ? 'url' : 'href';
+            container.appendChild(EditorApp.createInputBlock('Link Destination', linkKey, 'input', jsonItem[linkKey] || elData.href || '#'));
+        }
+
+        document.getElementById('properties-panel').classList.add('open');
+    },
+
+    createInputBlock: (labelTxt, propertyKey, type, initialValue) => {
+        const wrapper = document.createElement('div');
+        wrapper.innerHTML = `<label class="block text-xs font-bold text-slate-500 uppercase mb-1">${labelTxt}</label>`;
+        
+        const input = document.createElement(type === 'textarea' ? 'textarea' : 'input');
+        input.className = "w-full p-2.5 bg-slate-50 border border-slate-300 rounded focus:ring-2 focus:ring-blue-500 focus:outline-none text-sm";
+        if(type === 'textarea') input.rows = 5; else input.type = 'text';
+        input.value = initialValue;
+
+        input.addEventListener('input', (e) => {
+            const val = e.target.value;
+            const jsonItem = EditorApp.currentJsonData.elements.find(item => item.id === EditorApp.activeElementId);
+            if(jsonItem) jsonItem[propertyKey] = val;
+
+            const localDraftKey = `wromo_draft_${EditorApp.currentJsonFileName}`;
+            localStorage.setItem(localDraftKey, JSON.stringify(EditorApp.currentJsonData));
+            document.getElementById('draft-indicator').classList.remove('hidden');
+
+            const doc = EditorApp.iframe.contentDocument || EditorApp.iframe.contentWindow.document;
+            const el = doc.querySelector(`[data_wromo_id="${EditorApp.activeElementId}"]`);
+            if (el) {
+                if (propertyKey === 'src' && el.tagName === 'IMG') el.setAttribute('src', val);
+                else if (propertyKey === 'content') el.innerHTML = val;
+                else if (propertyKey === 'href' || propertyKey === 'url') {
+                    const a = el.closest('a');
+                    if(a) a.setAttribute('href', val);
+                }
+            }
+        });
+
+        wrapper.appendChild(input);
+        return wrapper;
+    },
+
+    closeSidebar: () => document.getElementById('properties-panel').classList.remove('open'),
+
+    saveChanges: async () => {
+        const btn = document.getElementById('save-btn');
+        btn.innerHTML = `<i class="ph-bold ph-spinner animate-spin"></i> Saving...`;
+        
+        try {
+            const response = await fetch(CONFIG.apiUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    action: 'save', 
+                    fileName: EditorApp.currentJsonFileName,
+                    data: EditorApp.currentJsonData, 
+                    bucketName: CONFIG.bucketName,
+                    folderPath: CONFIG.folderPath
+                })
+            });
+
+            if(!response.ok) throw new Error("Eroare la Cloud Function");
+            
+            const localDraftKey = `wromo_draft_${EditorApp.currentJsonFileName}`;
+            localStorage.removeItem(localDraftKey);
+            document.getElementById('draft-indicator').classList.add('hidden');
+
+            EditorApp.setStatus("Saved to Cloud!", "text-green-400");
+            btn.innerHTML = `<i class="ph-bold ph-check"></i> Saved`;
+            btn.classList.replace('bg-blue-600', 'bg-green-600');
+            setTimeout(() => {
+                btn.innerHTML = `<i class="ph-bold ph-floppy-disk"></i> Save JSON`;
+                btn.classList.replace('bg-green-600', 'bg-blue-600');
+            }, 3000);
+
+        } catch (err) {
+            EditorApp.setStatus("Save Failed!", "text-red-400");
+            btn.innerHTML = `<i class="ph-bold ph-warning"></i> Error`;
+            btn.classList.replace('bg-blue-600', 'bg-red-600');
+        }
+    },
+
+    setStatus: (msg, colorClass) => {
+        const el = document.getElementById('status-badge');
+        el.className = `text-[10px] font-mono ${colorClass}`;
+        el.innerText = msg;
+    }
+};
+
+window.addEventListener('message', EditorApp.handleIframeMessage);
+
+// Pornim aplicatia cu pagina prestabilita (index.html)
+window.onload = EditorApp.loadPage;
+</script>
+</body>
+</html>

@@ -1,0 +1,4549 @@
+{
+  "metadata": {
+    "exportedAt": "2026-04-14T09:59:32.219Z",
+    "sourceFile": "project-half-map-grid.html",
+    "totalElements": 820
+  },
+  "elements": [
+    {
+      "id": "h1_item_3754",
+      "type": "h1",
+      "content": "<a href=\"index.html\"> <img src=\"./assets/images/logo-white.png\" alt=\"logo-white\" class=\"logo-white md:h-[42px] h-8 w-auto\"> <img src=\"./assets/images/logo.png\" alt=\"logo\" class=\"logo-black md:h-[42px] h-8 w-auto hidden\"> </a>"
+    },
+    {
+      "id": "a_item_49291",
+      "type": "a",
+      "content": "<img src=\"./assets/images/logo-white.png\" alt=\"logo-white\" class=\"logo-white md:h-[42px] h-8 w-auto\"> <img src=\"./assets/images/logo.png\" alt=\"logo\" class=\"logo-black md:h-[42px] h-8 w-auto hidden\">",
+      "url": "index.html"
+    },
+    {
+      "id": "img_item_6530",
+      "type": "img",
+      "src": "./assets/images/logo-white.png"
+    },
+    {
+      "id": "img_item_22533",
+      "type": "img",
+      "src": "./assets/images/logo.png"
+    },
+    {
+      "id": "button_categories_73073",
+      "type": "button",
+      "content": "<span class=\"ph ph-stack text-2xl text-primary\"></span> <span>Categories</span>"
+    },
+    {
+      "id": "span_item_89592",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_categories_66437",
+      "type": "span",
+      "content": "Categories"
+    },
+    {
+      "id": "button_graphic___desig_45947",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-desktop text-2xl\"></span> <strong class=\"category_name text-title\">Graphic &amp; Design</strong>"
+    },
+    {
+      "id": "span_item_21263",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_graphic___desig_37305",
+      "type": "strong",
+      "content": "Graphic &amp; Design"
+    },
+    {
+      "id": "button_digital_marketi_46366",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-megaphone-simple text-2xl\"></span> <strong class=\"category_name text-title\">Digital Marketing</strong>"
+    },
+    {
+      "id": "span_item_94811",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_digital_marketi_48280",
+      "type": "strong",
+      "content": "Digital Marketing"
+    },
+    {
+      "id": "button_programming___t_71675",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-brackets-angle text-2xl\"></span> <strong class=\"category_name text-title\">Programming &amp; Tech</strong>"
+    },
+    {
+      "id": "span_item_3977",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_programming___t_55966",
+      "type": "strong",
+      "content": "Programming &amp; Tech"
+    },
+    {
+      "id": "button_wrting___transl_64302",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-pencil-simple-line text-2xl\"></span> <strong class=\"category_name text-title\">Wrting &amp; Translation</strong>"
+    },
+    {
+      "id": "span_item_94801",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_wrting___transl_34087",
+      "type": "strong",
+      "content": "Wrting &amp; Translation"
+    },
+    {
+      "id": "button_videos___animat_56184",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-video text-2xl\"></span> <strong class=\"category_name text-title\">Videos &amp; Animation</strong>"
+    },
+    {
+      "id": "span_item_59809",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_videos___animat_41421",
+      "type": "strong",
+      "content": "Videos &amp; Animation"
+    },
+    {
+      "id": "button_mussic___audio_73119",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-music-notes text-2xl\"></span> <strong class=\"category_name text-title\">Mussic &amp; Audio</strong>"
+    },
+    {
+      "id": "span_item_14042",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_mussic___audio_61522",
+      "type": "strong",
+      "content": "Mussic &amp; Audio"
+    },
+    {
+      "id": "button_ai_services_23450",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-head-circuit text-2xl\"></span> <strong class=\"category_name text-title\">AI Services</strong>"
+    },
+    {
+      "id": "span_item_91239",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_ai_services_13483",
+      "type": "strong",
+      "content": "AI Services"
+    },
+    {
+      "id": "button_photography_49634",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-camera text-2xl\"></span> <strong class=\"category_name text-title\">Photography</strong>"
+    },
+    {
+      "id": "span_item_65612",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_photography_16383",
+      "type": "strong",
+      "content": "Photography"
+    },
+    {
+      "id": "strong_websites_85146",
+      "type": "strong",
+      "content": "Websites"
+    },
+    {
+      "id": "a_website_develop_18234",
+      "type": "a",
+      "content": "Website Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_website_mainten_60730",
+      "type": "a",
+      "content": "Website Maintenance",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_wordpress_12490",
+      "type": "a",
+      "content": "WordPress",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_shopify_80437",
+      "type": "a",
+      "content": "Shopify",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_application_89223",
+      "type": "strong",
+      "content": "Application"
+    },
+    {
+      "id": "a_web_application_96925",
+      "type": "a",
+      "content": "Web Applications",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_game_developmen_62995",
+      "type": "a",
+      "content": "Game Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_chatbot_develop_88170",
+      "type": "a",
+      "content": "Chatbot Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_desktop_applica_44332",
+      "type": "a",
+      "content": "Desktop Applications",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_software_1592",
+      "type": "strong",
+      "content": "Software"
+    },
+    {
+      "id": "a_software_develo_14904",
+      "type": "a",
+      "content": "Software Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_apis___integrat_53804",
+      "type": "a",
+      "content": "APIs &amp; Integrations",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ai_development_35319",
+      "type": "a",
+      "content": "AI Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_plugins_develop_20763",
+      "type": "a",
+      "content": "Plugins Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_mobile_apps_83648",
+      "type": "strong",
+      "content": "Mobile Apps"
+    },
+    {
+      "id": "a_mobile_app_deve_59547",
+      "type": "a",
+      "content": "Mobile App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cross_platform__16108",
+      "type": "a",
+      "content": "Cross-platform Apps",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_android_app_dev_84524",
+      "type": "a",
+      "content": "Android App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ios_app_develop_6293",
+      "type": "a",
+      "content": "IOS App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_website_platfor_78894",
+      "type": "strong",
+      "content": "Website Platforms"
+    },
+    {
+      "id": "a_wix_30475",
+      "type": "a",
+      "content": "Wix",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_webflow_62187",
+      "type": "a",
+      "content": "Webflow",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_godaddy_32511",
+      "type": "a",
+      "content": "GoDaddy",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_woocommerce_12384",
+      "type": "a",
+      "content": "WooCommerce",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_cybersecurity_18744",
+      "type": "strong",
+      "content": "cybersecurity"
+    },
+    {
+      "id": "a_support___it_88939",
+      "type": "a",
+      "content": "Support &amp; IT",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cloud_computing_69624",
+      "type": "a",
+      "content": "Cloud Computing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_devops_engineer_20707",
+      "type": "a",
+      "content": "DevOps Engineering",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cybersecurity_97755",
+      "type": "a",
+      "content": "Cybersecurity",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_miscellaneous_95209",
+      "type": "strong",
+      "content": "Miscellaneous"
+    },
+    {
+      "id": "a_blockchain___so_78945",
+      "type": "a",
+      "content": "Blockchain &amp; Solutions",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cryptocurrencie_97121",
+      "type": "a",
+      "content": "Cryptocurrencies",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_electronics_eng_26969",
+      "type": "a",
+      "content": "Electronics Engineering",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_online_coding_l_59071",
+      "type": "a",
+      "content": "Online Coding Lessons",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_seo_58946",
+      "type": "strong",
+      "content": "SEO"
+    },
+    {
+      "id": "a_on_page_seo_66982",
+      "type": "a",
+      "content": "On-Page SEO",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_off_page_seo_96935",
+      "type": "a",
+      "content": "Off-Page SEO",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_technical_seo_94939",
+      "type": "a",
+      "content": "Technical SEO",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_local_seo_91339",
+      "type": "a",
+      "content": "Local SEO",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_content_marketi_7286",
+      "type": "strong",
+      "content": "Content Marketing"
+    },
+    {
+      "id": "a_content_strateg_29805",
+      "type": "a",
+      "content": "Content Strategy",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_blog_writing_18029",
+      "type": "a",
+      "content": "Blog Writing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_video_content_68460",
+      "type": "a",
+      "content": "Video Content",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_infographic_des_3713",
+      "type": "a",
+      "content": "Infographic Design",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_social_media_ma_49025",
+      "type": "strong",
+      "content": "Social Media Marketing"
+    },
+    {
+      "id": "a_facebook_market_99498",
+      "type": "a",
+      "content": "Facebook Marketing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_instagram_marke_47322",
+      "type": "a",
+      "content": "Instagram Marketing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_linkedin_market_98025",
+      "type": "a",
+      "content": "LinkedIn Marketing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_twitter_marketi_23048",
+      "type": "a",
+      "content": "Twitter Marketing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_email_marketing_8111",
+      "type": "strong",
+      "content": "Email Marketing"
+    },
+    {
+      "id": "a_email_campaigns_42999",
+      "type": "a",
+      "content": "Email Campaigns",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_newsletter_desi_78186",
+      "type": "a",
+      "content": "Newsletter Design",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_automation_94439",
+      "type": "a",
+      "content": "Automation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_drip_campaigns_26025",
+      "type": "a",
+      "content": "Drip Campaigns",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_paid_advertisin_72183",
+      "type": "strong",
+      "content": "Paid Advertising"
+    },
+    {
+      "id": "a_google_ads_2250",
+      "type": "a",
+      "content": "Google Ads",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_facebook_ads_35716",
+      "type": "a",
+      "content": "Facebook Ads",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_instagram_ads_22544",
+      "type": "a",
+      "content": "Instagram Ads",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_linkedin_ads_83940",
+      "type": "a",
+      "content": "LinkedIn Ads",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_analytics_85250",
+      "type": "strong",
+      "content": "Analytics"
+    },
+    {
+      "id": "a_google_analytic_80977",
+      "type": "a",
+      "content": "Google Analytics",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_conversion_trac_55895",
+      "type": "a",
+      "content": "Conversion Tracking",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_data_analysis_44648",
+      "type": "a",
+      "content": "Data Analysis",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_reporting_55282",
+      "type": "a",
+      "content": "Reporting",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_web_development_30844",
+      "type": "strong",
+      "content": "Web Development"
+    },
+    {
+      "id": "a_website_develop_65126",
+      "type": "a",
+      "content": "Website Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_website_mainten_56492",
+      "type": "a",
+      "content": "Website Maintenance",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_wordpress_94011",
+      "type": "a",
+      "content": "WordPress",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_shopify_1093",
+      "type": "a",
+      "content": "Shopify",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_mobile_developm_411",
+      "type": "strong",
+      "content": "Mobile Development"
+    },
+    {
+      "id": "a_mobile_app_deve_24733",
+      "type": "a",
+      "content": "Mobile App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cross_platform__73467",
+      "type": "a",
+      "content": "Cross-platform Apps",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_android_app_dev_9387",
+      "type": "a",
+      "content": "Android App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ios_app_develop_11148",
+      "type": "a",
+      "content": "iOS App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_software_develo_25127",
+      "type": "strong",
+      "content": "Software Development"
+    },
+    {
+      "id": "a_software_develo_95983",
+      "type": "a",
+      "content": "Software Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_apis___integrat_25557",
+      "type": "a",
+      "content": "APIs &amp; Integrations",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ai_development_67989",
+      "type": "a",
+      "content": "AI Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_plugins_develop_7764",
+      "type": "a",
+      "content": "Plugins Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_game_developmen_27688",
+      "type": "strong",
+      "content": "Game Development"
+    },
+    {
+      "id": "a_game_developmen_61273",
+      "type": "a",
+      "content": "Game Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_game_design_10838",
+      "type": "a",
+      "content": "Game Design",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ar_vr_developme_31648",
+      "type": "a",
+      "content": "AR/VR Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_mobile_game_dev_40362",
+      "type": "a",
+      "content": "Mobile Game Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_articles___blog_38831",
+      "type": "strong",
+      "content": "Articles &amp; Blog Posts"
+    },
+    {
+      "id": "a_seo_writing_46166",
+      "type": "a",
+      "content": "SEO Writing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_blog_posts_21004",
+      "type": "a",
+      "content": "Blog Posts",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_website_content_66808",
+      "type": "a",
+      "content": "Website Content",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_article_writing_80601",
+      "type": "a",
+      "content": "Article Writing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_technical_writi_44585",
+      "type": "strong",
+      "content": "Technical Writing"
+    },
+    {
+      "id": "a_user_manuals_80290",
+      "type": "a",
+      "content": "User Manuals",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_technical_docum_62564",
+      "type": "a",
+      "content": "Technical Documentation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_research_papers_3152",
+      "type": "a",
+      "content": "Research Papers",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_white_papers_75354",
+      "type": "a",
+      "content": "White Papers",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_translation_ser_96919",
+      "type": "strong",
+      "content": "Translation Services"
+    },
+    {
+      "id": "a_document_transl_29154",
+      "type": "a",
+      "content": "Document Translation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_website_transla_94510",
+      "type": "a",
+      "content": "Website Translation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_legal_translati_3496",
+      "type": "a",
+      "content": "Legal Translation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_medical_transla_81729",
+      "type": "a",
+      "content": "Medical Translation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_creative_writin_719",
+      "type": "strong",
+      "content": "Creative Writing"
+    },
+    {
+      "id": "a_scriptwriting_60771",
+      "type": "a",
+      "content": "Scriptwriting",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_storytelling_85306",
+      "type": "a",
+      "content": "Storytelling",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_poetry_18093",
+      "type": "a",
+      "content": "Poetry",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ghostwriting_52056",
+      "type": "a",
+      "content": "Ghostwriting",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_editing___proof_68947",
+      "type": "strong",
+      "content": "Editing &amp; Proofreading"
+    },
+    {
+      "id": "a_proofreading_44615",
+      "type": "a",
+      "content": "Proofreading",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_copy_editing_73197",
+      "type": "a",
+      "content": "Copy Editing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_content_editing_86856",
+      "type": "a",
+      "content": "Content Editing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_editorial_feedb_60975",
+      "type": "a",
+      "content": "Editorial Feedback",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_business_writin_54777",
+      "type": "strong",
+      "content": "Business Writing"
+    },
+    {
+      "id": "a_business_plans_83294",
+      "type": "a",
+      "content": "Business Plans",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_proposals_40890",
+      "type": "a",
+      "content": "Proposals",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_reports_38682",
+      "type": "a",
+      "content": "Reports",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_presentations_88185",
+      "type": "a",
+      "content": "Presentations",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_video_editing_63141",
+      "type": "strong",
+      "content": "Video Editing"
+    },
+    {
+      "id": "a_post_production_2403",
+      "type": "a",
+      "content": "Post-Production",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_color_correctio_68243",
+      "type": "a",
+      "content": "Color Correction",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_video_stitching_15351",
+      "type": "a",
+      "content": "Video Stitching",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_sound_design_57856",
+      "type": "a",
+      "content": "Sound Design",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_animation_75280",
+      "type": "strong",
+      "content": "Animation"
+    },
+    {
+      "id": "a_2d_animation_99776",
+      "type": "a",
+      "content": "2D Animation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_3d_animation_29005",
+      "type": "a",
+      "content": "3D Animation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_motion_graphics_80884",
+      "type": "a",
+      "content": "Motion Graphics",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_stop_motion_29760",
+      "type": "a",
+      "content": "Stop Motion",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_video_productio_68056",
+      "type": "strong",
+      "content": "Video Production"
+    },
+    {
+      "id": "a_filming_90967",
+      "type": "a",
+      "content": "Filming",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_directing_26316",
+      "type": "a",
+      "content": "Directing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_scriptwriting_70427",
+      "type": "a",
+      "content": "Scriptwriting",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_storyboarding_61890",
+      "type": "a",
+      "content": "Storyboarding",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_music_videos_38835",
+      "type": "strong",
+      "content": "Music Videos"
+    },
+    {
+      "id": "a_concept_develop_84380",
+      "type": "a",
+      "content": "Concept Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_filming___editi_44732",
+      "type": "a",
+      "content": "Filming &amp; Editing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_special_effects_72964",
+      "type": "a",
+      "content": "Special Effects",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_color_grading_11270",
+      "type": "a",
+      "content": "Color Grading",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_intros___outros_55728",
+      "type": "strong",
+      "content": "Intros &amp; Outros"
+    },
+    {
+      "id": "a_youtube_intros_73049",
+      "type": "a",
+      "content": "YouTube Intros",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_logo_animation_93428",
+      "type": "a",
+      "content": "Logo Animation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_end_screens_82888",
+      "type": "a",
+      "content": "End Screens",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_channel_trailer_67041",
+      "type": "a",
+      "content": "Channel Trailers",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_live_action_86010",
+      "type": "strong",
+      "content": "Live Action"
+    },
+    {
+      "id": "a_explainer_video_90999",
+      "type": "a",
+      "content": "Explainer Videos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_commercials_66010",
+      "type": "a",
+      "content": "Commercials",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_product_demos_91983",
+      "type": "a",
+      "content": "Product Demos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_corporate_video_18975",
+      "type": "a",
+      "content": "Corporate Videos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_visual_effects_32585",
+      "type": "strong",
+      "content": "Visual Effects"
+    },
+    {
+      "id": "a_compositing_23782",
+      "type": "a",
+      "content": "Compositing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_green_screen_37392",
+      "type": "a",
+      "content": "Green Screen",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_rotoscoping_44525",
+      "type": "a",
+      "content": "Rotoscoping",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_3d_tracking_33148",
+      "type": "a",
+      "content": "3D Tracking",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_music_productio_6614",
+      "type": "strong",
+      "content": "Music Production"
+    },
+    {
+      "id": "a_beat_making_60568",
+      "type": "a",
+      "content": "Beat Making",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_remixing_47543",
+      "type": "a",
+      "content": "Remixing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_songwriting_32304",
+      "type": "a",
+      "content": "Songwriting",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_jingles___intro_98425",
+      "type": "a",
+      "content": "Jingles &amp; Intros",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_audio_engineeri_55258",
+      "type": "strong",
+      "content": "Audio Engineering"
+    },
+    {
+      "id": "a_mixing___master_87435",
+      "type": "a",
+      "content": "Mixing &amp; Mastering",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_sound_design_47592",
+      "type": "a",
+      "content": "Sound Design",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_audio_editing_47653",
+      "type": "a",
+      "content": "Audio Editing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_restoration___r_481",
+      "type": "a",
+      "content": "Restoration &amp; Repair",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_voice_over_14891",
+      "type": "strong",
+      "content": "Voice Over"
+    },
+    {
+      "id": "a_narration_24679",
+      "type": "a",
+      "content": "Narration",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_character_voice_60768",
+      "type": "a",
+      "content": "Character Voices",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_podcast_intros_46260",
+      "type": "a",
+      "content": "Podcast Intros",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_commercials_37500",
+      "type": "a",
+      "content": "Commercials",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_music_lessons_46212",
+      "type": "strong",
+      "content": "Music Lessons"
+    },
+    {
+      "id": "a_instrumental_le_92965",
+      "type": "a",
+      "content": "Instrumental Lessons",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_vocal_coaching_47526",
+      "type": "a",
+      "content": "Vocal Coaching",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_music_theory_43379",
+      "type": "a",
+      "content": "Music Theory",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_songwriting_les_1155",
+      "type": "a",
+      "content": "Songwriting Lessons",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_jingles___drops_77599",
+      "type": "strong",
+      "content": "Jingles &amp; Drops"
+    },
+    {
+      "id": "a_radio_jingles_85040",
+      "type": "a",
+      "content": "Radio Jingles",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_dj_drops_19602",
+      "type": "a",
+      "content": "DJ Drops",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_podcast_intros_84091",
+      "type": "a",
+      "content": "Podcast Intros",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_tv___film_jingl_27736",
+      "type": "a",
+      "content": "TV &amp; Film Jingles",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_sound_effects_2463",
+      "type": "strong",
+      "content": "Sound Effects"
+    },
+    {
+      "id": "a_custom_sound_ef_85732",
+      "type": "a",
+      "content": "Custom Sound Effects",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_foley_2241",
+      "type": "a",
+      "content": "Foley",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_game_sound_effe_88951",
+      "type": "a",
+      "content": "Game Sound Effects",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_podcast_sound_e_67902",
+      "type": "a",
+      "content": "Podcast Sound Effects",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_machine_learnin_69168",
+      "type": "strong",
+      "content": "Machine Learning"
+    },
+    {
+      "id": "a_model_training_81605",
+      "type": "a",
+      "content": "Model Training",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_data_analysis_92388",
+      "type": "a",
+      "content": "Data Analysis",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_predictive_anal_16714",
+      "type": "a",
+      "content": "Predictive Analytics",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_natural_languag_76602",
+      "type": "a",
+      "content": "Natural Language Processing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_ai_development_39483",
+      "type": "strong",
+      "content": "AI Development"
+    },
+    {
+      "id": "a_chatbot_develop_3796",
+      "type": "a",
+      "content": "Chatbot Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ai_solutions_39635",
+      "type": "a",
+      "content": "AI Solutions",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_custom_ai_appli_96532",
+      "type": "a",
+      "content": "Custom AI Applications",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_machine_learnin_872",
+      "type": "a",
+      "content": "Machine Learning Algorithms",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_data_science_78576",
+      "type": "strong",
+      "content": "Data Science"
+    },
+    {
+      "id": "a_data_visualizat_36611",
+      "type": "a",
+      "content": "Data Visualization",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_data_engineerin_34404",
+      "type": "a",
+      "content": "Data Engineering",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_big_data_soluti_93588",
+      "type": "a",
+      "content": "Big Data Solutions",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_data_mining_90683",
+      "type": "a",
+      "content": "Data Mining",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_automation_81880",
+      "type": "strong",
+      "content": "Automation"
+    },
+    {
+      "id": "a_process_automat_258",
+      "type": "a",
+      "content": "Process Automation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_rpa_development_51050",
+      "type": "a",
+      "content": "RPA Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_automation_tool_36909",
+      "type": "a",
+      "content": "Automation Tools",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_workflow_automa_2280",
+      "type": "a",
+      "content": "Workflow Automation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_computer_vision_50080",
+      "type": "strong",
+      "content": "Computer Vision"
+    },
+    {
+      "id": "a_image_recogniti_12729",
+      "type": "a",
+      "content": "Image Recognition",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_object_detectio_94127",
+      "type": "a",
+      "content": "Object Detection",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_facial_recognit_89518",
+      "type": "a",
+      "content": "Facial Recognition",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_video_analysis_88653",
+      "type": "a",
+      "content": "Video Analysis",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_speech_recognit_83216",
+      "type": "strong",
+      "content": "Speech Recognition"
+    },
+    {
+      "id": "a_voice_assistant_84542",
+      "type": "a",
+      "content": "Voice Assistants",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_speech_to_text_84732",
+      "type": "a",
+      "content": "Speech to Text",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_text_to_speech_11113",
+      "type": "a",
+      "content": "Text to Speech",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_voice_command_s_62565",
+      "type": "a",
+      "content": "Voice Command Systems",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_ai_consulting_90708",
+      "type": "strong",
+      "content": "AI Consulting"
+    },
+    {
+      "id": "a_strategy_develo_7436",
+      "type": "a",
+      "content": "Strategy Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_implementation__53615",
+      "type": "a",
+      "content": "Implementation Guidance",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ai_roadmaps_45442",
+      "type": "a",
+      "content": "AI Roadmaps",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_technical_suppo_84726",
+      "type": "a",
+      "content": "Technical Support",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_portrait_photog_51216",
+      "type": "strong",
+      "content": "Portrait Photography"
+    },
+    {
+      "id": "a_headshots_72982",
+      "type": "a",
+      "content": "Headshots",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_family_portrait_21301",
+      "type": "a",
+      "content": "Family Portraits",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_event_photograp_74039",
+      "type": "a",
+      "content": "Event Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_fashion_photogr_60906",
+      "type": "a",
+      "content": "Fashion Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_commercial_phot_12194",
+      "type": "strong",
+      "content": "Commercial Photography"
+    },
+    {
+      "id": "a_product_photogr_89637",
+      "type": "a",
+      "content": "Product Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_food_photograph_59377",
+      "type": "a",
+      "content": "Food Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_real_estate_pho_47629",
+      "type": "a",
+      "content": "Real Estate Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_advertising_pho_49598",
+      "type": "a",
+      "content": "Advertising Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_travel_photogra_68600",
+      "type": "strong",
+      "content": "Travel Photography"
+    },
+    {
+      "id": "a_landscape_photo_66588",
+      "type": "a",
+      "content": "Landscape Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cityscape_photo_14687",
+      "type": "a",
+      "content": "Cityscape Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_street_photogra_38518",
+      "type": "a",
+      "content": "Street Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_adventure_photo_83512",
+      "type": "a",
+      "content": "Adventure Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_aerial_photogra_8146",
+      "type": "strong",
+      "content": "Aerial Photography"
+    },
+    {
+      "id": "a_drone_photograp_19596",
+      "type": "a",
+      "content": "Drone Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_aerial_videogra_78258",
+      "type": "a",
+      "content": "Aerial Videography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_real_estate_aer_82505",
+      "type": "a",
+      "content": "Real Estate Aerials",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_event_aerials_21350",
+      "type": "a",
+      "content": "Event Aerials",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_wedding_photogr_85860",
+      "type": "strong",
+      "content": "Wedding Photography"
+    },
+    {
+      "id": "a_engagement_phot_8673",
+      "type": "a",
+      "content": "Engagement Photos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_wedding_day_pho_4088",
+      "type": "a",
+      "content": "Wedding Day Photos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_bridal_portrait_31473",
+      "type": "a",
+      "content": "Bridal Portraits",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_reception_photo_38499",
+      "type": "a",
+      "content": "Reception Photos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_photo_editing_77999",
+      "type": "strong",
+      "content": "Photo Editing"
+    },
+    {
+      "id": "a_retouching_17960",
+      "type": "a",
+      "content": "Retouching",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_color_correctio_70489",
+      "type": "a",
+      "content": "Color Correction",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_photo_restorati_58857",
+      "type": "a",
+      "content": "Photo Restoration",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_background_remo_52616",
+      "type": "a",
+      "content": "Background Removal",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_homepages_7201",
+      "type": "a",
+      "content": "<span class=\"text-title relative\">Homepages</span> <span class=\"ph-bold ph-caret-down\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_homepages_14799",
+      "type": "span",
+      "content": "Homepages"
+    },
+    {
+      "id": "span_item_58347",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_home_freelancer_99062",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home1.webp\" alt=\"home1\" class=\"w-full rounded\"> <span>Home Freelancer 01</span>",
+      "url": "index.html"
+    },
+    {
+      "id": "img_item_2393",
+      "type": "img",
+      "src": "./assets/images/components/home1.webp"
+    },
+    {
+      "id": "span_home_freelancer_49747",
+      "type": "span",
+      "content": "Home Freelancer 01"
+    },
+    {
+      "id": "a_home_freelancer_45009",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home2.webp\" alt=\"home2\" class=\"w-full rounded\"> <span>Home Freelancer 02</span>",
+      "url": "freelancer2.html"
+    },
+    {
+      "id": "img_item_62946",
+      "type": "img",
+      "src": "./assets/images/components/home2.webp"
+    },
+    {
+      "id": "span_home_freelancer_50061",
+      "type": "span",
+      "content": "Home Freelancer 02"
+    },
+    {
+      "id": "a_home_freelancer_2320",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home3.webp\" alt=\"home3\" class=\"w-full rounded\"> <span>Home Freelancer 03</span>",
+      "url": "freelancer3.html"
+    },
+    {
+      "id": "img_item_54537",
+      "type": "img",
+      "src": "./assets/images/components/home3.webp"
+    },
+    {
+      "id": "span_home_freelancer_24882",
+      "type": "span",
+      "content": "Home Freelancer 03"
+    },
+    {
+      "id": "a_home_freelancer_13417",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home4.webp\" alt=\"home4\" class=\"w-full rounded\"> <span>Home Freelancer 04</span>",
+      "url": "freelancer4.html"
+    },
+    {
+      "id": "img_item_32074",
+      "type": "img",
+      "src": "./assets/images/components/home4.webp"
+    },
+    {
+      "id": "span_home_freelancer_59875",
+      "type": "span",
+      "content": "Home Freelancer 04"
+    },
+    {
+      "id": "a_home_freelancer_59682",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home5.webp\" alt=\"home5\" class=\"w-full rounded\"> <span>Home Freelancer 05</span>",
+      "url": "freelancer5.html"
+    },
+    {
+      "id": "img_item_30369",
+      "type": "img",
+      "src": "./assets/images/components/home5.webp"
+    },
+    {
+      "id": "span_home_freelancer_80066",
+      "type": "span",
+      "content": "Home Freelancer 05"
+    },
+    {
+      "id": "a_home_freelancer_47564",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home6.webp\" alt=\"home6\" class=\"w-full rounded\"> <span>Home Freelancer 06</span>",
+      "url": "freelancer6.html"
+    },
+    {
+      "id": "img_item_65097",
+      "type": "img",
+      "src": "./assets/images/components/home6.webp"
+    },
+    {
+      "id": "span_home_freelancer_81596",
+      "type": "span",
+      "content": "Home Freelancer 06"
+    },
+    {
+      "id": "a_home_freelancer_45632",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home7.webp\" alt=\"home7\" class=\"w-full rounded\"> <span>Home Freelancer 07</span>",
+      "url": "freelancer7.html"
+    },
+    {
+      "id": "img_item_12858",
+      "type": "img",
+      "src": "./assets/images/components/home7.webp"
+    },
+    {
+      "id": "span_home_freelancer_87932",
+      "type": "span",
+      "content": "Home Freelancer 07"
+    },
+    {
+      "id": "a_home_freelancer_6661",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home8.webp\" alt=\"home8\" class=\"w-full rounded\"> <span>Home Freelancer 08</span>",
+      "url": "freelancer8.html"
+    },
+    {
+      "id": "img_item_372",
+      "type": "img",
+      "src": "./assets/images/components/home8.webp"
+    },
+    {
+      "id": "span_home_freelancer_15904",
+      "type": "span",
+      "content": "Home Freelancer 08"
+    },
+    {
+      "id": "a_home_jobs_09_4249",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home9.webp\" alt=\"home9\" class=\"w-full rounded\"> <span>Home Jobs 09</span>",
+      "url": "jobs9.html"
+    },
+    {
+      "id": "img_item_49524",
+      "type": "img",
+      "src": "./assets/images/components/home9.webp"
+    },
+    {
+      "id": "span_home_jobs_09_41437",
+      "type": "span",
+      "content": "Home Jobs 09"
+    },
+    {
+      "id": "a_home_jobs_10_19761",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home10.webp\" alt=\"home10\" class=\"w-full rounded\"> <span>Home Jobs 10</span>",
+      "url": "jobs10.html"
+    },
+    {
+      "id": "img_item_49133",
+      "type": "img",
+      "src": "./assets/images/components/home10.webp"
+    },
+    {
+      "id": "span_home_jobs_10_29162",
+      "type": "span",
+      "content": "Home Jobs 10"
+    },
+    {
+      "id": "a_home_jobs_11_18110",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home11.webp\" alt=\"home11\" class=\"w-full rounded\"> <span>Home Jobs 11</span>",
+      "url": "jobs11.html"
+    },
+    {
+      "id": "img_item_89423",
+      "type": "img",
+      "src": "./assets/images/components/home11.webp"
+    },
+    {
+      "id": "span_home_jobs_11_68389",
+      "type": "span",
+      "content": "Home Jobs 11"
+    },
+    {
+      "id": "a_home_jobs_12_57054",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home12.webp\" alt=\"home12\" class=\"w-full rounded\"> <span>Home Jobs 12</span>",
+      "url": "jobs12.html"
+    },
+    {
+      "id": "img_item_32836",
+      "type": "img",
+      "src": "./assets/images/components/home12.webp"
+    },
+    {
+      "id": "span_home_jobs_12_7039",
+      "type": "span",
+      "content": "Home Jobs 12"
+    },
+    {
+      "id": "a_home_rtl_13_87961",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home13.webp\" alt=\"home13\" class=\"w-full rounded\"> <span>Home RTL 13</span>",
+      "url": "rtl13.html"
+    },
+    {
+      "id": "img_item_99470",
+      "type": "img",
+      "src": "./assets/images/components/home13.webp"
+    },
+    {
+      "id": "span_home_rtl_13_58523",
+      "type": "span",
+      "content": "Home RTL 13"
+    },
+    {
+      "id": "a_for_candidates_84074",
+      "type": "a",
+      "content": "<span class=\"text-title relative\">For Candidates</span> <span class=\"ph-bold ph-caret-down\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_for_candidates_68951",
+      "type": "span",
+      "content": "For Candidates"
+    },
+    {
+      "id": "span_item_32681",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_browse_jobs_4933",
+      "type": "a",
+      "content": "Browse jobs <span class=\"ph-bold ph-caret-right\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_73975",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_jobs_default_77924",
+      "type": "a",
+      "content": "jobs default",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_jobs_grid_1364",
+      "type": "a",
+      "content": "jobs grid",
+      "url": "jobs-grid.html"
+    },
+    {
+      "id": "a_jobs_list_24559",
+      "type": "a",
+      "content": "jobs list",
+      "url": "jobs-list.html"
+    },
+    {
+      "id": "a_jobs_top_map_58483",
+      "type": "a",
+      "content": "jobs top map",
+      "url": "jobs-top-map.html"
+    },
+    {
+      "id": "a_jobs_half_map_g_60083",
+      "type": "a",
+      "content": "jobs half map grid 1",
+      "url": "jobs-half-map-grid1.html"
+    },
+    {
+      "id": "a_jobs_half_map_g_51098",
+      "type": "a",
+      "content": "jobs half map grid 2",
+      "url": "jobs-half-map-grid2.html"
+    },
+    {
+      "id": "a_jobs_fullwidth_5374",
+      "type": "a",
+      "content": "jobs fullwidth",
+      "url": "jobs-fullwidth.html"
+    },
+    {
+      "id": "a_jobs_detail_1_1602",
+      "type": "a",
+      "content": "jobs detail 1",
+      "url": "jobs-detail1.html"
+    },
+    {
+      "id": "a_jobs_detail_2_67539",
+      "type": "a",
+      "content": "jobs detail 2",
+      "url": "jobs-detail2.html"
+    },
+    {
+      "id": "a_browse_projects_3907",
+      "type": "a",
+      "content": "Browse Projects <span class=\"ph-bold ph-caret-right\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_36031",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_project_default_29341",
+      "type": "a",
+      "content": "project default",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_project_grid_3__33269",
+      "type": "a",
+      "content": "project grid 3 columns",
+      "url": "project-grid-3col.html"
+    },
+    {
+      "id": "a_project_list_17412",
+      "type": "a",
+      "content": "project list",
+      "url": "project-list.html"
+    },
+    {
+      "id": "a_project_top_map_74271",
+      "type": "a",
+      "content": "project top map grid",
+      "url": "project-top-map-grid.html"
+    },
+    {
+      "id": "a_project_top_map_32265",
+      "type": "a",
+      "content": "project top map list",
+      "url": "project-top-map-list.html"
+    },
+    {
+      "id": "a_project_half_ma_14525",
+      "type": "a",
+      "content": "project half map grid",
+      "url": "project-half-map-grid.html"
+    },
+    {
+      "id": "a_project_half_ma_98865",
+      "type": "a",
+      "content": "project half map list",
+      "url": "project-half-map-list.html"
+    },
+    {
+      "id": "a_project_fullwid_1008",
+      "type": "a",
+      "content": "project fullwidth",
+      "url": "project-fullwidth.html"
+    },
+    {
+      "id": "a_project_detail__85685",
+      "type": "a",
+      "content": "project detail 1",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "a_project_detail__67055",
+      "type": "a",
+      "content": "project detail 2",
+      "url": "project-detail2.html"
+    },
+    {
+      "id": "a_project_detail__77264",
+      "type": "a",
+      "content": "project detail 3",
+      "url": "project-detail3.html"
+    },
+    {
+      "id": "a_browse_employer_98042",
+      "type": "a",
+      "content": "Browse Employer <span class=\"ph-bold ph-caret-right\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_35397",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_employers_defau_21066",
+      "type": "a",
+      "content": "employers default",
+      "url": "employers-default.html"
+    },
+    {
+      "id": "a_employers_grid_6453",
+      "type": "a",
+      "content": "employers grid",
+      "url": "employers-grid.html"
+    },
+    {
+      "id": "a_employers_list_72149",
+      "type": "a",
+      "content": "employers list",
+      "url": "employers-list.html"
+    },
+    {
+      "id": "a_employers_sideb_4340",
+      "type": "a",
+      "content": "employers sidebar grid 3 cols",
+      "url": "employers-sidebar-grid-3cols.html"
+    },
+    {
+      "id": "a_employers_sideb_35749",
+      "type": "a",
+      "content": "employers sidebar grid 2 cols",
+      "url": "employers-sidebar-grid-2cols.html"
+    },
+    {
+      "id": "a_employers_sideb_83949",
+      "type": "a",
+      "content": "employers sidebar list",
+      "url": "employers-sidebar-list.html"
+    },
+    {
+      "id": "a_employers_top_m_34609",
+      "type": "a",
+      "content": "employers top map grid",
+      "url": "employers-top-map-grid.html"
+    },
+    {
+      "id": "a_employers_top_m_86205",
+      "type": "a",
+      "content": "employers top map list",
+      "url": "employers-top-map-list.html"
+    },
+    {
+      "id": "a_employers_half__11192",
+      "type": "a",
+      "content": "employers half map grid",
+      "url": "employers-half-map-grid.html"
+    },
+    {
+      "id": "a_employers_half__75923",
+      "type": "a",
+      "content": "employers half map list",
+      "url": "employers-half-map-list.html"
+    },
+    {
+      "id": "a_employers_fullw_38948",
+      "type": "a",
+      "content": "employers fullwidth",
+      "url": "employers-fullwidth.html"
+    },
+    {
+      "id": "a_employers_detai_3804",
+      "type": "a",
+      "content": "employers detail 1",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "a_employers_detai_12621",
+      "type": "a",
+      "content": "employers detail 2",
+      "url": "employers-detail2.html"
+    },
+    {
+      "id": "a_become_a_seller_37489",
+      "type": "a",
+      "content": "Become a seller",
+      "url": "become-seller.html"
+    },
+    {
+      "id": "a_candidates_dash_27702",
+      "type": "a",
+      "content": "Candidates Dashboard",
+      "url": "candidates-dashboard.html"
+    },
+    {
+      "id": "a_for_employers_84976",
+      "type": "a",
+      "content": "<span class=\"text-title relative\">For Employers</span> <span class=\"ph-bold ph-caret-down\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_for_employers_97034",
+      "type": "span",
+      "content": "For Employers"
+    },
+    {
+      "id": "span_item_37745",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_browse_services_18573",
+      "type": "a",
+      "content": "Browse Services <span class=\"ph-bold ph-caret-right\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_65739",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_services_defaul_62645",
+      "type": "a",
+      "content": "services default",
+      "url": "services-default.html"
+    },
+    {
+      "id": "a_services_grid_28419",
+      "type": "a",
+      "content": "services grid",
+      "url": "services-grid.html"
+    },
+    {
+      "id": "a_services_list_48808",
+      "type": "a",
+      "content": "services list",
+      "url": "services-list.html"
+    },
+    {
+      "id": "a_services_sideba_34960",
+      "type": "a",
+      "content": "services sidebar grid 3 cols",
+      "url": "services-sidebar-grid-3cols.html"
+    },
+    {
+      "id": "a_services_sideba_5168",
+      "type": "a",
+      "content": "services sidebar grid 2 cols",
+      "url": "services-sidebar-grid-2cols.html"
+    },
+    {
+      "id": "a_services_sideba_42275",
+      "type": "a",
+      "content": "services sidebar list",
+      "url": "services-sidebar-list.html"
+    },
+    {
+      "id": "a_services_fullwi_17114",
+      "type": "a",
+      "content": "services fullwidth grid 5 cols",
+      "url": "services-fullwidth-grid-5cols.html"
+    },
+    {
+      "id": "a_services_fullwi_51460",
+      "type": "a",
+      "content": "services fullwidth grid 4 cols",
+      "url": "services-fullwidth-grid-4cols.html"
+    },
+    {
+      "id": "a_services_fullwi_87681",
+      "type": "a",
+      "content": "services fullwidth list",
+      "url": "services-fullwidth-list.html"
+    },
+    {
+      "id": "a_services_detail_92314",
+      "type": "a",
+      "content": "services detail 1",
+      "url": "services-detail1.html"
+    },
+    {
+      "id": "a_services_detail_44747",
+      "type": "a",
+      "content": "services detail 2",
+      "url": "services-detail2.html"
+    },
+    {
+      "id": "a_browse_candidat_29846",
+      "type": "a",
+      "content": "Browse Candidates <span class=\"ph-bold ph-caret-right\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_23450",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_candidates_defa_81729",
+      "type": "a",
+      "content": "candidates default",
+      "url": "candidates-default.html"
+    },
+    {
+      "id": "a_candidates_grid_33510",
+      "type": "a",
+      "content": "candidates grid",
+      "url": "candidates-grid.html"
+    },
+    {
+      "id": "a_candidates_list_80909",
+      "type": "a",
+      "content": "candidates list",
+      "url": "candidates-list.html"
+    },
+    {
+      "id": "a_candidates_side_88243",
+      "type": "a",
+      "content": "candidates sidebar grid",
+      "url": "candidates-sidebar-grid.html"
+    },
+    {
+      "id": "a_candidates_side_11764",
+      "type": "a",
+      "content": "candidates sidebar list",
+      "url": "candidates-sidebar-list.html"
+    },
+    {
+      "id": "a_candidates_top__53765",
+      "type": "a",
+      "content": "candidates top map grid",
+      "url": "candidates-top-map-grid.html"
+    },
+    {
+      "id": "a_candidates_top__98367",
+      "type": "a",
+      "content": "candidates top map list",
+      "url": "candidates-top-map-list.html"
+    },
+    {
+      "id": "a_candidates_half_69288",
+      "type": "a",
+      "content": "candidates half map grid",
+      "url": "candidates-half-map-grid.html"
+    },
+    {
+      "id": "a_candidates_half_85655",
+      "type": "a",
+      "content": "candidates half map list",
+      "url": "candidates-half-map-list.html"
+    },
+    {
+      "id": "a_candidates_full_94536",
+      "type": "a",
+      "content": "candidates fullwidth grid",
+      "url": "candidates-fullwidth-grid.html"
+    },
+    {
+      "id": "a_candidates_full_85147",
+      "type": "a",
+      "content": "candidates fullwidth list",
+      "url": "candidates-fullwidth-list.html"
+    },
+    {
+      "id": "a_candidates_deta_95578",
+      "type": "a",
+      "content": "candidates detail 1",
+      "url": "candidates-detail1.html"
+    },
+    {
+      "id": "a_candidates_deta_4840",
+      "type": "a",
+      "content": "candidates detail 2",
+      "url": "candidates-detail2.html"
+    },
+    {
+      "id": "a_become_a_buyer_1218",
+      "type": "a",
+      "content": "Become a buyer",
+      "url": "become-buyer.html"
+    },
+    {
+      "id": "a_employer_dashbo_78732",
+      "type": "a",
+      "content": "Employer Dashboard",
+      "url": "employers-dashboard.html"
+    },
+    {
+      "id": "a_blogs_90474",
+      "type": "a",
+      "content": "<span class=\"text-title relative\">Blogs</span> <span class=\"ph-bold ph-caret-down\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_blogs_79462",
+      "type": "span",
+      "content": "Blogs"
+    },
+    {
+      "id": "span_item_94174",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_blog_default_60155",
+      "type": "a",
+      "content": "Blog default",
+      "url": "blog-default.html"
+    },
+    {
+      "id": "a_blog_grid_85729",
+      "type": "a",
+      "content": "Blog grid",
+      "url": "blog-grid.html"
+    },
+    {
+      "id": "a_blog_list_29802",
+      "type": "a",
+      "content": "Blog list",
+      "url": "blog-list.html"
+    },
+    {
+      "id": "a_blog_detail_1_81532",
+      "type": "a",
+      "content": "Blog detail 1",
+      "url": "blog-detail1.html"
+    },
+    {
+      "id": "a_blog_detail_2_46822",
+      "type": "a",
+      "content": "Blog detail 2",
+      "url": "blog-detail2.html"
+    },
+    {
+      "id": "a_pages_37091",
+      "type": "a",
+      "content": "<span class=\"text-title relative\">Pages</span> <span class=\"ph-bold ph-caret-down\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_pages_58785",
+      "type": "span",
+      "content": "Pages"
+    },
+    {
+      "id": "span_item_24834",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_about_us_1_72014",
+      "type": "a",
+      "content": "About Us 1",
+      "url": "about1.html"
+    },
+    {
+      "id": "a_about_us_2_66761",
+      "type": "a",
+      "content": "About Us 2",
+      "url": "about2.html"
+    },
+    {
+      "id": "a_pricing_plan_18849",
+      "type": "a",
+      "content": "Pricing Plan",
+      "url": "pricing.html"
+    },
+    {
+      "id": "a_contact_us_1_77366",
+      "type": "a",
+      "content": "Contact Us 1",
+      "url": "contact1.html"
+    },
+    {
+      "id": "a_contact_us_2_59174",
+      "type": "a",
+      "content": "Contact Us 2",
+      "url": "contact2.html"
+    },
+    {
+      "id": "a_faqs_45679",
+      "type": "a",
+      "content": "Faqs",
+      "url": "faqs.html"
+    },
+    {
+      "id": "a_terms_of_use_72870",
+      "type": "a",
+      "content": "Terms of use",
+      "url": "term-of-use.html"
+    },
+    {
+      "id": "a_error_404_55026",
+      "type": "a",
+      "content": "Error 404",
+      "url": "error-404.html"
+    },
+    {
+      "id": "a_login_84990",
+      "type": "a",
+      "content": "Login",
+      "url": "login.html"
+    },
+    {
+      "id": "a_register_52415",
+      "type": "a",
+      "content": "Register",
+      "url": "register.html"
+    },
+    {
+      "id": "a_item_35487",
+      "type": "a",
+      "content": "<span class=\"ph ph-question text-white text-2xl block\"></span>",
+      "url": "term-of-use.html"
+    },
+    {
+      "id": "span_item_10863",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "button_item_75321",
+      "type": "button",
+      "content": "<span class=\"ph ph-bell text-white text-2xl block\"></span> <span class=\"absolute -top-0.5 right-0.5 w-2 h-2 bg-primary rounded-full\"></span>"
+    },
+    {
+      "id": "span_item_2133",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_89899",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "h6_notifications_49014",
+      "type": "h6",
+      "content": "Notifications"
+    },
+    {
+      "id": "span_item_2883",
+      "type": "span",
+      "content": "<span class=\"ph-fill ph-bell text-lg text-secondary\"></span>"
+    },
+    {
+      "id": "span_item_75192",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "p_the_application_26616",
+      "type": "p",
+      "content": "The application is rejected on your job <span class=\"text-black\">UI Designer</span> by <span class=\"text-black\">Employer</span>."
+    },
+    {
+      "id": "span_ui_designer_85073",
+      "type": "span",
+      "content": "UI Designer"
+    },
+    {
+      "id": "span_employer_93495",
+      "type": "span",
+      "content": "Employer"
+    },
+    {
+      "id": "span_25_mins_ago_23837",
+      "type": "span",
+      "content": "25 mins ago"
+    },
+    {
+      "id": "span_item_63170",
+      "type": "span",
+      "content": "<span class=\"ph-fill ph-bell text-lg text-secondary\"></span>"
+    },
+    {
+      "id": "span_item_437",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "p_the_application_91579",
+      "type": "p",
+      "content": "The application is rejected on your job <span class=\"text-black\">Internet Security</span> by <span class=\"text-black\">Employer</span>."
+    },
+    {
+      "id": "span_internet_securi_54239",
+      "type": "span",
+      "content": "Internet Security"
+    },
+    {
+      "id": "span_employer_59936",
+      "type": "span",
+      "content": "Employer"
+    },
+    {
+      "id": "span_1_hours_ago_56791",
+      "type": "span",
+      "content": "1 hours ago"
+    },
+    {
+      "id": "span_item_49783",
+      "type": "span",
+      "content": "<span class=\"ph-fill ph-bell text-lg text-secondary\"></span>"
+    },
+    {
+      "id": "span_item_80496",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "p_the_application_77806",
+      "type": "p",
+      "content": "The application is rejected on your job <span class=\"text-black\">Social Media Marketing</span> by <span class=\"text-black\">Employer</span>."
+    },
+    {
+      "id": "span_social_media_ma_6854",
+      "type": "span",
+      "content": "Social Media Marketing"
+    },
+    {
+      "id": "span_employer_79447",
+      "type": "span",
+      "content": "Employer"
+    },
+    {
+      "id": "span_5_hours_ago_95212",
+      "type": "span",
+      "content": "5 hours ago"
+    },
+    {
+      "id": "span_item_14690",
+      "type": "span",
+      "content": "<span class=\"ph-fill ph-bell text-lg text-secondary\"></span>"
+    },
+    {
+      "id": "span_item_51396",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "p_the_application_17223",
+      "type": "p",
+      "content": "The application is rejected on your job <span class=\"text-black\">Social Media Marketing</span> by <span class=\"text-black\">Employer</span>."
+    },
+    {
+      "id": "span_social_media_ma_51460",
+      "type": "span",
+      "content": "Social Media Marketing"
+    },
+    {
+      "id": "span_employer_47198",
+      "type": "span",
+      "content": "Employer"
+    },
+    {
+      "id": "span_12_hours_ago_94105",
+      "type": "span",
+      "content": "12 hours ago"
+    },
+    {
+      "id": "a_become_a_seller_95730",
+      "type": "a",
+      "content": "Become A Seller",
+      "url": "become-seller.html"
+    },
+    {
+      "id": "button_employer_80671",
+      "type": "button",
+      "content": "<img src=\"./assets/images/avatar/IMG-7.webp\" alt=\"IMG-7\" class=\"user_avatar flex-shrink-0 w-9 h-9 rounded-full\"> <strong class=\"user_name text-title\">Employer</strong> <span class=\"ph ph-caret-down\"></span>"
+    },
+    {
+      "id": "img_item_88403",
+      "type": "img",
+      "src": "./assets/images/avatar/IMG-7.webp"
+    },
+    {
+      "id": "strong_employer_24333",
+      "type": "strong",
+      "content": "Employer"
+    },
+    {
+      "id": "span_item_35465",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_dashboard_5951",
+      "type": "a",
+      "content": "<span class=\"ph ph-squares-four text-2xl text-secondary\"></span> <strong class=\"text-title\">Dashboard</strong>",
+      "url": "employers-dashboard.html"
+    },
+    {
+      "id": "span_item_61862",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_dashboard_97572",
+      "type": "strong",
+      "content": "Dashboard"
+    },
+    {
+      "id": "a_my_profile_30087",
+      "type": "a",
+      "content": "<span class=\"ph ph-user-circle text-2xl text-secondary\"></span> <strong class=\"text-title\">My Profile</strong>",
+      "url": "employers-profile.html"
+    },
+    {
+      "id": "span_item_92821",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_my_profile_57237",
+      "type": "strong",
+      "content": "My Profile"
+    },
+    {
+      "id": "a_log_out_9481",
+      "type": "a",
+      "content": "<span class=\"ph ph-sign-out text-2xl text-secondary\"></span> <strong class=\"text-title\">Log Out</strong>",
+      "url": "login.html"
+    },
+    {
+      "id": "span_item_37482",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_log_out_70883",
+      "type": "strong",
+      "content": "Log Out"
+    },
+    {
+      "id": "button_item_62061",
+      "type": "button",
+      "content": "<span class=\"ph-bold ph-list text-white text-2xl block\"></span>"
+    },
+    {
+      "id": "span_item_83341",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "button_filters_63340",
+      "type": "button",
+      "content": "<span class=\"ph ph-sliders-horizontal text-xl\"></span> <span>Filters</span>"
+    },
+    {
+      "id": "span_item_18729",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_filters_24565",
+      "type": "span",
+      "content": "Filters"
+    },
+    {
+      "id": "button_item_84797",
+      "type": "button",
+      "content": ""
+    },
+    {
+      "id": "button_item_83700",
+      "type": "button",
+      "content": ""
+    },
+    {
+      "id": "a_item_2962",
+      "type": "a",
+      "content": "",
+      "url": "#!"
+    },
+    {
+      "id": "a_item_95316",
+      "type": "a",
+      "content": "",
+      "url": "project-half-map-list.html"
+    },
+    {
+      "id": "span_sort_by__65757",
+      "type": "span",
+      "content": "Sort by:"
+    },
+    {
+      "id": "span_default_49377",
+      "type": "span",
+      "content": "default"
+    },
+    {
+      "id": "span_item_84462",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_1_200__results_17939",
+      "type": "span",
+      "content": "1,200+ Results"
+    },
+    {
+      "id": "button_clear_all_48642",
+      "type": "button",
+      "content": "<span class=\"ph ph-x text-sm\"></span> <span class=\"caption1\">Clear All</span>"
+    },
+    {
+      "id": "span_item_76002",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_clear_all_68514",
+      "type": "span",
+      "content": "Clear All"
+    },
+    {
+      "id": "a_figma_mockup_ne_39244",
+      "type": "a",
+      "content": "Figma mockup needed for a new website for Electrical contractor business website",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "span_item_68341",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_2_days_ago_15199",
+      "type": "span",
+      "content": "2 days ago"
+    },
+    {
+      "id": "span_item_48877",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_las_vegas__usa_20821",
+      "type": "span",
+      "content": "Las Vegas, USA"
+    },
+    {
+      "id": "span___59929",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_2_8k_20059",
+      "type": "span",
+      "content": "2.8K"
+    },
+    {
+      "id": "span_spent_82883",
+      "type": "span",
+      "content": "spent"
+    },
+    {
+      "id": "p_i_am_looking_fo_84377",
+      "type": "p",
+      "content": "I am looking for a talented UX/UI Designer to create screens for my basic product idea. The project involves designing a web application, you may be missing out on some big opportunities."
+    },
+    {
+      "id": "a_graphic_design_22865",
+      "type": "a",
+      "content": "Graphic Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_website_design_32855",
+      "type": "a",
+      "content": "Website Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_figma_92135",
+      "type": "a",
+      "content": "Figma",
+      "url": "project-default.html"
+    },
+    {
+      "id": "button_item_51189",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_17345",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_64415",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_proposals__92589",
+      "type": "span",
+      "content": "Proposals:"
+    },
+    {
+      "id": "span_50__92842",
+      "type": "span",
+      "content": "50+"
+    },
+    {
+      "id": "span__170_89664",
+      "type": "span",
+      "content": "$170"
+    },
+    {
+      "id": "span__fixed_price_81037",
+      "type": "span",
+      "content": "/fixed-price"
+    },
+    {
+      "id": "a_i_need_to_desig_42897",
+      "type": "a",
+      "content": "I need to design a email confirming for a ticket buying in a beautiful modern way for mobile",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "span_item_87373",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_2_days_ago_67759",
+      "type": "span",
+      "content": "2 days ago"
+    },
+    {
+      "id": "span_item_59764",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_las_vegas__usa_49771",
+      "type": "span",
+      "content": "Las Vegas, USA"
+    },
+    {
+      "id": "span___4847",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_2_8k_66865",
+      "type": "span",
+      "content": "2.8K"
+    },
+    {
+      "id": "span_spent_55659",
+      "type": "span",
+      "content": "spent"
+    },
+    {
+      "id": "p_i_am_looking_fo_97634",
+      "type": "p",
+      "content": "I am looking for a talented UX/UI Designer to create screens for my basic product idea. The project involves designing a web application, you may be missing out on some big opportunities."
+    },
+    {
+      "id": "a_graphic_design_1817",
+      "type": "a",
+      "content": "Graphic Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_website_design_66094",
+      "type": "a",
+      "content": "Website Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_figma_99359",
+      "type": "a",
+      "content": "Figma",
+      "url": "project-default.html"
+    },
+    {
+      "id": "button_item_22355",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_13007",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_13002",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_proposals__396",
+      "type": "span",
+      "content": "Proposals:"
+    },
+    {
+      "id": "span_50__58815",
+      "type": "span",
+      "content": "50+"
+    },
+    {
+      "id": "span__170_93100",
+      "type": "span",
+      "content": "$170"
+    },
+    {
+      "id": "span__fixed_price_18848",
+      "type": "span",
+      "content": "/fixed-price"
+    },
+    {
+      "id": "a_website_design__92393",
+      "type": "a",
+      "content": "Website Design (Web &amp; Responsive) for an Online Tutoring Website",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "span_item_97363",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_2_days_ago_41021",
+      "type": "span",
+      "content": "2 days ago"
+    },
+    {
+      "id": "span_item_84632",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_las_vegas__usa_82163",
+      "type": "span",
+      "content": "Las Vegas, USA"
+    },
+    {
+      "id": "span___98427",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_2_8k_27339",
+      "type": "span",
+      "content": "2.8K"
+    },
+    {
+      "id": "span_spent_26857",
+      "type": "span",
+      "content": "spent"
+    },
+    {
+      "id": "p_i_am_looking_fo_59961",
+      "type": "p",
+      "content": "I am looking for a talented UX/UI Designer to create screens for my basic product idea. The project involves designing a web application, you may be missing out on some big opportunities."
+    },
+    {
+      "id": "a_graphic_design_99497",
+      "type": "a",
+      "content": "Graphic Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_website_design_97231",
+      "type": "a",
+      "content": "Website Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_figma_18985",
+      "type": "a",
+      "content": "Figma",
+      "url": "project-default.html"
+    },
+    {
+      "id": "button_item_63715",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_12273",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_11398",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_proposals__597",
+      "type": "span",
+      "content": "Proposals:"
+    },
+    {
+      "id": "span_50__96511",
+      "type": "span",
+      "content": "50+"
+    },
+    {
+      "id": "span__170_85142",
+      "type": "span",
+      "content": "$170"
+    },
+    {
+      "id": "span__fixed_price_61498",
+      "type": "span",
+      "content": "/fixed-price"
+    },
+    {
+      "id": "a_figma_mockup_ne_38416",
+      "type": "a",
+      "content": "Figma mockup needed for a new website for Electrical contractor business website",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "span_item_79341",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_2_days_ago_16331",
+      "type": "span",
+      "content": "2 days ago"
+    },
+    {
+      "id": "span_item_3133",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_las_vegas__usa_18823",
+      "type": "span",
+      "content": "Las Vegas, USA"
+    },
+    {
+      "id": "span___62727",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_2_8k_27177",
+      "type": "span",
+      "content": "2.8K"
+    },
+    {
+      "id": "span_spent_50776",
+      "type": "span",
+      "content": "spent"
+    },
+    {
+      "id": "p_i_am_looking_fo_7726",
+      "type": "p",
+      "content": "I am looking for a talented UX/UI Designer to create screens for my basic product idea. The project involves designing a web application, you may be missing out on some big opportunities."
+    },
+    {
+      "id": "a_graphic_design_69795",
+      "type": "a",
+      "content": "Graphic Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_website_design_34061",
+      "type": "a",
+      "content": "Website Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_figma_23903",
+      "type": "a",
+      "content": "Figma",
+      "url": "project-default.html"
+    },
+    {
+      "id": "button_item_26984",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_39152",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_51376",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_proposals__86551",
+      "type": "span",
+      "content": "Proposals:"
+    },
+    {
+      "id": "span_50__57918",
+      "type": "span",
+      "content": "50+"
+    },
+    {
+      "id": "span__170_13773",
+      "type": "span",
+      "content": "$170"
+    },
+    {
+      "id": "span__fixed_price_58924",
+      "type": "span",
+      "content": "/fixed-price"
+    },
+    {
+      "id": "a_i_need_to_desig_88782",
+      "type": "a",
+      "content": "I need to design a email confirming for a ticket buying in a beautiful modern way for mobile",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "span_item_52193",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_2_days_ago_85050",
+      "type": "span",
+      "content": "2 days ago"
+    },
+    {
+      "id": "span_item_39435",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_las_vegas__usa_13933",
+      "type": "span",
+      "content": "Las Vegas, USA"
+    },
+    {
+      "id": "span___57367",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_2_8k_46552",
+      "type": "span",
+      "content": "2.8K"
+    },
+    {
+      "id": "span_spent_14276",
+      "type": "span",
+      "content": "spent"
+    },
+    {
+      "id": "p_i_am_looking_fo_81931",
+      "type": "p",
+      "content": "I am looking for a talented UX/UI Designer to create screens for my basic product idea. The project involves designing a web application, you may be missing out on some big opportunities."
+    },
+    {
+      "id": "a_graphic_design_81281",
+      "type": "a",
+      "content": "Graphic Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_website_design_16092",
+      "type": "a",
+      "content": "Website Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_figma_73403",
+      "type": "a",
+      "content": "Figma",
+      "url": "project-default.html"
+    },
+    {
+      "id": "button_item_31032",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_22003",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_51514",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_proposals__2815",
+      "type": "span",
+      "content": "Proposals:"
+    },
+    {
+      "id": "span_50__88456",
+      "type": "span",
+      "content": "50+"
+    },
+    {
+      "id": "span__170_85643",
+      "type": "span",
+      "content": "$170"
+    },
+    {
+      "id": "span__fixed_price_83589",
+      "type": "span",
+      "content": "/fixed-price"
+    },
+    {
+      "id": "a_website_design__61512",
+      "type": "a",
+      "content": "Website Design (Web &amp; Responsive) for an Online Tutoring Website",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "span_item_79475",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_2_days_ago_6742",
+      "type": "span",
+      "content": "2 days ago"
+    },
+    {
+      "id": "span_item_49503",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_las_vegas__usa_3067",
+      "type": "span",
+      "content": "Las Vegas, USA"
+    },
+    {
+      "id": "span___30682",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_2_8k_83692",
+      "type": "span",
+      "content": "2.8K"
+    },
+    {
+      "id": "span_spent_6755",
+      "type": "span",
+      "content": "spent"
+    },
+    {
+      "id": "p_i_am_looking_fo_9159",
+      "type": "p",
+      "content": "I am looking for a talented UX/UI Designer to create screens for my basic product idea. The project involves designing a web application, you may be missing out on some big opportunities."
+    },
+    {
+      "id": "a_graphic_design_14085",
+      "type": "a",
+      "content": "Graphic Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_website_design_7524",
+      "type": "a",
+      "content": "Website Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_figma_93078",
+      "type": "a",
+      "content": "Figma",
+      "url": "project-default.html"
+    },
+    {
+      "id": "button_item_18285",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_91986",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_14423",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_proposals__4093",
+      "type": "span",
+      "content": "Proposals:"
+    },
+    {
+      "id": "span_50__12621",
+      "type": "span",
+      "content": "50+"
+    },
+    {
+      "id": "span__170_93088",
+      "type": "span",
+      "content": "$170"
+    },
+    {
+      "id": "span__fixed_price_54516",
+      "type": "span",
+      "content": "/fixed-price"
+    },
+    {
+      "id": "a_ux_ui_designer__65959",
+      "type": "a",
+      "content": "UX/UI Designer | Web Designer to Redesign the First Screen of the Main Page",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "span_item_5588",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_2_days_ago_7671",
+      "type": "span",
+      "content": "2 days ago"
+    },
+    {
+      "id": "span_item_91290",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_las_vegas__usa_53380",
+      "type": "span",
+      "content": "Las Vegas, USA"
+    },
+    {
+      "id": "span___16601",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_2_8k_11735",
+      "type": "span",
+      "content": "2.8K"
+    },
+    {
+      "id": "span_spent_32183",
+      "type": "span",
+      "content": "spent"
+    },
+    {
+      "id": "p_i_am_looking_fo_29304",
+      "type": "p",
+      "content": "I am looking for a talented UX/UI Designer to create screens for my basic product idea. The project involves designing a web application, you may be missing out on some big opportunities."
+    },
+    {
+      "id": "a_graphic_design_60063",
+      "type": "a",
+      "content": "Graphic Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_website_design_67917",
+      "type": "a",
+      "content": "Website Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_figma_31976",
+      "type": "a",
+      "content": "Figma",
+      "url": "project-default.html"
+    },
+    {
+      "id": "button_item_86479",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_91170",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_14014",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_proposals__76316",
+      "type": "span",
+      "content": "Proposals:"
+    },
+    {
+      "id": "span_50__9251",
+      "type": "span",
+      "content": "50+"
+    },
+    {
+      "id": "span__170_97337",
+      "type": "span",
+      "content": "$170"
+    },
+    {
+      "id": "span__fixed_price_88916",
+      "type": "span",
+      "content": "/fixed-price"
+    },
+    {
+      "id": "a_figma_mockup_ne_25553",
+      "type": "a",
+      "content": "Figma mockup needed for a new website for Electrical contractor business website",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "span_item_21533",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_2_days_ago_70924",
+      "type": "span",
+      "content": "2 days ago"
+    },
+    {
+      "id": "span_item_46556",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_las_vegas__usa_62889",
+      "type": "span",
+      "content": "Las Vegas, USA"
+    },
+    {
+      "id": "span___87286",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_2_8k_19216",
+      "type": "span",
+      "content": "2.8K"
+    },
+    {
+      "id": "span_spent_336",
+      "type": "span",
+      "content": "spent"
+    },
+    {
+      "id": "p_i_am_looking_fo_13065",
+      "type": "p",
+      "content": "I am looking for a talented UX/UI Designer to create screens for my basic product idea. The project involves designing a web application, you may be missing out on some big opportunities."
+    },
+    {
+      "id": "a_graphic_design_63055",
+      "type": "a",
+      "content": "Graphic Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_website_design_33377",
+      "type": "a",
+      "content": "Website Design",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_figma_38867",
+      "type": "a",
+      "content": "Figma",
+      "url": "project-default.html"
+    },
+    {
+      "id": "button_item_57098",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_27134",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_1252",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_proposals__36302",
+      "type": "span",
+      "content": "Proposals:"
+    },
+    {
+      "id": "span_50__78494",
+      "type": "span",
+      "content": "50+"
+    },
+    {
+      "id": "span__170_16311",
+      "type": "span",
+      "content": "$170"
+    },
+    {
+      "id": "span__fixed_price_46084",
+      "type": "span",
+      "content": "/fixed-price"
+    },
+    {
+      "id": "a_1_78280",
+      "type": "a",
+      "content": "1",
+      "url": "#"
+    },
+    {
+      "id": "a_2_22988",
+      "type": "a",
+      "content": "2",
+      "url": "#"
+    },
+    {
+      "id": "a_3_9576",
+      "type": "a",
+      "content": "3",
+      "url": "#"
+    },
+    {
+      "id": "a___18464",
+      "type": "a",
+      "content": "&gt;",
+      "url": "#"
+    },
+    {
+      "id": "img_item_67336",
+      "type": "img",
+      "src": "./assets/images/company/13.png"
+    },
+    {
+      "id": "h6_tony_nguyen_fou_24084",
+      "type": "h6",
+      "content": "Tony Nguyen found a job on the map"
+    },
+    {
+      "id": "a_click_here_to_f_41672",
+      "type": "a",
+      "content": "Click here to find jobs by MAP",
+      "url": "jobs-top-map.html"
+    },
+    {
+      "id": "button_item_54571",
+      "type": "button",
+      "content": "<span class=\"ph-bold ph-x\"></span>"
+    },
+    {
+      "id": "span_item_31030",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "button_item_98569",
+      "type": "button",
+      "content": "<span class=\"ph-bold ph-x\"></span>"
+    },
+    {
+      "id": "span_item_14046",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_60454",
+      "type": "a",
+      "content": "<img src=\"./assets/images/logo.png\" alt=\"logo\" class=\"h-8\">",
+      "url": "index.html"
+    },
+    {
+      "id": "img_item_17051",
+      "type": "img",
+      "src": "./assets/images/logo.png"
+    },
+    {
+      "id": "button_item_98420",
+      "type": "button",
+      "content": "<i class=\"ph ph-magnifying-glass text-xl block\"></i>"
+    },
+    {
+      "id": "i_item_4881",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_homepages_63317",
+      "type": "a",
+      "content": "Homepages <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_62563",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_85153",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_20097",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_2988",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_home_freelancer_61107",
+      "type": "a",
+      "content": "Home Freelancer 01",
+      "url": "index.html"
+    },
+    {
+      "id": "a_home_freelancer_83864",
+      "type": "a",
+      "content": "Home Freelancer 02",
+      "url": "freelancer2.html"
+    },
+    {
+      "id": "a_home_freelancer_16506",
+      "type": "a",
+      "content": "Home Freelancer 03",
+      "url": "freelancer3.html"
+    },
+    {
+      "id": "a_home_freelancer_60495",
+      "type": "a",
+      "content": "Home Freelancer 04",
+      "url": "freelancer4.html"
+    },
+    {
+      "id": "a_home_freelancer_53146",
+      "type": "a",
+      "content": "Home Freelancer 05",
+      "url": "freelancer5.html"
+    },
+    {
+      "id": "a_home_freelancer_15490",
+      "type": "a",
+      "content": "Home Freelancer 06",
+      "url": "freelancer6.html"
+    },
+    {
+      "id": "a_home_freelancer_77409",
+      "type": "a",
+      "content": "Home Freelancer 07",
+      "url": "freelancer7.html"
+    },
+    {
+      "id": "a_home_freelancer_67137",
+      "type": "a",
+      "content": "Home Freelancer 08",
+      "url": "freelancer8.html"
+    },
+    {
+      "id": "a_home_jobs_09_32897",
+      "type": "a",
+      "content": "Home Jobs 09",
+      "url": "jobs9.html"
+    },
+    {
+      "id": "a_home_jobs_10_34023",
+      "type": "a",
+      "content": "Home Jobs 10",
+      "url": "jobs10.html"
+    },
+    {
+      "id": "a_home_jobs_11_87975",
+      "type": "a",
+      "content": "Home Jobs 11",
+      "url": "jobs11.html"
+    },
+    {
+      "id": "a_home_jobs_12_38981",
+      "type": "a",
+      "content": "Home Jobs 12",
+      "url": "jobs12.html"
+    },
+    {
+      "id": "a_home_rtl_13_96326",
+      "type": "a",
+      "content": "Home RTL 13",
+      "url": "rtl13.html"
+    },
+    {
+      "id": "a_for_candidates_15250",
+      "type": "a",
+      "content": "For Candidates <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_96964",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_68878",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_95016",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_48079",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_browse_jobs_86238",
+      "type": "a",
+      "content": "Browse jobs <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_22675",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_13923",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_13013",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_10391",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_jobs_default_69991",
+      "type": "a",
+      "content": "jobs default",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_jobs_grid_81165",
+      "type": "a",
+      "content": "jobs grid",
+      "url": "jobs-grid.html"
+    },
+    {
+      "id": "a_jobs_list_19316",
+      "type": "a",
+      "content": "jobs list",
+      "url": "jobs-list.html"
+    },
+    {
+      "id": "a_jobs_top_map_47542",
+      "type": "a",
+      "content": "jobs top map",
+      "url": "jobs-top-map.html"
+    },
+    {
+      "id": "a_jobs_half_map_g_43353",
+      "type": "a",
+      "content": "jobs half map grid 1",
+      "url": "jobs-half-map-grid1.html"
+    },
+    {
+      "id": "a_jobs_half_map_g_72695",
+      "type": "a",
+      "content": "jobs half map grid 2",
+      "url": "jobs-half-map-grid2.html"
+    },
+    {
+      "id": "a_jobs_fullwidth_67025",
+      "type": "a",
+      "content": "jobs fullwidth",
+      "url": "jobs-fullwidth.html"
+    },
+    {
+      "id": "a_jobs_detail_1_152",
+      "type": "a",
+      "content": "jobs detail 1",
+      "url": "jobs-detail1.html"
+    },
+    {
+      "id": "a_jobs_detail_2_92457",
+      "type": "a",
+      "content": "jobs detail 2",
+      "url": "jobs-detail2.html"
+    },
+    {
+      "id": "a_browse_projects_21913",
+      "type": "a",
+      "content": "Browse Projects <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_48860",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_70000",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_2970",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_32169",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_project_default_18733",
+      "type": "a",
+      "content": "project default",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_project_grid_3__56504",
+      "type": "a",
+      "content": "project grid 3 columns",
+      "url": "project-grid-3col.html"
+    },
+    {
+      "id": "a_project_list_95842",
+      "type": "a",
+      "content": "project list",
+      "url": "project-list.html"
+    },
+    {
+      "id": "a_project_top_map_71196",
+      "type": "a",
+      "content": "project top map grid",
+      "url": "project-top-map-grid.html"
+    },
+    {
+      "id": "a_project_top_map_80163",
+      "type": "a",
+      "content": "project top map list",
+      "url": "project-top-map-list.html"
+    },
+    {
+      "id": "a_project_half_ma_53483",
+      "type": "a",
+      "content": "project half map grid",
+      "url": "project-half-map-grid.html"
+    },
+    {
+      "id": "a_project_half_ma_90622",
+      "type": "a",
+      "content": "project half map list",
+      "url": "project-half-map-list.html"
+    },
+    {
+      "id": "a_project_fullwid_21483",
+      "type": "a",
+      "content": "project fullwidth",
+      "url": "project-fullwidth.html"
+    },
+    {
+      "id": "a_project_detail__9590",
+      "type": "a",
+      "content": "project detail 1",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "a_project_detail__60854",
+      "type": "a",
+      "content": "project detail 2",
+      "url": "project-detail2.html"
+    },
+    {
+      "id": "a_project_detail__80528",
+      "type": "a",
+      "content": "project detail 3",
+      "url": "project-detail3.html"
+    },
+    {
+      "id": "a_browse_employer_90981",
+      "type": "a",
+      "content": "Browse Employer <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_43826",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_65188",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_63295",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_90412",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_employers_defau_71148",
+      "type": "a",
+      "content": "employers default",
+      "url": "employers-default.html"
+    },
+    {
+      "id": "a_employers_grid_25678",
+      "type": "a",
+      "content": "employers grid",
+      "url": "employers-grid.html"
+    },
+    {
+      "id": "a_employers_list_34931",
+      "type": "a",
+      "content": "employers list",
+      "url": "employers-list.html"
+    },
+    {
+      "id": "a_employers_sideb_48923",
+      "type": "a",
+      "content": "employers sidebar grid 3 cols",
+      "url": "employers-sidebar-grid-3cols.html"
+    },
+    {
+      "id": "a_employers_sideb_79090",
+      "type": "a",
+      "content": "employers sidebar grid 2 cols",
+      "url": "employers-sidebar-grid-2cols.html"
+    },
+    {
+      "id": "a_employers_sideb_74440",
+      "type": "a",
+      "content": "employers sidebar list",
+      "url": "employers-sidebar-list.html"
+    },
+    {
+      "id": "a_employers_top_m_99671",
+      "type": "a",
+      "content": "employers top map grid",
+      "url": "employers-top-map-grid.html"
+    },
+    {
+      "id": "a_employers_top_m_56014",
+      "type": "a",
+      "content": "employers top map list",
+      "url": "employers-top-map-list.html"
+    },
+    {
+      "id": "a_employers_half__84964",
+      "type": "a",
+      "content": "employers half map grid",
+      "url": "employers-half-map-grid.html"
+    },
+    {
+      "id": "a_employers_half__94120",
+      "type": "a",
+      "content": "employers half map list",
+      "url": "employers-half-map-list.html"
+    },
+    {
+      "id": "a_employers_fullw_39709",
+      "type": "a",
+      "content": "employers fullwidth",
+      "url": "employers-fullwidth.html"
+    },
+    {
+      "id": "a_employers_detai_24092",
+      "type": "a",
+      "content": "employers detail 1",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "a_employers_detai_87684",
+      "type": "a",
+      "content": "employers detail 2",
+      "url": "employers-detail2.html"
+    },
+    {
+      "id": "a_become_a_seller_97206",
+      "type": "a",
+      "content": "Become a seller",
+      "url": "become-seller.html"
+    },
+    {
+      "id": "a_candidates_dash_88539",
+      "type": "a",
+      "content": "Candidates Dashboard",
+      "url": "candidates-dashboard.html"
+    },
+    {
+      "id": "a_for_employers_86799",
+      "type": "a",
+      "content": "For Employers <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_71983",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_79947",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_61502",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_54977",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_browse_services_28781",
+      "type": "a",
+      "content": "Browse services <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_59471",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_55225",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_18679",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_57306",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_services_defaul_63771",
+      "type": "a",
+      "content": "services default",
+      "url": "services-default.html"
+    },
+    {
+      "id": "a_services_grid_70563",
+      "type": "a",
+      "content": "services grid",
+      "url": "services-grid.html"
+    },
+    {
+      "id": "a_services_list_41434",
+      "type": "a",
+      "content": "services list",
+      "url": "services-list.html"
+    },
+    {
+      "id": "a_services_sideba_46626",
+      "type": "a",
+      "content": "services sidebar grid 3 cols",
+      "url": "services-sidebar-grid-3cols.html"
+    },
+    {
+      "id": "a_services_sideba_33813",
+      "type": "a",
+      "content": "services sidebar grid 2 cols",
+      "url": "services-sidebar-grid-2cols.html"
+    },
+    {
+      "id": "a_services_sideba_85193",
+      "type": "a",
+      "content": "services sidebar list",
+      "url": "services-sidebar-list.html"
+    },
+    {
+      "id": "a_services_fullwi_75013",
+      "type": "a",
+      "content": "services fullwidth grid 5 cols",
+      "url": "services-fullwidth-grid-5cols.html"
+    },
+    {
+      "id": "a_services_fullwi_98301",
+      "type": "a",
+      "content": "services fullwidth grid 4 cols",
+      "url": "services-fullwidth-grid-4cols.html"
+    },
+    {
+      "id": "a_services_fullwi_49037",
+      "type": "a",
+      "content": "services fullwidth list",
+      "url": "services-fullwidth-list.html"
+    },
+    {
+      "id": "a_services_detail_42671",
+      "type": "a",
+      "content": "services detail 1",
+      "url": "services-detail1.html"
+    },
+    {
+      "id": "a_services_detail_26133",
+      "type": "a",
+      "content": "services detail 2",
+      "url": "services-detail2.html"
+    },
+    {
+      "id": "a_browse_candidat_49694",
+      "type": "a",
+      "content": "Browse candidates <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_91857",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_47130",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_27536",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_75357",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_candidates_defa_15860",
+      "type": "a",
+      "content": "candidates default",
+      "url": "candidates-default.html"
+    },
+    {
+      "id": "a_candidates_grid_99506",
+      "type": "a",
+      "content": "candidates grid",
+      "url": "candidates-grid.html"
+    },
+    {
+      "id": "a_candidates_list_98455",
+      "type": "a",
+      "content": "candidates list",
+      "url": "candidates-list.html"
+    },
+    {
+      "id": "a_candidates_side_41373",
+      "type": "a",
+      "content": "candidates sidebar grid",
+      "url": "candidates-sidebar-grid.html"
+    },
+    {
+      "id": "a_candidates_side_55393",
+      "type": "a",
+      "content": "candidates sidebar list",
+      "url": "candidates-sidebar-list.html"
+    },
+    {
+      "id": "a_candidates_top__26656",
+      "type": "a",
+      "content": "candidates top map grid",
+      "url": "candidates-top-map-grid.html"
+    },
+    {
+      "id": "a_candidates_top__26757",
+      "type": "a",
+      "content": "candidates top map list",
+      "url": "candidates-top-map-list.html"
+    },
+    {
+      "id": "a_candidates_half_41699",
+      "type": "a",
+      "content": "candidates half map grid",
+      "url": "candidates-half-map-grid.html"
+    },
+    {
+      "id": "a_candidates_half_39606",
+      "type": "a",
+      "content": "candidates half map list",
+      "url": "candidates-half-map-list.html"
+    },
+    {
+      "id": "a_candidates_full_25461",
+      "type": "a",
+      "content": "candidates fullwidth grid",
+      "url": "candidates-fullwidth-grid.html"
+    },
+    {
+      "id": "a_candidates_full_82932",
+      "type": "a",
+      "content": "candidates fullwidth list",
+      "url": "candidates-fullwidth-list.html"
+    },
+    {
+      "id": "a_candidates_deta_85744",
+      "type": "a",
+      "content": "candidates detail 1",
+      "url": "candidates-detail1.html"
+    },
+    {
+      "id": "a_candidates_deta_18989",
+      "type": "a",
+      "content": "candidates detail 2",
+      "url": "candidates-detail2.html"
+    },
+    {
+      "id": "a_become_a_buyer_97548",
+      "type": "a",
+      "content": "Become a buyer",
+      "url": "become-buyer.html"
+    },
+    {
+      "id": "a_employer_dashbo_83835",
+      "type": "a",
+      "content": "employer Dashboard",
+      "url": "employers-dashboard.html"
+    },
+    {
+      "id": "a_blogs_5034",
+      "type": "a",
+      "content": "Blogs <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_63200",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_95231",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_15371",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_81841",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_blog_default_2997",
+      "type": "a",
+      "content": "Blog default",
+      "url": "blog-default.html"
+    },
+    {
+      "id": "a_blog_grid_91592",
+      "type": "a",
+      "content": "Blog grid",
+      "url": "blog-grid.html"
+    },
+    {
+      "id": "a_blog_list_99755",
+      "type": "a",
+      "content": "Blog list",
+      "url": "blog-list.html"
+    },
+    {
+      "id": "a_blog_detail_1_94147",
+      "type": "a",
+      "content": "Blog detail 1",
+      "url": "blog-detail1.html"
+    },
+    {
+      "id": "a_blog_detail_2_61565",
+      "type": "a",
+      "content": "Blog detail 2",
+      "url": "blog-detail2.html"
+    },
+    {
+      "id": "a_pages_20467",
+      "type": "a",
+      "content": "Pages <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_66246",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_52297",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_69099",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_56951",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_about_us_1_29679",
+      "type": "a",
+      "content": "About Us 1",
+      "url": "about1.html"
+    },
+    {
+      "id": "a_about_us_2_45884",
+      "type": "a",
+      "content": "About Us 2",
+      "url": "about2.html"
+    },
+    {
+      "id": "a_pricing_plan_83498",
+      "type": "a",
+      "content": "Pricing Plan",
+      "url": "pricing.html"
+    },
+    {
+      "id": "a_contact_us_1_69630",
+      "type": "a",
+      "content": "Contact Us 1",
+      "url": "contact1.html"
+    },
+    {
+      "id": "a_contact_us_2_37403",
+      "type": "a",
+      "content": "Contact Us 2",
+      "url": "contact2.html"
+    },
+    {
+      "id": "a_faqs_86375",
+      "type": "a",
+      "content": "Faqs",
+      "url": "faqs.html"
+    },
+    {
+      "id": "a_terms_of_use_61208",
+      "type": "a",
+      "content": "Terms of use",
+      "url": "term-of-use.html"
+    },
+    {
+      "id": "a_error_404_81513",
+      "type": "a",
+      "content": "Error 404",
+      "url": "error-404.html"
+    },
+    {
+      "id": "a_login_1170",
+      "type": "a",
+      "content": "Login",
+      "url": "login.html"
+    },
+    {
+      "id": "a_register_12969",
+      "type": "a",
+      "content": "Register",
+      "url": "register.html"
+    },
+    {
+      "id": "strong_search_49120",
+      "type": "strong",
+      "content": "search"
+    },
+    {
+      "id": "span_item_92846",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_category_30735",
+      "type": "strong",
+      "content": "category"
+    },
+    {
+      "id": "span_select_category_85729",
+      "type": "span",
+      "content": "Select category"
+    },
+    {
+      "id": "span_item_96966",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_81413",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_experience_leve_71101",
+      "type": "strong",
+      "content": "Experience level"
+    },
+    {
+      "id": "span_item_36331",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "label_entry_level_4454",
+      "type": "label",
+      "content": "Entry Level"
+    },
+    {
+      "id": "span_item_73769",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "label_intermediate_57174",
+      "type": "label",
+      "content": "Intermediate"
+    },
+    {
+      "id": "span_item_7398",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "label_expert_75673",
+      "type": "label",
+      "content": "Expert"
+    },
+    {
+      "id": "strong_filter_by_fixed_9469",
+      "type": "strong",
+      "content": "Filter by Fixed-Price"
+    },
+    {
+      "id": "span___52442",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_min_58589",
+      "type": "span",
+      "content": "min"
+    },
+    {
+      "id": "span_item_79292",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span___44668",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_max_7381",
+      "type": "span",
+      "content": "max"
+    },
+    {
+      "id": "strong_filter_by_hourl_80775",
+      "type": "strong",
+      "content": "Filter by Hourly"
+    },
+    {
+      "id": "span___92515",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_min_75479",
+      "type": "span",
+      "content": "min"
+    },
+    {
+      "id": "span_item_70736",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span___62679",
+      "type": "span",
+      "content": "$"
+    },
+    {
+      "id": "span_max_36906",
+      "type": "span",
+      "content": "max"
+    },
+    {
+      "id": "strong_client_location_57935",
+      "type": "strong",
+      "content": "Client Location"
+    },
+    {
+      "id": "span_select_client_l_37212",
+      "type": "span",
+      "content": "Select client location"
+    },
+    {
+      "id": "span_item_67081",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_85308",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_client_timezone_35389",
+      "type": "strong",
+      "content": "Client timezone"
+    },
+    {
+      "id": "span_select_client_t_41831",
+      "type": "span",
+      "content": "Select client timezone"
+    },
+    {
+      "id": "span_item_49889",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_14941",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_english_level_41914",
+      "type": "strong",
+      "content": "English Level"
+    },
+    {
+      "id": "span_select_english__70500",
+      "type": "span",
+      "content": "Select english level"
+    },
+    {
+      "id": "span_item_96821",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_20986",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "button_find_projects_1444",
+      "type": "button",
+      "content": "Find Projects"
+    }
+  ]
+}

@@ -1,0 +1,4588 @@
+{
+  "metadata": {
+    "exportedAt": "2026-04-14T09:59:31.900Z",
+    "sourceFile": "employers-grid.html",
+    "totalElements": 820
+  },
+  "elements": [
+    {
+      "id": "h1_item_51629",
+      "type": "h1",
+      "content": "<a href=\"index.html\"> <img src=\"./assets/images/logo-white.png\" alt=\"logo-white\" class=\"logo-white md:h-[42px] h-8 w-auto\"> <img src=\"./assets/images/logo.png\" alt=\"logo\" class=\"logo-black md:h-[42px] h-8 w-auto hidden\"> </a>"
+    },
+    {
+      "id": "a_item_6691",
+      "type": "a",
+      "content": "<img src=\"./assets/images/logo-white.png\" alt=\"logo-white\" class=\"logo-white md:h-[42px] h-8 w-auto\"> <img src=\"./assets/images/logo.png\" alt=\"logo\" class=\"logo-black md:h-[42px] h-8 w-auto hidden\">",
+      "url": "index.html"
+    },
+    {
+      "id": "img_item_70541",
+      "type": "img",
+      "src": "./assets/images/logo-white.png"
+    },
+    {
+      "id": "img_item_2349",
+      "type": "img",
+      "src": "./assets/images/logo.png"
+    },
+    {
+      "id": "button_categories_81003",
+      "type": "button",
+      "content": "<span class=\"ph ph-stack text-2xl text-primary\"></span> <span>Categories</span>"
+    },
+    {
+      "id": "span_item_34774",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_categories_90591",
+      "type": "span",
+      "content": "Categories"
+    },
+    {
+      "id": "button_graphic___desig_67841",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-desktop text-2xl\"></span> <strong class=\"category_name text-title\">Graphic &amp; Design</strong>"
+    },
+    {
+      "id": "span_item_41357",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_graphic___desig_78494",
+      "type": "strong",
+      "content": "Graphic &amp; Design"
+    },
+    {
+      "id": "button_digital_marketi_77191",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-megaphone-simple text-2xl\"></span> <strong class=\"category_name text-title\">Digital Marketing</strong>"
+    },
+    {
+      "id": "span_item_55234",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_digital_marketi_65439",
+      "type": "strong",
+      "content": "Digital Marketing"
+    },
+    {
+      "id": "button_programming___t_18575",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-brackets-angle text-2xl\"></span> <strong class=\"category_name text-title\">Programming &amp; Tech</strong>"
+    },
+    {
+      "id": "span_item_9620",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_programming___t_91546",
+      "type": "strong",
+      "content": "Programming &amp; Tech"
+    },
+    {
+      "id": "button_wrting___transl_97506",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-pencil-simple-line text-2xl\"></span> <strong class=\"category_name text-title\">Wrting &amp; Translation</strong>"
+    },
+    {
+      "id": "span_item_19975",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_wrting___transl_8248",
+      "type": "strong",
+      "content": "Wrting &amp; Translation"
+    },
+    {
+      "id": "button_videos___animat_61201",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-video text-2xl\"></span> <strong class=\"category_name text-title\">Videos &amp; Animation</strong>"
+    },
+    {
+      "id": "span_item_18562",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_videos___animat_2406",
+      "type": "strong",
+      "content": "Videos &amp; Animation"
+    },
+    {
+      "id": "button_mussic___audio_61485",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-music-notes text-2xl\"></span> <strong class=\"category_name text-title\">Mussic &amp; Audio</strong>"
+    },
+    {
+      "id": "span_item_18194",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_mussic___audio_53525",
+      "type": "strong",
+      "content": "Mussic &amp; Audio"
+    },
+    {
+      "id": "button_ai_services_72853",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-head-circuit text-2xl\"></span> <strong class=\"category_name text-title\">AI Services</strong>"
+    },
+    {
+      "id": "span_item_44502",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_ai_services_74387",
+      "type": "strong",
+      "content": "AI Services"
+    },
+    {
+      "id": "button_photography_33208",
+      "type": "button",
+      "content": "<span class=\"ph-fill ph-camera text-2xl\"></span> <strong class=\"category_name text-title\">Photography</strong>"
+    },
+    {
+      "id": "span_item_86242",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_photography_76533",
+      "type": "strong",
+      "content": "Photography"
+    },
+    {
+      "id": "strong_websites_40705",
+      "type": "strong",
+      "content": "Websites"
+    },
+    {
+      "id": "a_website_develop_64666",
+      "type": "a",
+      "content": "Website Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_website_mainten_2262",
+      "type": "a",
+      "content": "Website Maintenance",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_wordpress_71988",
+      "type": "a",
+      "content": "WordPress",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_shopify_91660",
+      "type": "a",
+      "content": "Shopify",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_application_62",
+      "type": "strong",
+      "content": "Application"
+    },
+    {
+      "id": "a_web_application_92231",
+      "type": "a",
+      "content": "Web Applications",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_game_developmen_72527",
+      "type": "a",
+      "content": "Game Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_chatbot_develop_60944",
+      "type": "a",
+      "content": "Chatbot Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_desktop_applica_13224",
+      "type": "a",
+      "content": "Desktop Applications",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_software_90442",
+      "type": "strong",
+      "content": "Software"
+    },
+    {
+      "id": "a_software_develo_37393",
+      "type": "a",
+      "content": "Software Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_apis___integrat_96916",
+      "type": "a",
+      "content": "APIs &amp; Integrations",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ai_development_71945",
+      "type": "a",
+      "content": "AI Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_plugins_develop_18458",
+      "type": "a",
+      "content": "Plugins Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_mobile_apps_60648",
+      "type": "strong",
+      "content": "Mobile Apps"
+    },
+    {
+      "id": "a_mobile_app_deve_27182",
+      "type": "a",
+      "content": "Mobile App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cross_platform__35996",
+      "type": "a",
+      "content": "Cross-platform Apps",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_android_app_dev_71232",
+      "type": "a",
+      "content": "Android App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ios_app_develop_74653",
+      "type": "a",
+      "content": "IOS App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_website_platfor_74267",
+      "type": "strong",
+      "content": "Website Platforms"
+    },
+    {
+      "id": "a_wix_67778",
+      "type": "a",
+      "content": "Wix",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_webflow_98475",
+      "type": "a",
+      "content": "Webflow",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_godaddy_2663",
+      "type": "a",
+      "content": "GoDaddy",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_woocommerce_93729",
+      "type": "a",
+      "content": "WooCommerce",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_cybersecurity_12517",
+      "type": "strong",
+      "content": "cybersecurity"
+    },
+    {
+      "id": "a_support___it_77447",
+      "type": "a",
+      "content": "Support &amp; IT",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cloud_computing_7397",
+      "type": "a",
+      "content": "Cloud Computing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_devops_engineer_22683",
+      "type": "a",
+      "content": "DevOps Engineering",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cybersecurity_21613",
+      "type": "a",
+      "content": "Cybersecurity",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_miscellaneous_3233",
+      "type": "strong",
+      "content": "Miscellaneous"
+    },
+    {
+      "id": "a_blockchain___so_49832",
+      "type": "a",
+      "content": "Blockchain &amp; Solutions",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cryptocurrencie_56671",
+      "type": "a",
+      "content": "Cryptocurrencies",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_electronics_eng_58799",
+      "type": "a",
+      "content": "Electronics Engineering",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_online_coding_l_17957",
+      "type": "a",
+      "content": "Online Coding Lessons",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_seo_72255",
+      "type": "strong",
+      "content": "SEO"
+    },
+    {
+      "id": "a_on_page_seo_30520",
+      "type": "a",
+      "content": "On-Page SEO",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_off_page_seo_13419",
+      "type": "a",
+      "content": "Off-Page SEO",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_technical_seo_61126",
+      "type": "a",
+      "content": "Technical SEO",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_local_seo_62062",
+      "type": "a",
+      "content": "Local SEO",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_content_marketi_34307",
+      "type": "strong",
+      "content": "Content Marketing"
+    },
+    {
+      "id": "a_content_strateg_37799",
+      "type": "a",
+      "content": "Content Strategy",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_blog_writing_99945",
+      "type": "a",
+      "content": "Blog Writing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_video_content_67643",
+      "type": "a",
+      "content": "Video Content",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_infographic_des_95679",
+      "type": "a",
+      "content": "Infographic Design",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_social_media_ma_21976",
+      "type": "strong",
+      "content": "Social Media Marketing"
+    },
+    {
+      "id": "a_facebook_market_64546",
+      "type": "a",
+      "content": "Facebook Marketing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_instagram_marke_39397",
+      "type": "a",
+      "content": "Instagram Marketing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_linkedin_market_82112",
+      "type": "a",
+      "content": "LinkedIn Marketing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_twitter_marketi_47531",
+      "type": "a",
+      "content": "Twitter Marketing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_email_marketing_99071",
+      "type": "strong",
+      "content": "Email Marketing"
+    },
+    {
+      "id": "a_email_campaigns_72506",
+      "type": "a",
+      "content": "Email Campaigns",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_newsletter_desi_7718",
+      "type": "a",
+      "content": "Newsletter Design",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_automation_59317",
+      "type": "a",
+      "content": "Automation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_drip_campaigns_97152",
+      "type": "a",
+      "content": "Drip Campaigns",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_paid_advertisin_44292",
+      "type": "strong",
+      "content": "Paid Advertising"
+    },
+    {
+      "id": "a_google_ads_67276",
+      "type": "a",
+      "content": "Google Ads",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_facebook_ads_7768",
+      "type": "a",
+      "content": "Facebook Ads",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_instagram_ads_21612",
+      "type": "a",
+      "content": "Instagram Ads",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_linkedin_ads_66171",
+      "type": "a",
+      "content": "LinkedIn Ads",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_analytics_70501",
+      "type": "strong",
+      "content": "Analytics"
+    },
+    {
+      "id": "a_google_analytic_4727",
+      "type": "a",
+      "content": "Google Analytics",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_conversion_trac_9247",
+      "type": "a",
+      "content": "Conversion Tracking",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_data_analysis_56927",
+      "type": "a",
+      "content": "Data Analysis",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_reporting_33876",
+      "type": "a",
+      "content": "Reporting",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_web_development_30492",
+      "type": "strong",
+      "content": "Web Development"
+    },
+    {
+      "id": "a_website_develop_97827",
+      "type": "a",
+      "content": "Website Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_website_mainten_40384",
+      "type": "a",
+      "content": "Website Maintenance",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_wordpress_88900",
+      "type": "a",
+      "content": "WordPress",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_shopify_53082",
+      "type": "a",
+      "content": "Shopify",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_mobile_developm_37254",
+      "type": "strong",
+      "content": "Mobile Development"
+    },
+    {
+      "id": "a_mobile_app_deve_43162",
+      "type": "a",
+      "content": "Mobile App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cross_platform__36804",
+      "type": "a",
+      "content": "Cross-platform Apps",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_android_app_dev_16338",
+      "type": "a",
+      "content": "Android App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ios_app_develop_96018",
+      "type": "a",
+      "content": "iOS App Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_software_develo_84654",
+      "type": "strong",
+      "content": "Software Development"
+    },
+    {
+      "id": "a_software_develo_83340",
+      "type": "a",
+      "content": "Software Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_apis___integrat_47478",
+      "type": "a",
+      "content": "APIs &amp; Integrations",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ai_development_50012",
+      "type": "a",
+      "content": "AI Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_plugins_develop_72738",
+      "type": "a",
+      "content": "Plugins Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_game_developmen_87523",
+      "type": "strong",
+      "content": "Game Development"
+    },
+    {
+      "id": "a_game_developmen_45061",
+      "type": "a",
+      "content": "Game Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_game_design_61435",
+      "type": "a",
+      "content": "Game Design",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ar_vr_developme_66941",
+      "type": "a",
+      "content": "AR/VR Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_mobile_game_dev_47559",
+      "type": "a",
+      "content": "Mobile Game Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_articles___blog_4285",
+      "type": "strong",
+      "content": "Articles &amp; Blog Posts"
+    },
+    {
+      "id": "a_seo_writing_23023",
+      "type": "a",
+      "content": "SEO Writing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_blog_posts_18636",
+      "type": "a",
+      "content": "Blog Posts",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_website_content_37520",
+      "type": "a",
+      "content": "Website Content",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_article_writing_88153",
+      "type": "a",
+      "content": "Article Writing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_technical_writi_66123",
+      "type": "strong",
+      "content": "Technical Writing"
+    },
+    {
+      "id": "a_user_manuals_6995",
+      "type": "a",
+      "content": "User Manuals",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_technical_docum_40898",
+      "type": "a",
+      "content": "Technical Documentation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_research_papers_80936",
+      "type": "a",
+      "content": "Research Papers",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_white_papers_37732",
+      "type": "a",
+      "content": "White Papers",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_translation_ser_62299",
+      "type": "strong",
+      "content": "Translation Services"
+    },
+    {
+      "id": "a_document_transl_47255",
+      "type": "a",
+      "content": "Document Translation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_website_transla_39537",
+      "type": "a",
+      "content": "Website Translation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_legal_translati_91816",
+      "type": "a",
+      "content": "Legal Translation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_medical_transla_93246",
+      "type": "a",
+      "content": "Medical Translation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_creative_writin_52731",
+      "type": "strong",
+      "content": "Creative Writing"
+    },
+    {
+      "id": "a_scriptwriting_785",
+      "type": "a",
+      "content": "Scriptwriting",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_storytelling_50672",
+      "type": "a",
+      "content": "Storytelling",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_poetry_24613",
+      "type": "a",
+      "content": "Poetry",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ghostwriting_85464",
+      "type": "a",
+      "content": "Ghostwriting",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_editing___proof_93954",
+      "type": "strong",
+      "content": "Editing &amp; Proofreading"
+    },
+    {
+      "id": "a_proofreading_95000",
+      "type": "a",
+      "content": "Proofreading",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_copy_editing_49599",
+      "type": "a",
+      "content": "Copy Editing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_content_editing_79617",
+      "type": "a",
+      "content": "Content Editing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_editorial_feedb_35778",
+      "type": "a",
+      "content": "Editorial Feedback",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_business_writin_92803",
+      "type": "strong",
+      "content": "Business Writing"
+    },
+    {
+      "id": "a_business_plans_55261",
+      "type": "a",
+      "content": "Business Plans",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_proposals_11159",
+      "type": "a",
+      "content": "Proposals",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_reports_46772",
+      "type": "a",
+      "content": "Reports",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_presentations_80077",
+      "type": "a",
+      "content": "Presentations",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_video_editing_6786",
+      "type": "strong",
+      "content": "Video Editing"
+    },
+    {
+      "id": "a_post_production_15557",
+      "type": "a",
+      "content": "Post-Production",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_color_correctio_87987",
+      "type": "a",
+      "content": "Color Correction",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_video_stitching_9683",
+      "type": "a",
+      "content": "Video Stitching",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_sound_design_98521",
+      "type": "a",
+      "content": "Sound Design",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_animation_44105",
+      "type": "strong",
+      "content": "Animation"
+    },
+    {
+      "id": "a_2d_animation_2359",
+      "type": "a",
+      "content": "2D Animation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_3d_animation_74745",
+      "type": "a",
+      "content": "3D Animation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_motion_graphics_379",
+      "type": "a",
+      "content": "Motion Graphics",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_stop_motion_66921",
+      "type": "a",
+      "content": "Stop Motion",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_video_productio_35701",
+      "type": "strong",
+      "content": "Video Production"
+    },
+    {
+      "id": "a_filming_1785",
+      "type": "a",
+      "content": "Filming",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_directing_44368",
+      "type": "a",
+      "content": "Directing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_scriptwriting_87003",
+      "type": "a",
+      "content": "Scriptwriting",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_storyboarding_12373",
+      "type": "a",
+      "content": "Storyboarding",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_music_videos_24049",
+      "type": "strong",
+      "content": "Music Videos"
+    },
+    {
+      "id": "a_concept_develop_93490",
+      "type": "a",
+      "content": "Concept Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_filming___editi_80197",
+      "type": "a",
+      "content": "Filming &amp; Editing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_special_effects_54135",
+      "type": "a",
+      "content": "Special Effects",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_color_grading_79424",
+      "type": "a",
+      "content": "Color Grading",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_intros___outros_84039",
+      "type": "strong",
+      "content": "Intros &amp; Outros"
+    },
+    {
+      "id": "a_youtube_intros_77961",
+      "type": "a",
+      "content": "YouTube Intros",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_logo_animation_84664",
+      "type": "a",
+      "content": "Logo Animation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_end_screens_86581",
+      "type": "a",
+      "content": "End Screens",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_channel_trailer_74347",
+      "type": "a",
+      "content": "Channel Trailers",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_live_action_86620",
+      "type": "strong",
+      "content": "Live Action"
+    },
+    {
+      "id": "a_explainer_video_14441",
+      "type": "a",
+      "content": "Explainer Videos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_commercials_68271",
+      "type": "a",
+      "content": "Commercials",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_product_demos_21005",
+      "type": "a",
+      "content": "Product Demos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_corporate_video_33273",
+      "type": "a",
+      "content": "Corporate Videos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_visual_effects_73965",
+      "type": "strong",
+      "content": "Visual Effects"
+    },
+    {
+      "id": "a_compositing_53605",
+      "type": "a",
+      "content": "Compositing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_green_screen_20268",
+      "type": "a",
+      "content": "Green Screen",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_rotoscoping_32152",
+      "type": "a",
+      "content": "Rotoscoping",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_3d_tracking_346",
+      "type": "a",
+      "content": "3D Tracking",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_music_productio_97857",
+      "type": "strong",
+      "content": "Music Production"
+    },
+    {
+      "id": "a_beat_making_22817",
+      "type": "a",
+      "content": "Beat Making",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_remixing_28899",
+      "type": "a",
+      "content": "Remixing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_songwriting_61549",
+      "type": "a",
+      "content": "Songwriting",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_jingles___intro_80405",
+      "type": "a",
+      "content": "Jingles &amp; Intros",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_audio_engineeri_29328",
+      "type": "strong",
+      "content": "Audio Engineering"
+    },
+    {
+      "id": "a_mixing___master_92019",
+      "type": "a",
+      "content": "Mixing &amp; Mastering",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_sound_design_92284",
+      "type": "a",
+      "content": "Sound Design",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_audio_editing_80621",
+      "type": "a",
+      "content": "Audio Editing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_restoration___r_14687",
+      "type": "a",
+      "content": "Restoration &amp; Repair",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_voice_over_50758",
+      "type": "strong",
+      "content": "Voice Over"
+    },
+    {
+      "id": "a_narration_24800",
+      "type": "a",
+      "content": "Narration",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_character_voice_81805",
+      "type": "a",
+      "content": "Character Voices",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_podcast_intros_35849",
+      "type": "a",
+      "content": "Podcast Intros",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_commercials_33720",
+      "type": "a",
+      "content": "Commercials",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_music_lessons_70571",
+      "type": "strong",
+      "content": "Music Lessons"
+    },
+    {
+      "id": "a_instrumental_le_1305",
+      "type": "a",
+      "content": "Instrumental Lessons",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_vocal_coaching_18978",
+      "type": "a",
+      "content": "Vocal Coaching",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_music_theory_83890",
+      "type": "a",
+      "content": "Music Theory",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_songwriting_les_32164",
+      "type": "a",
+      "content": "Songwriting Lessons",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_jingles___drops_25235",
+      "type": "strong",
+      "content": "Jingles &amp; Drops"
+    },
+    {
+      "id": "a_radio_jingles_42125",
+      "type": "a",
+      "content": "Radio Jingles",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_dj_drops_61128",
+      "type": "a",
+      "content": "DJ Drops",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_podcast_intros_20521",
+      "type": "a",
+      "content": "Podcast Intros",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_tv___film_jingl_23059",
+      "type": "a",
+      "content": "TV &amp; Film Jingles",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_sound_effects_8475",
+      "type": "strong",
+      "content": "Sound Effects"
+    },
+    {
+      "id": "a_custom_sound_ef_89463",
+      "type": "a",
+      "content": "Custom Sound Effects",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_foley_26565",
+      "type": "a",
+      "content": "Foley",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_game_sound_effe_52544",
+      "type": "a",
+      "content": "Game Sound Effects",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_podcast_sound_e_98965",
+      "type": "a",
+      "content": "Podcast Sound Effects",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_machine_learnin_11980",
+      "type": "strong",
+      "content": "Machine Learning"
+    },
+    {
+      "id": "a_model_training_69389",
+      "type": "a",
+      "content": "Model Training",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_data_analysis_82556",
+      "type": "a",
+      "content": "Data Analysis",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_predictive_anal_80746",
+      "type": "a",
+      "content": "Predictive Analytics",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_natural_languag_4991",
+      "type": "a",
+      "content": "Natural Language Processing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_ai_development_53903",
+      "type": "strong",
+      "content": "AI Development"
+    },
+    {
+      "id": "a_chatbot_develop_53299",
+      "type": "a",
+      "content": "Chatbot Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ai_solutions_55263",
+      "type": "a",
+      "content": "AI Solutions",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_custom_ai_appli_22754",
+      "type": "a",
+      "content": "Custom AI Applications",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_machine_learnin_36524",
+      "type": "a",
+      "content": "Machine Learning Algorithms",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_data_science_30302",
+      "type": "strong",
+      "content": "Data Science"
+    },
+    {
+      "id": "a_data_visualizat_48061",
+      "type": "a",
+      "content": "Data Visualization",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_data_engineerin_30722",
+      "type": "a",
+      "content": "Data Engineering",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_big_data_soluti_5431",
+      "type": "a",
+      "content": "Big Data Solutions",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_data_mining_4316",
+      "type": "a",
+      "content": "Data Mining",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_automation_62472",
+      "type": "strong",
+      "content": "Automation"
+    },
+    {
+      "id": "a_process_automat_92584",
+      "type": "a",
+      "content": "Process Automation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_rpa_development_68374",
+      "type": "a",
+      "content": "RPA Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_automation_tool_88102",
+      "type": "a",
+      "content": "Automation Tools",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_workflow_automa_21553",
+      "type": "a",
+      "content": "Workflow Automation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_computer_vision_14283",
+      "type": "strong",
+      "content": "Computer Vision"
+    },
+    {
+      "id": "a_image_recogniti_52635",
+      "type": "a",
+      "content": "Image Recognition",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_object_detectio_57002",
+      "type": "a",
+      "content": "Object Detection",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_facial_recognit_55321",
+      "type": "a",
+      "content": "Facial Recognition",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_video_analysis_14425",
+      "type": "a",
+      "content": "Video Analysis",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_speech_recognit_23157",
+      "type": "strong",
+      "content": "Speech Recognition"
+    },
+    {
+      "id": "a_voice_assistant_23507",
+      "type": "a",
+      "content": "Voice Assistants",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_speech_to_text_71793",
+      "type": "a",
+      "content": "Speech to Text",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_text_to_speech_22033",
+      "type": "a",
+      "content": "Text to Speech",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_voice_command_s_92289",
+      "type": "a",
+      "content": "Voice Command Systems",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_ai_consulting_47198",
+      "type": "strong",
+      "content": "AI Consulting"
+    },
+    {
+      "id": "a_strategy_develo_14084",
+      "type": "a",
+      "content": "Strategy Development",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_implementation__8983",
+      "type": "a",
+      "content": "Implementation Guidance",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_ai_roadmaps_29932",
+      "type": "a",
+      "content": "AI Roadmaps",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_technical_suppo_88279",
+      "type": "a",
+      "content": "Technical Support",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_portrait_photog_31215",
+      "type": "strong",
+      "content": "Portrait Photography"
+    },
+    {
+      "id": "a_headshots_61164",
+      "type": "a",
+      "content": "Headshots",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_family_portrait_39157",
+      "type": "a",
+      "content": "Family Portraits",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_event_photograp_32809",
+      "type": "a",
+      "content": "Event Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_fashion_photogr_75212",
+      "type": "a",
+      "content": "Fashion Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_commercial_phot_4515",
+      "type": "strong",
+      "content": "Commercial Photography"
+    },
+    {
+      "id": "a_product_photogr_66352",
+      "type": "a",
+      "content": "Product Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_food_photograph_76882",
+      "type": "a",
+      "content": "Food Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_real_estate_pho_65136",
+      "type": "a",
+      "content": "Real Estate Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_advertising_pho_36285",
+      "type": "a",
+      "content": "Advertising Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_travel_photogra_38873",
+      "type": "strong",
+      "content": "Travel Photography"
+    },
+    {
+      "id": "a_landscape_photo_8575",
+      "type": "a",
+      "content": "Landscape Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_cityscape_photo_36479",
+      "type": "a",
+      "content": "Cityscape Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_street_photogra_86141",
+      "type": "a",
+      "content": "Street Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_adventure_photo_15413",
+      "type": "a",
+      "content": "Adventure Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_aerial_photogra_10142",
+      "type": "strong",
+      "content": "Aerial Photography"
+    },
+    {
+      "id": "a_drone_photograp_38784",
+      "type": "a",
+      "content": "Drone Photography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_aerial_videogra_52828",
+      "type": "a",
+      "content": "Aerial Videography",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_real_estate_aer_221",
+      "type": "a",
+      "content": "Real Estate Aerials",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_event_aerials_94167",
+      "type": "a",
+      "content": "Event Aerials",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_wedding_photogr_39947",
+      "type": "strong",
+      "content": "Wedding Photography"
+    },
+    {
+      "id": "a_engagement_phot_65609",
+      "type": "a",
+      "content": "Engagement Photos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_wedding_day_pho_31615",
+      "type": "a",
+      "content": "Wedding Day Photos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_bridal_portrait_43725",
+      "type": "a",
+      "content": "Bridal Portraits",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_reception_photo_49255",
+      "type": "a",
+      "content": "Reception Photos",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_photo_editing_48482",
+      "type": "strong",
+      "content": "Photo Editing"
+    },
+    {
+      "id": "a_retouching_58454",
+      "type": "a",
+      "content": "Retouching",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_color_correctio_56621",
+      "type": "a",
+      "content": "Color Correction",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_photo_restorati_86576",
+      "type": "a",
+      "content": "Photo Restoration",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_background_remo_70073",
+      "type": "a",
+      "content": "Background Removal",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_homepages_51126",
+      "type": "a",
+      "content": "<span class=\"text-title relative\">Homepages</span> <span class=\"ph-bold ph-caret-down\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_homepages_93301",
+      "type": "span",
+      "content": "Homepages"
+    },
+    {
+      "id": "span_item_713",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_home_freelancer_52594",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home1.webp\" alt=\"home1\" class=\"w-full rounded\"> <span>Home Freelancer 01</span>",
+      "url": "index.html"
+    },
+    {
+      "id": "img_item_25996",
+      "type": "img",
+      "src": "./assets/images/components/home1.webp"
+    },
+    {
+      "id": "span_home_freelancer_6170",
+      "type": "span",
+      "content": "Home Freelancer 01"
+    },
+    {
+      "id": "a_home_freelancer_10455",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home2.webp\" alt=\"home2\" class=\"w-full rounded\"> <span>Home Freelancer 02</span>",
+      "url": "freelancer2.html"
+    },
+    {
+      "id": "img_item_27944",
+      "type": "img",
+      "src": "./assets/images/components/home2.webp"
+    },
+    {
+      "id": "span_home_freelancer_36428",
+      "type": "span",
+      "content": "Home Freelancer 02"
+    },
+    {
+      "id": "a_home_freelancer_12934",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home3.webp\" alt=\"home3\" class=\"w-full rounded\"> <span>Home Freelancer 03</span>",
+      "url": "freelancer3.html"
+    },
+    {
+      "id": "img_item_98151",
+      "type": "img",
+      "src": "./assets/images/components/home3.webp"
+    },
+    {
+      "id": "span_home_freelancer_19050",
+      "type": "span",
+      "content": "Home Freelancer 03"
+    },
+    {
+      "id": "a_home_freelancer_27353",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home4.webp\" alt=\"home4\" class=\"w-full rounded\"> <span>Home Freelancer 04</span>",
+      "url": "freelancer4.html"
+    },
+    {
+      "id": "img_item_64232",
+      "type": "img",
+      "src": "./assets/images/components/home4.webp"
+    },
+    {
+      "id": "span_home_freelancer_40588",
+      "type": "span",
+      "content": "Home Freelancer 04"
+    },
+    {
+      "id": "a_home_freelancer_78817",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home5.webp\" alt=\"home5\" class=\"w-full rounded\"> <span>Home Freelancer 05</span>",
+      "url": "freelancer5.html"
+    },
+    {
+      "id": "img_item_85135",
+      "type": "img",
+      "src": "./assets/images/components/home5.webp"
+    },
+    {
+      "id": "span_home_freelancer_86948",
+      "type": "span",
+      "content": "Home Freelancer 05"
+    },
+    {
+      "id": "a_home_freelancer_30032",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home6.webp\" alt=\"home6\" class=\"w-full rounded\"> <span>Home Freelancer 06</span>",
+      "url": "freelancer6.html"
+    },
+    {
+      "id": "img_item_26585",
+      "type": "img",
+      "src": "./assets/images/components/home6.webp"
+    },
+    {
+      "id": "span_home_freelancer_388",
+      "type": "span",
+      "content": "Home Freelancer 06"
+    },
+    {
+      "id": "a_home_freelancer_11606",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home7.webp\" alt=\"home7\" class=\"w-full rounded\"> <span>Home Freelancer 07</span>",
+      "url": "freelancer7.html"
+    },
+    {
+      "id": "img_item_72100",
+      "type": "img",
+      "src": "./assets/images/components/home7.webp"
+    },
+    {
+      "id": "span_home_freelancer_78918",
+      "type": "span",
+      "content": "Home Freelancer 07"
+    },
+    {
+      "id": "a_home_freelancer_4321",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home8.webp\" alt=\"home8\" class=\"w-full rounded\"> <span>Home Freelancer 08</span>",
+      "url": "freelancer8.html"
+    },
+    {
+      "id": "img_item_58691",
+      "type": "img",
+      "src": "./assets/images/components/home8.webp"
+    },
+    {
+      "id": "span_home_freelancer_81167",
+      "type": "span",
+      "content": "Home Freelancer 08"
+    },
+    {
+      "id": "a_home_jobs_09_27765",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home9.webp\" alt=\"home9\" class=\"w-full rounded\"> <span>Home Jobs 09</span>",
+      "url": "jobs9.html"
+    },
+    {
+      "id": "img_item_44956",
+      "type": "img",
+      "src": "./assets/images/components/home9.webp"
+    },
+    {
+      "id": "span_home_jobs_09_65466",
+      "type": "span",
+      "content": "Home Jobs 09"
+    },
+    {
+      "id": "a_home_jobs_10_68164",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home10.webp\" alt=\"home10\" class=\"w-full rounded\"> <span>Home Jobs 10</span>",
+      "url": "jobs10.html"
+    },
+    {
+      "id": "img_item_69223",
+      "type": "img",
+      "src": "./assets/images/components/home10.webp"
+    },
+    {
+      "id": "span_home_jobs_10_8613",
+      "type": "span",
+      "content": "Home Jobs 10"
+    },
+    {
+      "id": "a_home_jobs_11_45582",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home11.webp\" alt=\"home11\" class=\"w-full rounded\"> <span>Home Jobs 11</span>",
+      "url": "jobs11.html"
+    },
+    {
+      "id": "img_item_15299",
+      "type": "img",
+      "src": "./assets/images/components/home11.webp"
+    },
+    {
+      "id": "span_home_jobs_11_52216",
+      "type": "span",
+      "content": "Home Jobs 11"
+    },
+    {
+      "id": "a_home_jobs_12_58293",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home12.webp\" alt=\"home12\" class=\"w-full rounded\"> <span>Home Jobs 12</span>",
+      "url": "jobs12.html"
+    },
+    {
+      "id": "img_item_81023",
+      "type": "img",
+      "src": "./assets/images/components/home12.webp"
+    },
+    {
+      "id": "span_home_jobs_12_20489",
+      "type": "span",
+      "content": "Home Jobs 12"
+    },
+    {
+      "id": "a_home_rtl_13_75259",
+      "type": "a",
+      "content": "<img src=\"./assets/images/components/home13.webp\" alt=\"home13\" class=\"w-full rounded\"> <span>Home RTL 13</span>",
+      "url": "rtl13.html"
+    },
+    {
+      "id": "img_item_52411",
+      "type": "img",
+      "src": "./assets/images/components/home13.webp"
+    },
+    {
+      "id": "span_home_rtl_13_98755",
+      "type": "span",
+      "content": "Home RTL 13"
+    },
+    {
+      "id": "a_for_candidates_10909",
+      "type": "a",
+      "content": "<span class=\"text-title relative\">For Candidates</span> <span class=\"ph-bold ph-caret-down\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_for_candidates_37685",
+      "type": "span",
+      "content": "For Candidates"
+    },
+    {
+      "id": "span_item_10521",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_browse_jobs_53614",
+      "type": "a",
+      "content": "Browse jobs <span class=\"ph-bold ph-caret-right\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_55196",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_jobs_default_63001",
+      "type": "a",
+      "content": "jobs default",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_jobs_grid_930",
+      "type": "a",
+      "content": "jobs grid",
+      "url": "jobs-grid.html"
+    },
+    {
+      "id": "a_jobs_list_46020",
+      "type": "a",
+      "content": "jobs list",
+      "url": "jobs-list.html"
+    },
+    {
+      "id": "a_jobs_top_map_46198",
+      "type": "a",
+      "content": "jobs top map",
+      "url": "jobs-top-map.html"
+    },
+    {
+      "id": "a_jobs_half_map_g_97109",
+      "type": "a",
+      "content": "jobs half map grid 1",
+      "url": "jobs-half-map-grid1.html"
+    },
+    {
+      "id": "a_jobs_half_map_g_65085",
+      "type": "a",
+      "content": "jobs half map grid 2",
+      "url": "jobs-half-map-grid2.html"
+    },
+    {
+      "id": "a_jobs_fullwidth_75084",
+      "type": "a",
+      "content": "jobs fullwidth",
+      "url": "jobs-fullwidth.html"
+    },
+    {
+      "id": "a_jobs_detail_1_5668",
+      "type": "a",
+      "content": "jobs detail 1",
+      "url": "jobs-detail1.html"
+    },
+    {
+      "id": "a_jobs_detail_2_8844",
+      "type": "a",
+      "content": "jobs detail 2",
+      "url": "jobs-detail2.html"
+    },
+    {
+      "id": "a_browse_projects_92889",
+      "type": "a",
+      "content": "Browse Projects <span class=\"ph-bold ph-caret-right\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_87341",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_project_default_292",
+      "type": "a",
+      "content": "project default",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_project_grid_3__54701",
+      "type": "a",
+      "content": "project grid 3 columns",
+      "url": "project-grid-3col.html"
+    },
+    {
+      "id": "a_project_list_25469",
+      "type": "a",
+      "content": "project list",
+      "url": "project-list.html"
+    },
+    {
+      "id": "a_project_top_map_71521",
+      "type": "a",
+      "content": "project top map grid",
+      "url": "project-top-map-grid.html"
+    },
+    {
+      "id": "a_project_top_map_73249",
+      "type": "a",
+      "content": "project top map list",
+      "url": "project-top-map-list.html"
+    },
+    {
+      "id": "a_project_half_ma_42838",
+      "type": "a",
+      "content": "project half map grid",
+      "url": "project-half-map-grid.html"
+    },
+    {
+      "id": "a_project_half_ma_68853",
+      "type": "a",
+      "content": "project half map list",
+      "url": "project-half-map-list.html"
+    },
+    {
+      "id": "a_project_fullwid_26750",
+      "type": "a",
+      "content": "project fullwidth",
+      "url": "project-fullwidth.html"
+    },
+    {
+      "id": "a_project_detail__45088",
+      "type": "a",
+      "content": "project detail 1",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "a_project_detail__24288",
+      "type": "a",
+      "content": "project detail 2",
+      "url": "project-detail2.html"
+    },
+    {
+      "id": "a_project_detail__43654",
+      "type": "a",
+      "content": "project detail 3",
+      "url": "project-detail3.html"
+    },
+    {
+      "id": "a_browse_employer_27487",
+      "type": "a",
+      "content": "Browse Employer <span class=\"ph-bold ph-caret-right\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_88985",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_employers_defau_5934",
+      "type": "a",
+      "content": "employers default",
+      "url": "employers-default.html"
+    },
+    {
+      "id": "a_employers_grid_74759",
+      "type": "a",
+      "content": "employers grid",
+      "url": "employers-grid.html"
+    },
+    {
+      "id": "a_employers_list_30492",
+      "type": "a",
+      "content": "employers list",
+      "url": "employers-list.html"
+    },
+    {
+      "id": "a_employers_sideb_89120",
+      "type": "a",
+      "content": "employers sidebar grid 3 cols",
+      "url": "employers-sidebar-grid-3cols.html"
+    },
+    {
+      "id": "a_employers_sideb_3384",
+      "type": "a",
+      "content": "employers sidebar grid 2 cols",
+      "url": "employers-sidebar-grid-2cols.html"
+    },
+    {
+      "id": "a_employers_sideb_42047",
+      "type": "a",
+      "content": "employers sidebar list",
+      "url": "employers-sidebar-list.html"
+    },
+    {
+      "id": "a_employers_top_m_39794",
+      "type": "a",
+      "content": "employers top map grid",
+      "url": "employers-top-map-grid.html"
+    },
+    {
+      "id": "a_employers_top_m_33228",
+      "type": "a",
+      "content": "employers top map list",
+      "url": "employers-top-map-list.html"
+    },
+    {
+      "id": "a_employers_half__84080",
+      "type": "a",
+      "content": "employers half map grid",
+      "url": "employers-half-map-grid.html"
+    },
+    {
+      "id": "a_employers_half__15041",
+      "type": "a",
+      "content": "employers half map list",
+      "url": "employers-half-map-list.html"
+    },
+    {
+      "id": "a_employers_fullw_59800",
+      "type": "a",
+      "content": "employers fullwidth",
+      "url": "employers-fullwidth.html"
+    },
+    {
+      "id": "a_employers_detai_85789",
+      "type": "a",
+      "content": "employers detail 1",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "a_employers_detai_60470",
+      "type": "a",
+      "content": "employers detail 2",
+      "url": "employers-detail2.html"
+    },
+    {
+      "id": "a_become_a_seller_14542",
+      "type": "a",
+      "content": "Become a seller",
+      "url": "become-seller.html"
+    },
+    {
+      "id": "a_candidates_dash_35503",
+      "type": "a",
+      "content": "Candidates Dashboard",
+      "url": "candidates-dashboard.html"
+    },
+    {
+      "id": "a_for_employers_85293",
+      "type": "a",
+      "content": "<span class=\"text-title relative\">For Employers</span> <span class=\"ph-bold ph-caret-down\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_for_employers_74791",
+      "type": "span",
+      "content": "For Employers"
+    },
+    {
+      "id": "span_item_84044",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_browse_services_69126",
+      "type": "a",
+      "content": "Browse Services <span class=\"ph-bold ph-caret-right\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_33784",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_services_defaul_41835",
+      "type": "a",
+      "content": "services default",
+      "url": "services-default.html"
+    },
+    {
+      "id": "a_services_grid_29020",
+      "type": "a",
+      "content": "services grid",
+      "url": "services-grid.html"
+    },
+    {
+      "id": "a_services_list_83182",
+      "type": "a",
+      "content": "services list",
+      "url": "services-list.html"
+    },
+    {
+      "id": "a_services_sideba_63149",
+      "type": "a",
+      "content": "services sidebar grid 3 cols",
+      "url": "services-sidebar-grid-3cols.html"
+    },
+    {
+      "id": "a_services_sideba_57795",
+      "type": "a",
+      "content": "services sidebar grid 2 cols",
+      "url": "services-sidebar-grid-2cols.html"
+    },
+    {
+      "id": "a_services_sideba_7574",
+      "type": "a",
+      "content": "services sidebar list",
+      "url": "services-sidebar-list.html"
+    },
+    {
+      "id": "a_services_fullwi_79198",
+      "type": "a",
+      "content": "services fullwidth grid 5 cols",
+      "url": "services-fullwidth-grid-5cols.html"
+    },
+    {
+      "id": "a_services_fullwi_40795",
+      "type": "a",
+      "content": "services fullwidth grid 4 cols",
+      "url": "services-fullwidth-grid-4cols.html"
+    },
+    {
+      "id": "a_services_fullwi_28045",
+      "type": "a",
+      "content": "services fullwidth list",
+      "url": "services-fullwidth-list.html"
+    },
+    {
+      "id": "a_services_detail_58198",
+      "type": "a",
+      "content": "services detail 1",
+      "url": "services-detail1.html"
+    },
+    {
+      "id": "a_services_detail_2138",
+      "type": "a",
+      "content": "services detail 2",
+      "url": "services-detail2.html"
+    },
+    {
+      "id": "a_browse_candidat_64794",
+      "type": "a",
+      "content": "Browse Candidates <span class=\"ph-bold ph-caret-right\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_32878",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_candidates_defa_65807",
+      "type": "a",
+      "content": "candidates default",
+      "url": "candidates-default.html"
+    },
+    {
+      "id": "a_candidates_grid_715",
+      "type": "a",
+      "content": "candidates grid",
+      "url": "candidates-grid.html"
+    },
+    {
+      "id": "a_candidates_list_85045",
+      "type": "a",
+      "content": "candidates list",
+      "url": "candidates-list.html"
+    },
+    {
+      "id": "a_candidates_side_47815",
+      "type": "a",
+      "content": "candidates sidebar grid",
+      "url": "candidates-sidebar-grid.html"
+    },
+    {
+      "id": "a_candidates_side_28963",
+      "type": "a",
+      "content": "candidates sidebar list",
+      "url": "candidates-sidebar-list.html"
+    },
+    {
+      "id": "a_candidates_top__64411",
+      "type": "a",
+      "content": "candidates top map grid",
+      "url": "candidates-top-map-grid.html"
+    },
+    {
+      "id": "a_candidates_top__21166",
+      "type": "a",
+      "content": "candidates top map list",
+      "url": "candidates-top-map-list.html"
+    },
+    {
+      "id": "a_candidates_half_32491",
+      "type": "a",
+      "content": "candidates half map grid",
+      "url": "candidates-half-map-grid.html"
+    },
+    {
+      "id": "a_candidates_half_38609",
+      "type": "a",
+      "content": "candidates half map list",
+      "url": "candidates-half-map-list.html"
+    },
+    {
+      "id": "a_candidates_full_66915",
+      "type": "a",
+      "content": "candidates fullwidth grid",
+      "url": "candidates-fullwidth-grid.html"
+    },
+    {
+      "id": "a_candidates_full_80331",
+      "type": "a",
+      "content": "candidates fullwidth list",
+      "url": "candidates-fullwidth-list.html"
+    },
+    {
+      "id": "a_candidates_deta_69208",
+      "type": "a",
+      "content": "candidates detail 1",
+      "url": "candidates-detail1.html"
+    },
+    {
+      "id": "a_candidates_deta_35462",
+      "type": "a",
+      "content": "candidates detail 2",
+      "url": "candidates-detail2.html"
+    },
+    {
+      "id": "a_become_a_buyer_9299",
+      "type": "a",
+      "content": "Become a buyer",
+      "url": "become-buyer.html"
+    },
+    {
+      "id": "a_employer_dashbo_12764",
+      "type": "a",
+      "content": "Employer Dashboard",
+      "url": "employers-dashboard.html"
+    },
+    {
+      "id": "a_blogs_2516",
+      "type": "a",
+      "content": "<span class=\"text-title relative\">Blogs</span> <span class=\"ph-bold ph-caret-down\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_blogs_50555",
+      "type": "span",
+      "content": "Blogs"
+    },
+    {
+      "id": "span_item_44994",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_blog_default_93216",
+      "type": "a",
+      "content": "Blog default",
+      "url": "blog-default.html"
+    },
+    {
+      "id": "a_blog_grid_86397",
+      "type": "a",
+      "content": "Blog grid",
+      "url": "blog-grid.html"
+    },
+    {
+      "id": "a_blog_list_12979",
+      "type": "a",
+      "content": "Blog list",
+      "url": "blog-list.html"
+    },
+    {
+      "id": "a_blog_detail_1_42472",
+      "type": "a",
+      "content": "Blog detail 1",
+      "url": "blog-detail1.html"
+    },
+    {
+      "id": "a_blog_detail_2_89119",
+      "type": "a",
+      "content": "Blog detail 2",
+      "url": "blog-detail2.html"
+    },
+    {
+      "id": "a_pages_59709",
+      "type": "a",
+      "content": "<span class=\"text-title relative\">Pages</span> <span class=\"ph-bold ph-caret-down\"></span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_pages_31983",
+      "type": "span",
+      "content": "Pages"
+    },
+    {
+      "id": "span_item_28786",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_about_us_1_20608",
+      "type": "a",
+      "content": "About Us 1",
+      "url": "about1.html"
+    },
+    {
+      "id": "a_about_us_2_55790",
+      "type": "a",
+      "content": "About Us 2",
+      "url": "about2.html"
+    },
+    {
+      "id": "a_pricing_plan_47137",
+      "type": "a",
+      "content": "Pricing Plan",
+      "url": "pricing.html"
+    },
+    {
+      "id": "a_contact_us_1_65444",
+      "type": "a",
+      "content": "Contact Us 1",
+      "url": "contact1.html"
+    },
+    {
+      "id": "a_contact_us_2_71261",
+      "type": "a",
+      "content": "Contact Us 2",
+      "url": "contact2.html"
+    },
+    {
+      "id": "a_faqs_90840",
+      "type": "a",
+      "content": "Faqs",
+      "url": "faqs.html"
+    },
+    {
+      "id": "a_terms_of_use_74826",
+      "type": "a",
+      "content": "Terms of use",
+      "url": "term-of-use.html"
+    },
+    {
+      "id": "a_error_404_72609",
+      "type": "a",
+      "content": "Error 404",
+      "url": "error-404.html"
+    },
+    {
+      "id": "a_login_65761",
+      "type": "a",
+      "content": "Login",
+      "url": "login.html"
+    },
+    {
+      "id": "a_register_70231",
+      "type": "a",
+      "content": "Register",
+      "url": "register.html"
+    },
+    {
+      "id": "a_item_41953",
+      "type": "a",
+      "content": "<span class=\"ph ph-question text-white text-2xl block\"></span>",
+      "url": "term-of-use.html"
+    },
+    {
+      "id": "span_item_85855",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "button_item_22862",
+      "type": "button",
+      "content": "<span class=\"ph ph-bell text-white text-2xl block\"></span> <span class=\"absolute -top-0.5 right-0.5 w-2 h-2 bg-primary rounded-full\"></span>"
+    },
+    {
+      "id": "span_item_94971",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_37453",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "h6_notifications_37644",
+      "type": "h6",
+      "content": "Notifications"
+    },
+    {
+      "id": "span_item_65026",
+      "type": "span",
+      "content": "<span class=\"ph-fill ph-bell text-lg text-secondary\"></span>"
+    },
+    {
+      "id": "span_item_78674",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "p_the_application_38648",
+      "type": "p",
+      "content": "The application is rejected on your job <span class=\"text-black\">UI Designer</span> by <span class=\"text-black\">Employer</span>."
+    },
+    {
+      "id": "span_ui_designer_16365",
+      "type": "span",
+      "content": "UI Designer"
+    },
+    {
+      "id": "span_employer_94436",
+      "type": "span",
+      "content": "Employer"
+    },
+    {
+      "id": "span_25_mins_ago_54499",
+      "type": "span",
+      "content": "25 mins ago"
+    },
+    {
+      "id": "span_item_1142",
+      "type": "span",
+      "content": "<span class=\"ph-fill ph-bell text-lg text-secondary\"></span>"
+    },
+    {
+      "id": "span_item_14359",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "p_the_application_40069",
+      "type": "p",
+      "content": "The application is rejected on your job <span class=\"text-black\">Internet Security</span> by <span class=\"text-black\">Employer</span>."
+    },
+    {
+      "id": "span_internet_securi_24522",
+      "type": "span",
+      "content": "Internet Security"
+    },
+    {
+      "id": "span_employer_56475",
+      "type": "span",
+      "content": "Employer"
+    },
+    {
+      "id": "span_1_hours_ago_49755",
+      "type": "span",
+      "content": "1 hours ago"
+    },
+    {
+      "id": "span_item_10520",
+      "type": "span",
+      "content": "<span class=\"ph-fill ph-bell text-lg text-secondary\"></span>"
+    },
+    {
+      "id": "span_item_18060",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "p_the_application_44114",
+      "type": "p",
+      "content": "The application is rejected on your job <span class=\"text-black\">Social Media Marketing</span> by <span class=\"text-black\">Employer</span>."
+    },
+    {
+      "id": "span_social_media_ma_76103",
+      "type": "span",
+      "content": "Social Media Marketing"
+    },
+    {
+      "id": "span_employer_61910",
+      "type": "span",
+      "content": "Employer"
+    },
+    {
+      "id": "span_5_hours_ago_14045",
+      "type": "span",
+      "content": "5 hours ago"
+    },
+    {
+      "id": "span_item_97548",
+      "type": "span",
+      "content": "<span class=\"ph-fill ph-bell text-lg text-secondary\"></span>"
+    },
+    {
+      "id": "span_item_29011",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "p_the_application_1345",
+      "type": "p",
+      "content": "The application is rejected on your job <span class=\"text-black\">Social Media Marketing</span> by <span class=\"text-black\">Employer</span>."
+    },
+    {
+      "id": "span_social_media_ma_26775",
+      "type": "span",
+      "content": "Social Media Marketing"
+    },
+    {
+      "id": "span_employer_49246",
+      "type": "span",
+      "content": "Employer"
+    },
+    {
+      "id": "span_12_hours_ago_43981",
+      "type": "span",
+      "content": "12 hours ago"
+    },
+    {
+      "id": "a_become_a_seller_35727",
+      "type": "a",
+      "content": "Become A Seller",
+      "url": "become-seller.html"
+    },
+    {
+      "id": "button_employer_80919",
+      "type": "button",
+      "content": "<img src=\"./assets/images/avatar/IMG-7.webp\" alt=\"IMG-7\" class=\"user_avatar flex-shrink-0 w-9 h-9 rounded-full\"> <strong class=\"user_name text-title\">Employer</strong> <span class=\"ph ph-caret-down\"></span>"
+    },
+    {
+      "id": "img_item_10268",
+      "type": "img",
+      "src": "./assets/images/avatar/IMG-7.webp"
+    },
+    {
+      "id": "strong_employer_42373",
+      "type": "strong",
+      "content": "Employer"
+    },
+    {
+      "id": "span_item_54875",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_dashboard_10052",
+      "type": "a",
+      "content": "<span class=\"ph ph-squares-four text-2xl text-secondary\"></span> <strong class=\"text-title\">Dashboard</strong>",
+      "url": "employers-dashboard.html"
+    },
+    {
+      "id": "span_item_38708",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_dashboard_87034",
+      "type": "strong",
+      "content": "Dashboard"
+    },
+    {
+      "id": "a_my_profile_76376",
+      "type": "a",
+      "content": "<span class=\"ph ph-user-circle text-2xl text-secondary\"></span> <strong class=\"text-title\">My Profile</strong>",
+      "url": "employers-profile.html"
+    },
+    {
+      "id": "span_item_61277",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_my_profile_83212",
+      "type": "strong",
+      "content": "My Profile"
+    },
+    {
+      "id": "a_log_out_37246",
+      "type": "a",
+      "content": "<span class=\"ph ph-sign-out text-2xl text-secondary\"></span> <strong class=\"text-title\">Log Out</strong>",
+      "url": "login.html"
+    },
+    {
+      "id": "span_item_57676",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_log_out_59456",
+      "type": "strong",
+      "content": "Log Out"
+    },
+    {
+      "id": "button_item_33129",
+      "type": "button",
+      "content": "<span class=\"ph-bold ph-list text-white text-2xl block\"></span>"
+    },
+    {
+      "id": "span_item_82407",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "img_item_25996",
+      "type": "img",
+      "src": "./assets/images/components/breadcrumb_employer.webp"
+    },
+    {
+      "id": "a_home_92556",
+      "type": "a",
+      "content": "Home",
+      "url": "index.html"
+    },
+    {
+      "id": "span___5396",
+      "type": "span",
+      "content": "/"
+    },
+    {
+      "id": "span_for_candidates_94212",
+      "type": "span",
+      "content": "For Candidates"
+    },
+    {
+      "id": "span___89933",
+      "type": "span",
+      "content": "/"
+    },
+    {
+      "id": "span_employers_89277",
+      "type": "span",
+      "content": "Employers"
+    },
+    {
+      "id": "h3_employers_grid_65112",
+      "type": "h3",
+      "content": "Employers Grid"
+    },
+    {
+      "id": "span_item_52897",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_city__state_or__41130",
+      "type": "span",
+      "content": "City, State or Zip"
+    },
+    {
+      "id": "span_item_65106",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_all_categories_88310",
+      "type": "span",
+      "content": "All Categories"
+    },
+    {
+      "id": "span_item_76957",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "button_search_48095",
+      "type": "button",
+      "content": "Search"
+    },
+    {
+      "id": "button_filters_29804",
+      "type": "button",
+      "content": "<span class=\"ph ph-sliders-horizontal text-xl\"></span> <span>Filters</span>"
+    },
+    {
+      "id": "span_item_72255",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_filters_4253",
+      "type": "span",
+      "content": "Filters"
+    },
+    {
+      "id": "button_item_33484",
+      "type": "button",
+      "content": ""
+    },
+    {
+      "id": "button_item_28130",
+      "type": "button",
+      "content": ""
+    },
+    {
+      "id": "button_item_50090",
+      "type": "button",
+      "content": ""
+    },
+    {
+      "id": "a_item_95182",
+      "type": "a",
+      "content": "",
+      "url": "#!"
+    },
+    {
+      "id": "a_item_94085",
+      "type": "a",
+      "content": "",
+      "url": "employers-list.html"
+    },
+    {
+      "id": "span_sort_by__97658",
+      "type": "span",
+      "content": "Sort by:"
+    },
+    {
+      "id": "span_default_3441",
+      "type": "span",
+      "content": "default"
+    },
+    {
+      "id": "span_item_83488",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_1_200__results_22871",
+      "type": "span",
+      "content": "1,200+ Results"
+    },
+    {
+      "id": "button_clear_all_48447",
+      "type": "button",
+      "content": "<span class=\"ph ph-x text-sm\"></span> <span class=\"caption1\">Clear All</span>"
+    },
+    {
+      "id": "span_item_36528",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_clear_all_92110",
+      "type": "span",
+      "content": "Clear All"
+    },
+    {
+      "id": "a_item_94755",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/1.png\" alt=\"company/1\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_98192",
+      "type": "img",
+      "src": "./assets/images/company/1.png"
+    },
+    {
+      "id": "a_bright_future_88507",
+      "type": "a",
+      "content": "Bright Future",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_93825",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_las_vegas__usa_15913",
+      "type": "span",
+      "content": "Las Vegas, USA"
+    },
+    {
+      "id": "a_2_job_openings_87030",
+      "type": "a",
+      "content": "2 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_52322",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_99738",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_23752",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_72936",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/2.png\" alt=\"company/2\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_39612",
+      "type": "img",
+      "src": "./assets/images/company/2.png"
+    },
+    {
+      "id": "a_innovations_28202",
+      "type": "a",
+      "content": "Innovations",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_99238",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_new_york__usa_6473",
+      "type": "span",
+      "content": "New York, USA"
+    },
+    {
+      "id": "a_4_job_openings_54314",
+      "type": "a",
+      "content": "4 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_9867",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_39157",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_28658",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_75188",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/3.png\" alt=\"company/3\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_73074",
+      "type": "img",
+      "src": "./assets/images/company/3.png"
+    },
+    {
+      "id": "a_coretech_72044",
+      "type": "a",
+      "content": "CoreTech",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_55785",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_texas__usa_60828",
+      "type": "span",
+      "content": "Texas, USA"
+    },
+    {
+      "id": "a_3_job_openings_91643",
+      "type": "a",
+      "content": "3 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_74692",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_90823",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_29894",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_94266",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/4.png\" alt=\"company/4\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_48374",
+      "type": "img",
+      "src": "./assets/images/company/4.png"
+    },
+    {
+      "id": "a_globaltech_part_16874",
+      "type": "a",
+      "content": "GlobalTech Partners",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_69548",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_california__usa_40659",
+      "type": "span",
+      "content": "California, USA"
+    },
+    {
+      "id": "a_2_job_openings_51467",
+      "type": "a",
+      "content": "2 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_53679",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_72356",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_85089",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_62957",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/5.png\" alt=\"company/5\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_31372",
+      "type": "img",
+      "src": "./assets/images/company/5.png"
+    },
+    {
+      "id": "a_primeedge_solut_82745",
+      "type": "a",
+      "content": "PrimeEdge Solutions",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_77855",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_nevada__usa_5033",
+      "type": "span",
+      "content": "Nevada, USA"
+    },
+    {
+      "id": "a_1_job_openings_42337",
+      "type": "a",
+      "content": "1 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_69767",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_42825",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_99322",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_14183",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/6.png\" alt=\"company/6\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_21199",
+      "type": "img",
+      "src": "./assets/images/company/6.png"
+    },
+    {
+      "id": "a_stellar_enterpr_38839",
+      "type": "a",
+      "content": "Stellar Enterprises",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_74116",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_georgia__usa_72115",
+      "type": "span",
+      "content": "Georgia, USA"
+    },
+    {
+      "id": "a_2_job_openings_93498",
+      "type": "a",
+      "content": "2 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_90938",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_68149",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_9884",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_70192",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/7.png\" alt=\"company/7\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_32975",
+      "type": "img",
+      "src": "./assets/images/company/7.png"
+    },
+    {
+      "id": "a_elitetech_solut_21303",
+      "type": "a",
+      "content": "EliteTech Solutions",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_24139",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_idaho__usa_85474",
+      "type": "span",
+      "content": "Idaho, USA"
+    },
+    {
+      "id": "a_3_job_openings_43353",
+      "type": "a",
+      "content": "3 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_88369",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_7049",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_22298",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_84045",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/8.png\" alt=\"company/8\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_28694",
+      "type": "img",
+      "src": "./assets/images/company/8.png"
+    },
+    {
+      "id": "a_apex_innovation_54699",
+      "type": "a",
+      "content": "Apex Innovations",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_73323",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_new_mexico__usa_21437",
+      "type": "span",
+      "content": "New Mexico, USA"
+    },
+    {
+      "id": "a_5_job_openings_99083",
+      "type": "a",
+      "content": "5 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_62021",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_245",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_50508",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_924",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/9.png\" alt=\"company/9\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_87143",
+      "type": "img",
+      "src": "./assets/images/company/9.png"
+    },
+    {
+      "id": "a_infinity_soluti_386",
+      "type": "a",
+      "content": "Infinity Solutions",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_39165",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_colorado__usa_3778",
+      "type": "span",
+      "content": "Colorado, USA"
+    },
+    {
+      "id": "a_1_job_openings_68872",
+      "type": "a",
+      "content": "1 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_64262",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_32307",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_58797",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_43009",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/10.png\" alt=\"company/10\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_47486",
+      "type": "img",
+      "src": "./assets/images/company/10.png"
+    },
+    {
+      "id": "a_horizons_corpor_23980",
+      "type": "a",
+      "content": "Horizons Corporation",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_67633",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_florida__usa_67840",
+      "type": "span",
+      "content": "Florida, USA"
+    },
+    {
+      "id": "a_4_job_openings_55848",
+      "type": "a",
+      "content": "4 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_41162",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_15411",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_87796",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_8486",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/11.png\" alt=\"company/11\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_66119",
+      "type": "img",
+      "src": "./assets/images/company/11.png"
+    },
+    {
+      "id": "a_quantum_dynamic_96105",
+      "type": "a",
+      "content": "Quantum Dynamics",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_85715",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_new_mexico__usa_5100",
+      "type": "span",
+      "content": "New Mexico, USA"
+    },
+    {
+      "id": "a_3_job_openings_41096",
+      "type": "a",
+      "content": "3 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_88211",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_50705",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_12402",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_67879",
+      "type": "a",
+      "content": "<img src=\"./assets/images/company/12.png\" alt=\"company/12\" class=\"employers_logo w-full h-full object-cover\">",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "img_item_34902",
+      "type": "img",
+      "src": "./assets/images/company/12.png"
+    },
+    {
+      "id": "a_fusion_innovati_63630",
+      "type": "a",
+      "content": "Fusion Innovations",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "span_item_29986",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_las_vegas__usa_75472",
+      "type": "span",
+      "content": "Las Vegas, USA"
+    },
+    {
+      "id": "a_2_job_openings_50621",
+      "type": "a",
+      "content": "2 job openings",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "button_item_86051",
+      "type": "button",
+      "content": "<span class=\"ph ph-heart text-xl\"></span> <span class=\"ph-fill ph-heart text-xl\"></span>"
+    },
+    {
+      "id": "span_item_46053",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_46141",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_1_8181",
+      "type": "a",
+      "content": "1",
+      "url": "#"
+    },
+    {
+      "id": "a_2_99833",
+      "type": "a",
+      "content": "2",
+      "url": "#"
+    },
+    {
+      "id": "a_3_99007",
+      "type": "a",
+      "content": "3",
+      "url": "#"
+    },
+    {
+      "id": "a___47300",
+      "type": "a",
+      "content": "&gt;",
+      "url": "#"
+    },
+    {
+      "id": "button_item_5207",
+      "type": "button",
+      "content": "<span class=\"ph-bold ph-caret-up\"></span>"
+    },
+    {
+      "id": "span_item_14022",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_39646",
+      "type": "a",
+      "content": "<img src=\"./assets/images/logo-white.png\" alt=\"logo-white\" class=\"h-[42px] w-auto\">",
+      "url": "index.html"
+    },
+    {
+      "id": "img_item_87768",
+      "type": "img",
+      "src": "./assets/images/logo-white.png"
+    },
+    {
+      "id": "span_follow_us__88842",
+      "type": "span",
+      "content": "Follow Us:"
+    },
+    {
+      "id": "a_item_49305",
+      "type": "a",
+      "content": "<span class=\"icon-facebook text-lg\"></span>",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "id": "span_item_78592",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_32825",
+      "type": "a",
+      "content": "<span class=\"icon-linkedin text-lg\"></span>",
+      "url": "https://www.linkedin.com/"
+    },
+    {
+      "id": "span_item_54356",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_83091",
+      "type": "a",
+      "content": "<span class=\"icon-twitter text-lg\"></span>",
+      "url": "https://www.twitter.com/"
+    },
+    {
+      "id": "span_item_91226",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_96978",
+      "type": "a",
+      "content": "<span class=\"icon-instagram text-lg\"></span>",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "id": "span_item_83408",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_93199",
+      "type": "a",
+      "content": "<span class=\"icon-pinterest text-lg\"></span>",
+      "url": "https://www.pinterest.com/"
+    },
+    {
+      "id": "span_item_61199",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_24006",
+      "type": "a",
+      "content": "<span class=\"icon-youtube text-lg\"></span>",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "id": "span_item_57494",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_categories_42345",
+      "type": "strong",
+      "content": "Categories"
+    },
+    {
+      "id": "a_graphics___desi_64058",
+      "type": "a",
+      "content": "Graphics &amp; Design",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_digital_marketi_76265",
+      "type": "a",
+      "content": "Digital Marketing",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_writing___trans_41050",
+      "type": "a",
+      "content": "Writing &amp; Translation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_video___animati_75150",
+      "type": "a",
+      "content": "Video &amp; Animation",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_music___audio_15038",
+      "type": "a",
+      "content": "Music &amp; Audio",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_programming___t_6038",
+      "type": "a",
+      "content": "Programming &amp; Tech",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "strong_for_candidates_79085",
+      "type": "strong",
+      "content": "For Candidates"
+    },
+    {
+      "id": "a_candidate_dashb_10812",
+      "type": "a",
+      "content": "Candidate Dashboard",
+      "url": "candidates-dashboard.html"
+    },
+    {
+      "id": "a_browse_jobs_23103",
+      "type": "a",
+      "content": "Browse jobs",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_browse_employer_64677",
+      "type": "a",
+      "content": "Browse employers",
+      "url": "employers-default.html"
+    },
+    {
+      "id": "a_my_proposals_42948",
+      "type": "a",
+      "content": "My Proposals",
+      "url": "candidates-proposals.html"
+    },
+    {
+      "id": "a_my_services_64422",
+      "type": "a",
+      "content": "My Services",
+      "url": "candidates-my-services.html"
+    },
+    {
+      "id": "a_job_alerts_45856",
+      "type": "a",
+      "content": "Job Alerts",
+      "url": "candidates-jobs-alerts.html"
+    },
+    {
+      "id": "strong_for_employer_91339",
+      "type": "strong",
+      "content": "For Employer"
+    },
+    {
+      "id": "a_employer_dashbo_39583",
+      "type": "a",
+      "content": "Employer Dashboard",
+      "url": "employers-dashboard.html"
+    },
+    {
+      "id": "a_browse_candidat_59105",
+      "type": "a",
+      "content": "Browse Candidates",
+      "url": "candidates-default.html"
+    },
+    {
+      "id": "a_browse_services_20199",
+      "type": "a",
+      "content": "Browse services",
+      "url": "services-default.html"
+    },
+    {
+      "id": "a_submit_jobs_71022",
+      "type": "a",
+      "content": "Submit jobs",
+      "url": "employers-submit-jobs.html"
+    },
+    {
+      "id": "a_my_jobs_85312",
+      "type": "a",
+      "content": "My Jobs",
+      "url": "employers-jobs.html"
+    },
+    {
+      "id": "a_applicants_jobs_1964",
+      "type": "a",
+      "content": "Applicants jobs",
+      "url": "employers-applicants-jobs.html"
+    },
+    {
+      "id": "strong_support_65232",
+      "type": "strong",
+      "content": "Support"
+    },
+    {
+      "id": "a_help___support_60433",
+      "type": "a",
+      "content": "Help &amp; Support",
+      "url": "term-of-use.html"
+    },
+    {
+      "id": "a_selling_on_free_91217",
+      "type": "a",
+      "content": "Selling On FreelanHub",
+      "url": "become-seller.html"
+    },
+    {
+      "id": "a_buying_on_freel_492",
+      "type": "a",
+      "content": "Buying On FreelanHub",
+      "url": "become-buyer.html"
+    },
+    {
+      "id": "a_services_73672",
+      "type": "a",
+      "content": "Services",
+      "url": "about1.html"
+    },
+    {
+      "id": "a_faqs_74008",
+      "type": "a",
+      "content": "FAQs",
+      "url": "faqs.html"
+    },
+    {
+      "id": "a_contact_us_89184",
+      "type": "a",
+      "content": "Contact Us",
+      "url": "contact1.html"
+    },
+    {
+      "id": "strong_subscribe_92949",
+      "type": "strong",
+      "content": "Subscribe"
+    },
+    {
+      "id": "button_item_57983",
+      "type": "button",
+      "content": "<span class=\"ph ph-paper-plane-tilt text-white\"></span>"
+    },
+    {
+      "id": "span_item_78095",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_download_app_71603",
+      "type": "strong",
+      "content": "Download App"
+    },
+    {
+      "id": "a_item_91580",
+      "type": "a",
+      "content": "<img src=\"./assets/images/download/gg_play.png\" alt=\"gg_play\">",
+      "url": "https://play.google.com/"
+    },
+    {
+      "id": "img_item_50938",
+      "type": "img",
+      "src": "./assets/images/download/gg_play.png"
+    },
+    {
+      "id": "a_item_78354",
+      "type": "a",
+      "content": "<img src=\"./assets/images/download/app_store.png\" alt=\"app_store\">",
+      "url": "https://www.apple.com/app-store/"
+    },
+    {
+      "id": "img_item_42966",
+      "type": "img",
+      "src": "./assets/images/download/app_store.png"
+    },
+    {
+      "id": "a_terms_of_servic_81132",
+      "type": "a",
+      "content": "Terms Of Services",
+      "url": "term-of-use.html"
+    },
+    {
+      "id": "span___72222",
+      "type": "span",
+      "content": "|"
+    },
+    {
+      "id": "a_privacy_policy_42832",
+      "type": "a",
+      "content": "Privacy Policy",
+      "url": "term-of-use.html"
+    },
+    {
+      "id": "button_item_91229",
+      "type": "button",
+      "content": "<span class=\"ph-bold ph-x\"></span>"
+    },
+    {
+      "id": "span_item_10835",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "a_item_34050",
+      "type": "a",
+      "content": "<img src=\"./assets/images/logo.png\" alt=\"logo\" class=\"h-8\">",
+      "url": "index.html"
+    },
+    {
+      "id": "img_item_95414",
+      "type": "img",
+      "src": "./assets/images/logo.png"
+    },
+    {
+      "id": "button_item_72957",
+      "type": "button",
+      "content": "<i class=\"ph ph-magnifying-glass text-xl block\"></i>"
+    },
+    {
+      "id": "i_item_71310",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_homepages_45831",
+      "type": "a",
+      "content": "Homepages <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_19360",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_5557",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_57419",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_55914",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_home_freelancer_90962",
+      "type": "a",
+      "content": "Home Freelancer 01",
+      "url": "index.html"
+    },
+    {
+      "id": "a_home_freelancer_89207",
+      "type": "a",
+      "content": "Home Freelancer 02",
+      "url": "freelancer2.html"
+    },
+    {
+      "id": "a_home_freelancer_97654",
+      "type": "a",
+      "content": "Home Freelancer 03",
+      "url": "freelancer3.html"
+    },
+    {
+      "id": "a_home_freelancer_11693",
+      "type": "a",
+      "content": "Home Freelancer 04",
+      "url": "freelancer4.html"
+    },
+    {
+      "id": "a_home_freelancer_14944",
+      "type": "a",
+      "content": "Home Freelancer 05",
+      "url": "freelancer5.html"
+    },
+    {
+      "id": "a_home_freelancer_7618",
+      "type": "a",
+      "content": "Home Freelancer 06",
+      "url": "freelancer6.html"
+    },
+    {
+      "id": "a_home_freelancer_977",
+      "type": "a",
+      "content": "Home Freelancer 07",
+      "url": "freelancer7.html"
+    },
+    {
+      "id": "a_home_freelancer_16470",
+      "type": "a",
+      "content": "Home Freelancer 08",
+      "url": "freelancer8.html"
+    },
+    {
+      "id": "a_home_jobs_09_27981",
+      "type": "a",
+      "content": "Home Jobs 09",
+      "url": "jobs9.html"
+    },
+    {
+      "id": "a_home_jobs_10_51406",
+      "type": "a",
+      "content": "Home Jobs 10",
+      "url": "jobs10.html"
+    },
+    {
+      "id": "a_home_jobs_11_10249",
+      "type": "a",
+      "content": "Home Jobs 11",
+      "url": "jobs11.html"
+    },
+    {
+      "id": "a_home_jobs_12_70874",
+      "type": "a",
+      "content": "Home Jobs 12",
+      "url": "jobs12.html"
+    },
+    {
+      "id": "a_home_rtl_13_49203",
+      "type": "a",
+      "content": "Home RTL 13",
+      "url": "rtl13.html"
+    },
+    {
+      "id": "a_for_candidates_2229",
+      "type": "a",
+      "content": "For Candidates <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_49063",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_72204",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_27602",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_36733",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_browse_jobs_81543",
+      "type": "a",
+      "content": "Browse jobs <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_90181",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_65312",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_62133",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_72495",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_jobs_default_77398",
+      "type": "a",
+      "content": "jobs default",
+      "url": "jobs-default.html"
+    },
+    {
+      "id": "a_jobs_grid_20253",
+      "type": "a",
+      "content": "jobs grid",
+      "url": "jobs-grid.html"
+    },
+    {
+      "id": "a_jobs_list_78306",
+      "type": "a",
+      "content": "jobs list",
+      "url": "jobs-list.html"
+    },
+    {
+      "id": "a_jobs_top_map_53733",
+      "type": "a",
+      "content": "jobs top map",
+      "url": "jobs-top-map.html"
+    },
+    {
+      "id": "a_jobs_half_map_g_76405",
+      "type": "a",
+      "content": "jobs half map grid 1",
+      "url": "jobs-half-map-grid1.html"
+    },
+    {
+      "id": "a_jobs_half_map_g_87447",
+      "type": "a",
+      "content": "jobs half map grid 2",
+      "url": "jobs-half-map-grid2.html"
+    },
+    {
+      "id": "a_jobs_fullwidth_916",
+      "type": "a",
+      "content": "jobs fullwidth",
+      "url": "jobs-fullwidth.html"
+    },
+    {
+      "id": "a_jobs_detail_1_3202",
+      "type": "a",
+      "content": "jobs detail 1",
+      "url": "jobs-detail1.html"
+    },
+    {
+      "id": "a_jobs_detail_2_66795",
+      "type": "a",
+      "content": "jobs detail 2",
+      "url": "jobs-detail2.html"
+    },
+    {
+      "id": "a_browse_projects_45243",
+      "type": "a",
+      "content": "Browse Projects <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_50397",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_8113",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_42731",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_35959",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_project_default_86665",
+      "type": "a",
+      "content": "project default",
+      "url": "project-default.html"
+    },
+    {
+      "id": "a_project_grid_3__83930",
+      "type": "a",
+      "content": "project grid 3 columns",
+      "url": "project-grid-3col.html"
+    },
+    {
+      "id": "a_project_list_86823",
+      "type": "a",
+      "content": "project list",
+      "url": "project-list.html"
+    },
+    {
+      "id": "a_project_top_map_19854",
+      "type": "a",
+      "content": "project top map grid",
+      "url": "project-top-map-grid.html"
+    },
+    {
+      "id": "a_project_top_map_63724",
+      "type": "a",
+      "content": "project top map list",
+      "url": "project-top-map-list.html"
+    },
+    {
+      "id": "a_project_half_ma_84854",
+      "type": "a",
+      "content": "project half map grid",
+      "url": "project-half-map-grid.html"
+    },
+    {
+      "id": "a_project_half_ma_55192",
+      "type": "a",
+      "content": "project half map list",
+      "url": "project-half-map-list.html"
+    },
+    {
+      "id": "a_project_fullwid_87453",
+      "type": "a",
+      "content": "project fullwidth",
+      "url": "project-fullwidth.html"
+    },
+    {
+      "id": "a_project_detail__69558",
+      "type": "a",
+      "content": "project detail 1",
+      "url": "project-detail1.html"
+    },
+    {
+      "id": "a_project_detail__9863",
+      "type": "a",
+      "content": "project detail 2",
+      "url": "project-detail2.html"
+    },
+    {
+      "id": "a_project_detail__63727",
+      "type": "a",
+      "content": "project detail 3",
+      "url": "project-detail3.html"
+    },
+    {
+      "id": "a_browse_employer_59069",
+      "type": "a",
+      "content": "Browse Employer <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_9534",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_81376",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_26760",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_46817",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_employers_defau_94992",
+      "type": "a",
+      "content": "employers default",
+      "url": "employers-default.html"
+    },
+    {
+      "id": "a_employers_grid_78675",
+      "type": "a",
+      "content": "employers grid",
+      "url": "employers-grid.html"
+    },
+    {
+      "id": "a_employers_list_26193",
+      "type": "a",
+      "content": "employers list",
+      "url": "employers-list.html"
+    },
+    {
+      "id": "a_employers_sideb_84179",
+      "type": "a",
+      "content": "employers sidebar grid 3 cols",
+      "url": "employers-sidebar-grid-3cols.html"
+    },
+    {
+      "id": "a_employers_sideb_25400",
+      "type": "a",
+      "content": "employers sidebar grid 2 cols",
+      "url": "employers-sidebar-grid-2cols.html"
+    },
+    {
+      "id": "a_employers_sideb_62676",
+      "type": "a",
+      "content": "employers sidebar list",
+      "url": "employers-sidebar-list.html"
+    },
+    {
+      "id": "a_employers_top_m_24608",
+      "type": "a",
+      "content": "employers top map grid",
+      "url": "employers-top-map-grid.html"
+    },
+    {
+      "id": "a_employers_top_m_17678",
+      "type": "a",
+      "content": "employers top map list",
+      "url": "employers-top-map-list.html"
+    },
+    {
+      "id": "a_employers_half__79756",
+      "type": "a",
+      "content": "employers half map grid",
+      "url": "employers-half-map-grid.html"
+    },
+    {
+      "id": "a_employers_half__5810",
+      "type": "a",
+      "content": "employers half map list",
+      "url": "employers-half-map-list.html"
+    },
+    {
+      "id": "a_employers_fullw_6621",
+      "type": "a",
+      "content": "employers fullwidth",
+      "url": "employers-fullwidth.html"
+    },
+    {
+      "id": "a_employers_detai_9922",
+      "type": "a",
+      "content": "employers detail 1",
+      "url": "employers-detail1.html"
+    },
+    {
+      "id": "a_employers_detai_67909",
+      "type": "a",
+      "content": "employers detail 2",
+      "url": "employers-detail2.html"
+    },
+    {
+      "id": "a_become_a_seller_28558",
+      "type": "a",
+      "content": "Become a seller",
+      "url": "become-seller.html"
+    },
+    {
+      "id": "a_candidates_dash_21159",
+      "type": "a",
+      "content": "Candidates Dashboard",
+      "url": "candidates-dashboard.html"
+    },
+    {
+      "id": "a_for_employers_27262",
+      "type": "a",
+      "content": "For Employers <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_61465",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_23977",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_36271",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_77409",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_browse_services_76630",
+      "type": "a",
+      "content": "Browse services <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_51844",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_20155",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_6005",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_67460",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_services_defaul_99333",
+      "type": "a",
+      "content": "services default",
+      "url": "services-default.html"
+    },
+    {
+      "id": "a_services_grid_72353",
+      "type": "a",
+      "content": "services grid",
+      "url": "services-grid.html"
+    },
+    {
+      "id": "a_services_list_80108",
+      "type": "a",
+      "content": "services list",
+      "url": "services-list.html"
+    },
+    {
+      "id": "a_services_sideba_7081",
+      "type": "a",
+      "content": "services sidebar grid 3 cols",
+      "url": "services-sidebar-grid-3cols.html"
+    },
+    {
+      "id": "a_services_sideba_66161",
+      "type": "a",
+      "content": "services sidebar grid 2 cols",
+      "url": "services-sidebar-grid-2cols.html"
+    },
+    {
+      "id": "a_services_sideba_72860",
+      "type": "a",
+      "content": "services sidebar list",
+      "url": "services-sidebar-list.html"
+    },
+    {
+      "id": "a_services_fullwi_72946",
+      "type": "a",
+      "content": "services fullwidth grid 5 cols",
+      "url": "services-fullwidth-grid-5cols.html"
+    },
+    {
+      "id": "a_services_fullwi_10754",
+      "type": "a",
+      "content": "services fullwidth grid 4 cols",
+      "url": "services-fullwidth-grid-4cols.html"
+    },
+    {
+      "id": "a_services_fullwi_8127",
+      "type": "a",
+      "content": "services fullwidth list",
+      "url": "services-fullwidth-list.html"
+    },
+    {
+      "id": "a_services_detail_91645",
+      "type": "a",
+      "content": "services detail 1",
+      "url": "services-detail1.html"
+    },
+    {
+      "id": "a_services_detail_57983",
+      "type": "a",
+      "content": "services detail 2",
+      "url": "services-detail2.html"
+    },
+    {
+      "id": "a_browse_candidat_63721",
+      "type": "a",
+      "content": "Browse candidates <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_21301",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_82749",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_35244",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_84372",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_candidates_defa_57586",
+      "type": "a",
+      "content": "candidates default",
+      "url": "candidates-default.html"
+    },
+    {
+      "id": "a_candidates_grid_42971",
+      "type": "a",
+      "content": "candidates grid",
+      "url": "candidates-grid.html"
+    },
+    {
+      "id": "a_candidates_list_80644",
+      "type": "a",
+      "content": "candidates list",
+      "url": "candidates-list.html"
+    },
+    {
+      "id": "a_candidates_side_13075",
+      "type": "a",
+      "content": "candidates sidebar grid",
+      "url": "candidates-sidebar-grid.html"
+    },
+    {
+      "id": "a_candidates_side_53057",
+      "type": "a",
+      "content": "candidates sidebar list",
+      "url": "candidates-sidebar-list.html"
+    },
+    {
+      "id": "a_candidates_top__53168",
+      "type": "a",
+      "content": "candidates top map grid",
+      "url": "candidates-top-map-grid.html"
+    },
+    {
+      "id": "a_candidates_top__75282",
+      "type": "a",
+      "content": "candidates top map list",
+      "url": "candidates-top-map-list.html"
+    },
+    {
+      "id": "a_candidates_half_36545",
+      "type": "a",
+      "content": "candidates half map grid",
+      "url": "candidates-half-map-grid.html"
+    },
+    {
+      "id": "a_candidates_half_74305",
+      "type": "a",
+      "content": "candidates half map list",
+      "url": "candidates-half-map-list.html"
+    },
+    {
+      "id": "a_candidates_full_28715",
+      "type": "a",
+      "content": "candidates fullwidth grid",
+      "url": "candidates-fullwidth-grid.html"
+    },
+    {
+      "id": "a_candidates_full_33061",
+      "type": "a",
+      "content": "candidates fullwidth list",
+      "url": "candidates-fullwidth-list.html"
+    },
+    {
+      "id": "a_candidates_deta_93457",
+      "type": "a",
+      "content": "candidates detail 1",
+      "url": "candidates-detail1.html"
+    },
+    {
+      "id": "a_candidates_deta_6995",
+      "type": "a",
+      "content": "candidates detail 2",
+      "url": "candidates-detail2.html"
+    },
+    {
+      "id": "a_become_a_buyer_6445",
+      "type": "a",
+      "content": "Become a buyer",
+      "url": "become-buyer.html"
+    },
+    {
+      "id": "a_employer_dashbo_26954",
+      "type": "a",
+      "content": "employer Dashboard",
+      "url": "employers-dashboard.html"
+    },
+    {
+      "id": "a_blogs_65251",
+      "type": "a",
+      "content": "Blogs <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_35483",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_4251",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_79885",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_29164",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_blog_default_45604",
+      "type": "a",
+      "content": "Blog default",
+      "url": "blog-default.html"
+    },
+    {
+      "id": "a_blog_grid_52891",
+      "type": "a",
+      "content": "Blog grid",
+      "url": "blog-grid.html"
+    },
+    {
+      "id": "a_blog_list_25152",
+      "type": "a",
+      "content": "Blog list",
+      "url": "blog-list.html"
+    },
+    {
+      "id": "a_blog_detail_1_80790",
+      "type": "a",
+      "content": "Blog detail 1",
+      "url": "blog-detail1.html"
+    },
+    {
+      "id": "a_blog_detail_2_67368",
+      "type": "a",
+      "content": "Blog detail 2",
+      "url": "blog-detail2.html"
+    },
+    {
+      "id": "a_pages_96381",
+      "type": "a",
+      "content": "Pages <span class=\"text-right\"> <i class=\"ph ph-caret-right text-xl\"></i> </span>",
+      "url": "#!"
+    },
+    {
+      "id": "span_item_96550",
+      "type": "span",
+      "content": "<i class=\"ph ph-caret-right text-xl\"></i>"
+    },
+    {
+      "id": "i_item_65454",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "button_back_26582",
+      "type": "button",
+      "content": "<i class=\"ph ph-caret-left text-xl\"></i> Back"
+    },
+    {
+      "id": "i_item_49903",
+      "type": "i",
+      "content": ""
+    },
+    {
+      "id": "a_about_us_1_13771",
+      "type": "a",
+      "content": "About Us 1",
+      "url": "about1.html"
+    },
+    {
+      "id": "a_about_us_2_84902",
+      "type": "a",
+      "content": "About Us 2",
+      "url": "about2.html"
+    },
+    {
+      "id": "a_pricing_plan_90355",
+      "type": "a",
+      "content": "Pricing Plan",
+      "url": "pricing.html"
+    },
+    {
+      "id": "a_contact_us_1_8530",
+      "type": "a",
+      "content": "Contact Us 1",
+      "url": "contact1.html"
+    },
+    {
+      "id": "a_contact_us_2_59563",
+      "type": "a",
+      "content": "Contact Us 2",
+      "url": "contact2.html"
+    },
+    {
+      "id": "a_faqs_36837",
+      "type": "a",
+      "content": "Faqs",
+      "url": "faqs.html"
+    },
+    {
+      "id": "a_terms_of_use_77416",
+      "type": "a",
+      "content": "Terms of use",
+      "url": "term-of-use.html"
+    },
+    {
+      "id": "a_error_404_76232",
+      "type": "a",
+      "content": "Error 404",
+      "url": "error-404.html"
+    },
+    {
+      "id": "a_login_37599",
+      "type": "a",
+      "content": "Login",
+      "url": "login.html"
+    },
+    {
+      "id": "a_register_20174",
+      "type": "a",
+      "content": "Register",
+      "url": "register.html"
+    },
+    {
+      "id": "strong_search_15470",
+      "type": "strong",
+      "content": "search"
+    },
+    {
+      "id": "span_item_31751",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_location_80563",
+      "type": "strong",
+      "content": "Location"
+    },
+    {
+      "id": "span_select_location_32397",
+      "type": "span",
+      "content": "Select location"
+    },
+    {
+      "id": "span_item_89498",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_86881",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_category_9001",
+      "type": "strong",
+      "content": "category"
+    },
+    {
+      "id": "span_select_category_88554",
+      "type": "span",
+      "content": "Select category"
+    },
+    {
+      "id": "span_item_12162",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "span_item_68254",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "strong_radius__________35567",
+      "type": "strong",
+      "content": "<span>Radius: </span> <span class=\"radius text-primary\">100km</span>"
+    },
+    {
+      "id": "span_radius__47787",
+      "type": "span",
+      "content": "Radius:"
+    },
+    {
+      "id": "span_100km_80713",
+      "type": "span",
+      "content": "100km"
+    },
+    {
+      "id": "strong_company_size_34024",
+      "type": "strong",
+      "content": "Company Size"
+    },
+    {
+      "id": "span_select_company__77454",
+      "type": "span",
+      "content": "Select Company Size"
+    },
+    {
+      "id": "span_item_28068",
+      "type": "span",
+      "content": ""
+    },
+    {
+      "id": "button_find_employers_82492",
+      "type": "button",
+      "content": "Find Employers"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "theme_id": "hub_theme",
+  "base_path": "",
+  "version": "1.0.0",
+  
+  "mandatory": {
+    "head": "mandatory/head.html",       
+    "header": "mandatory/header.html",   
+    "footer": "mandatory/footer.html" 
+  },
+
+  "components": [
+    {
+      "name": "Benefit Section Homepage",
+      "file": "benefit.html",
+      "icon": "image/benefit.png",
+      "category": "body"
+    },
+    {
+      "name": "Blog Section Homepage",
+      "file": "blog.html",
+      "icon": "image/blog.png",
+      "category": "body"
+    },
+    {
+      "name": "Counter Section Homepage",
+      "file": "counter.html",
+      "icon": "image/counter.png",
+      "category": "body"
+    },
+    {
+      "name": "Brand Section Homepage",
+      "file": "brand.html",
+      "icon": "image/brand.png",
+      "category": "body"
+    },
+    {
+      "name": "Future Section Homepage",
+      "file": "feature-services.html",
+      "icon": "image/future_services.png",
+      "category": "body"
+    },
+    {
+      "name": "How It Works Section Homepage",
+      "file": "how-it-work.html",
+      "icon": "image/how_it_work.png",
+      "category": "body"
+    },
+    {
+      "name": "Prefooter Banner Section Homepage",
+      "file": "prefooter-banner.html",
+      "icon": "image/banner.png",
+      "category": "body"
+    },
+    {
+      "name": "Projects Section Homepage",
+      "file": "projects.html",
+      "icon": "image/projects.png",
+      "category": "body"
+    },
+    {
+      "name": "Scroll top Section Homepage",
+      "file": "scroll-to-top.html",
+      "icon": "image/scroll.png",
+      "category": "body"
+    },
+    {
+      "name": "Slider Section Homepage",
+      "file": "slider.html",
+      "icon": "image/slider.png",
+      "category": "body"
+    },
+    {
+      "name": "Testimonials Section Homepage",
+      "file": "testimonials.html",
+      "icon": "image/testimonials.png",
+      "category": "body"
+    },
+    {
+      "name": "Top Categories Section Homepage",
+      "file": "top-categories.html",
+      "icon": "image/top_categories.png",
+      "category": "body"
+    }
+  ]
+}
